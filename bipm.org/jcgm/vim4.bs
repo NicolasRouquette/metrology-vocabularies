@@ -104,7 +104,7 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Instantiates">Instantiates</a> ? GeneralQuantity 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="Instantiates">Instantiates</a> → GeneralQuantity 
 			</li>
 		</ul>
 		</td>
@@ -236,7 +236,7 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementScale">MeasurementScale</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> ? IndividualProperty 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementScale">MeasurementScale</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> → IndividualProperty 
 			</li>
 		</ul>
 		</td>
@@ -279,9 +279,9 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>IndividualQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="Characterizes">Characterizes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Object">Object</a> 
+			<li>IndividualQuantity ← <a spec="http://bipm.org/jcgm/vim4" lt="Characterizes">Characterizes</a> → <a spec="http://bipm.org/jcgm/vim4" lt="Object">Object</a> 
 			</li>
-			<li>IndividualQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="Instantiates">Instantiates</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="GeneralQuantity">GeneralQuantity</a> 
+			<li>IndividualQuantity ← <a spec="http://bipm.org/jcgm/vim4" lt="Instantiates">Instantiates</a> → <a spec="http://bipm.org/jcgm/vim4" lt="GeneralQuantity">GeneralQuantity</a> 
 			</li>
 		</ul>
 		</td>
@@ -291,15 +291,15 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="HasInput">HasInput</a> ? IndividualQuantity 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="HasInput">HasInput</a> → IndividualQuantity 
 			</li>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="QuantityValue">QuantityValue</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IsAttributedTo">IsAttributedTo</a> ? IndividualQuantity 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="QuantityValue">QuantityValue</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="IsAttributedTo">IsAttributedTo</a> → IndividualQuantity 
 			</li>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IsInfluencedBy">IsInfluencedBy</a> ? IndividualQuantity 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="IsInfluencedBy">IsInfluencedBy</a> → IndividualQuantity 
 			</li>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Measures">Measures</a> ? IndividualQuantity 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="Measures">Measures</a> → IndividualQuantity 
 			</li>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="UsesCorrection">UsesCorrection</a> ? IndividualQuantity 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="UsesCorrection">UsesCorrection</a> → IndividualQuantity 
 			</li>
 		</ul>
 		</td>
@@ -328,7 +328,7 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Characterizes">Characterizes</a> ? Object 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="Characterizes">Characterizes</a> → Object 
 			</li>
 		</ul>
 		</td>
@@ -371,7 +371,7 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>QuantityValue ? <a spec="http://bipm.org/jcgm/vim4" lt="IsAttributedTo">IsAttributedTo</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
+			<li>QuantityValue ← <a spec="http://bipm.org/jcgm/vim4" lt="IsAttributedTo">IsAttributedTo</a> → <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
 			</li>
 		</ul>
 		</td>
@@ -381,7 +381,7 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="YieldsMeasuredValue">YieldsMeasuredValue</a> ? QuantityValue 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="YieldsMeasuredValue">YieldsMeasuredValue</a> → QuantityValue 
 			</li>
 		</ul>
 		</td>
@@ -511,7 +511,7 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>GeneralUnitaryQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="Specializes">Specializes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
+			<li>GeneralUnitaryQuantity ← <a spec="http://bipm.org/jcgm/vim4" lt="Specializes">Specializes</a> → <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
 			</li>
 		</ul>
 		</td>
@@ -521,13 +521,13 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Specializes">Specializes</a> ? GeneralUnitaryQuantity 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="Specializes">Specializes</a> → GeneralUnitaryQuantity 
 			</li>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnitaryQuantity">SystemHasBaseUnitaryQuantity</a> ? GeneralUnitaryQuantity 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnitaryQuantity">SystemHasBaseUnitaryQuantity</a> → GeneralUnitaryQuantity 
 			</li>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">SystemHasDerivedUnitaryQuantity</a> ? GeneralUnitaryQuantity 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">SystemHasDerivedUnitaryQuantity</a> → GeneralUnitaryQuantity 
 			</li>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> ? GeneralUnitaryQuantity 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> → GeneralUnitaryQuantity 
 			</li>
 		</ul>
 		</td>
@@ -598,7 +598,7 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>IndividualOrdinalQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="Instantiates">Instantiates</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="GeneralOrdinalQuantity">GeneralOrdinalQuantity</a> 
+			<li>IndividualOrdinalQuantity ← <a spec="http://bipm.org/jcgm/vim4" lt="Instantiates">Instantiates</a> → <a spec="http://bipm.org/jcgm/vim4" lt="GeneralOrdinalQuantity">GeneralOrdinalQuantity</a> 
 			</li>
 		</ul>
 		</td>
@@ -644,7 +644,7 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>IndividualUnitaryQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="Instantiates">Instantiates</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
+			<li>IndividualUnitaryQuantity ← <a spec="http://bipm.org/jcgm/vim4" lt="Instantiates">Instantiates</a> → <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
 			</li>
 		</ul>
 		</td>
@@ -680,7 +680,7 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>InherentOrdinalQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="Characterizes">Characterizes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Object">Object</a> (cardinality restricted to exactly 1)
+			<li>InherentOrdinalQuantity ← <a spec="http://bipm.org/jcgm/vim4" lt="Characterizes">Characterizes</a> → <a spec="http://bipm.org/jcgm/vim4" lt="Object">Object</a> (cardinality restricted to exactly 1)
 			</li>
 		</ul>
 		</td>
@@ -716,7 +716,7 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>InherentUnitaryQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="Characterizes">Characterizes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Object">Object</a> (cardinality restricted to exactly 1)
+			<li>InherentUnitaryQuantity ← <a spec="http://bipm.org/jcgm/vim4" lt="Characterizes">Characterizes</a> → <a spec="http://bipm.org/jcgm/vim4" lt="Object">Object</a> (cardinality restricted to exactly 1)
 			</li>
 		</ul>
 		</td>
@@ -754,7 +754,7 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Describes">Describes</a> ? Measurement 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="Describes">Describes</a> → Measurement 
 			</li>
 		</ul>
 		</td>
@@ -790,7 +790,7 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="UsesOperationsOf">UsesOperationsOf</a> ? MeasurementMethod 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="UsesOperationsOf">UsesOperationsOf</a> → MeasurementMethod 
 			</li>
 		</ul>
 		</td>
@@ -824,17 +824,17 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>MeasurementModel ? <a spec="http://bipm.org/jcgm/vim4" lt="HasInput">HasInput</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
+			<li>MeasurementModel ← <a spec="http://bipm.org/jcgm/vim4" lt="HasInput">HasInput</a> → <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
 			</li>
-			<li>MeasurementModel ? <a spec="http://bipm.org/jcgm/vim4" lt="IsInfluencedBy">IsInfluencedBy</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
+			<li>MeasurementModel ← <a spec="http://bipm.org/jcgm/vim4" lt="IsInfluencedBy">IsInfluencedBy</a> → <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
 			</li>
-			<li>MeasurementModel ? <a spec="http://bipm.org/jcgm/vim4" lt="Measures">Measures</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
+			<li>MeasurementModel ← <a spec="http://bipm.org/jcgm/vim4" lt="Measures">Measures</a> → <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
 			</li>
-			<li>MeasurementModel ? <a spec="http://bipm.org/jcgm/vim4" lt="UsesCorrection">UsesCorrection</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
+			<li>MeasurementModel ← <a spec="http://bipm.org/jcgm/vim4" lt="UsesCorrection">UsesCorrection</a> → <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
 			</li>
-			<li>MeasurementModel ? <a spec="http://bipm.org/jcgm/vim4" lt="YieldsMeasuredValue">YieldsMeasuredValue</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="QuantityValue">QuantityValue</a> 
+			<li>MeasurementModel ← <a spec="http://bipm.org/jcgm/vim4" lt="YieldsMeasuredValue">YieldsMeasuredValue</a> → <a spec="http://bipm.org/jcgm/vim4" lt="QuantityValue">QuantityValue</a> 
 			</li>
-			<li>MeasurementModel ? <a spec="http://bipm.org/jcgm/vim4" lt="YieldsMeasurementUncertainty">YieldsMeasurementUncertainty</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUncertainty">MeasurementUncertainty</a> 
+			<li>MeasurementModel ← <a spec="http://bipm.org/jcgm/vim4" lt="YieldsMeasurementUncertainty">YieldsMeasurementUncertainty</a> → <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUncertainty">MeasurementUncertainty</a> 
 			</li>
 		</ul>
 		</td>
@@ -844,7 +844,7 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IsBasedOn">IsBasedOn</a> ? MeasurementModel 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="IsBasedOn">IsBasedOn</a> → MeasurementModel 
 			</li>
 		</ul>
 		</td>
@@ -880,7 +880,7 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Per">Per</a> ? MeasurementPrinciple 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="Per">Per</a> → MeasurementPrinciple 
 			</li>
 		</ul>
 		</td>
@@ -914,13 +914,13 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>MeasurementProcedure ? <a spec="http://bipm.org/jcgm/vim4" lt="Describes">Describes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Measurement">Measurement</a> 
+			<li>MeasurementProcedure ← <a spec="http://bipm.org/jcgm/vim4" lt="Describes">Describes</a> → <a spec="http://bipm.org/jcgm/vim4" lt="Measurement">Measurement</a> 
 			</li>
-			<li>MeasurementProcedure ? <a spec="http://bipm.org/jcgm/vim4" lt="IsBasedOn">IsBasedOn</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> 
+			<li>MeasurementProcedure ← <a spec="http://bipm.org/jcgm/vim4" lt="IsBasedOn">IsBasedOn</a> → <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> 
 			</li>
-			<li>MeasurementProcedure ? <a spec="http://bipm.org/jcgm/vim4" lt="Per">Per</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementPrinciple">MeasurementPrinciple</a> 
+			<li>MeasurementProcedure ← <a spec="http://bipm.org/jcgm/vim4" lt="Per">Per</a> → <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementPrinciple">MeasurementPrinciple</a> 
 			</li>
-			<li>MeasurementProcedure ? <a spec="http://bipm.org/jcgm/vim4" lt="UsesOperationsOf">UsesOperationsOf</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementMethod">MeasurementMethod</a> 
+			<li>MeasurementProcedure ← <a spec="http://bipm.org/jcgm/vim4" lt="UsesOperationsOf">UsesOperationsOf</a> → <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementMethod">MeasurementMethod</a> 
 			</li>
 		</ul>
 		</td>
@@ -965,7 +965,7 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>MeasurementScale ? <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IndividualProperty">IndividualProperty</a> 
+			<li>MeasurementScale ← <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> → <a spec="http://bipm.org/jcgm/vim4" lt="IndividualProperty">IndividualProperty</a> 
 			</li>
 		</ul>
 		</td>
@@ -996,7 +996,7 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="YieldsMeasurementUncertainty">YieldsMeasurementUncertainty</a> ? MeasurementUncertainty 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="YieldsMeasurementUncertainty">YieldsMeasurementUncertainty</a> → MeasurementUncertainty 
 			</li>
 		</ul>
 		</td>
@@ -1038,9 +1038,9 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>MeasurementUnit ? <a spec="http://bipm.org/jcgm/vim4" lt="HasMultiple">HasMultiple</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Multiple">Multiple</a> 
+			<li>MeasurementUnit ← <a spec="http://bipm.org/jcgm/vim4" lt="HasMultiple">HasMultiple</a> → <a spec="http://bipm.org/jcgm/vim4" lt="Multiple">Multiple</a> 
 			</li>
-			<li>MeasurementUnit ? <a spec="http://bipm.org/jcgm/vim4" lt="IsMultipleOf">IsMultipleOf</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> 
+			<li>MeasurementUnit ← <a spec="http://bipm.org/jcgm/vim4" lt="IsMultipleOf">IsMultipleOf</a> → <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> 
 			</li>
 		</ul>
 		</td>
@@ -1050,15 +1050,15 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="UnitaryQuantityValue">UnitaryQuantityValue</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="HasUnit">HasUnit</a> ? MeasurementUnit 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="UnitaryQuantityValue">UnitaryQuantityValue</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="HasUnit">HasUnit</a> → MeasurementUnit 
 			</li>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IsMultipleOf">IsMultipleOf</a> ? MeasurementUnit 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="IsMultipleOf">IsMultipleOf</a> → MeasurementUnit 
 			</li>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnit">SystemHasBaseUnit</a> ? MeasurementUnit 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnit">SystemHasBaseUnit</a> → MeasurementUnit 
 			</li>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">SystemHasDerivedUnit</a> ? MeasurementUnit 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">SystemHasDerivedUnit</a> → MeasurementUnit 
 			</li>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnit">SystemHasUnit</a> ? MeasurementUnit 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnit">SystemHasUnit</a> → MeasurementUnit 
 			</li>
 		</ul>
 		</td>
@@ -1094,7 +1094,7 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="HasMultiple">HasMultiple</a> ? Multiple 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="HasMultiple">HasMultiple</a> → Multiple 
 			</li>
 		</ul>
 		</td>
@@ -1129,7 +1129,7 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>OrdinalQuantityValue ? <a spec="http://bipm.org/jcgm/vim4" lt="IsAttributedTo">IsAttributedTo</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="InherentOrdinalQuantity">InherentOrdinalQuantity</a> 
+			<li>OrdinalQuantityValue ← <a spec="http://bipm.org/jcgm/vim4" lt="IsAttributedTo">IsAttributedTo</a> → <a spec="http://bipm.org/jcgm/vim4" lt="InherentOrdinalQuantity">InherentOrdinalQuantity</a> 
 			</li>
 		</ul>
 		</td>
@@ -1165,7 +1165,7 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>OrdinalScale ? <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="OrdinalQuantityValue">OrdinalQuantityValue</a> 
+			<li>OrdinalScale ← <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> → <a spec="http://bipm.org/jcgm/vim4" lt="OrdinalQuantityValue">OrdinalQuantityValue</a> 
 			</li>
 		</ul>
 		</td>
@@ -1201,9 +1201,9 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>PrefixedMeasurementUnit ? <a spec="http://bipm.org/jcgm/vim4" lt="HasMultiple">HasMultiple</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Multiple">Multiple</a> (cardinality restricted to exactly 1)
+			<li>PrefixedMeasurementUnit ← <a spec="http://bipm.org/jcgm/vim4" lt="HasMultiple">HasMultiple</a> → <a spec="http://bipm.org/jcgm/vim4" lt="Multiple">Multiple</a> (cardinality restricted to exactly 1)
 			</li>
-			<li>PrefixedMeasurementUnit ? <a spec="http://bipm.org/jcgm/vim4" lt="IsMultipleOf">IsMultipleOf</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to exactly 1)
+			<li>PrefixedMeasurementUnit ← <a spec="http://bipm.org/jcgm/vim4" lt="IsMultipleOf">IsMultipleOf</a> → <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to exactly 1)
 			</li>
 		</ul>
 		</td>
@@ -1239,7 +1239,7 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>ReferenceSet ? <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IndividualNominalProperty">IndividualNominalProperty</a> 
+			<li>ReferenceSet ← <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> → <a spec="http://bipm.org/jcgm/vim4" lt="IndividualNominalProperty">IndividualNominalProperty</a> 
 			</li>
 		</ul>
 		</td>
@@ -1277,11 +1277,11 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>SystemOfQuantities ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnitaryQuantity">SystemHasBaseUnitaryQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
+			<li>SystemOfQuantities ← <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnitaryQuantity">SystemHasBaseUnitaryQuantity</a> → <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
 			</li>
-			<li>SystemOfQuantities ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">SystemHasDerivedUnitaryQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
+			<li>SystemOfQuantities ← <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">SystemHasDerivedUnitaryQuantity</a> → <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
 			</li>
-			<li>SystemOfQuantities ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
+			<li>SystemOfQuantities ← <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> → <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
 			</li>
 		</ul>
 		</td>
@@ -1291,7 +1291,7 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Given">Given</a> ? SystemOfQuantities 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="Given">Given</a> → SystemOfQuantities 
 			</li>
 		</ul>
 		</td>
@@ -1328,13 +1328,13 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>SystemOfUnits ? <a spec="http://bipm.org/jcgm/vim4" lt="Given">Given</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a> (cardinality restricted to exactly 1)
+			<li>SystemOfUnits ← <a spec="http://bipm.org/jcgm/vim4" lt="Given">Given</a> → <a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a> (cardinality restricted to exactly 1)
 			</li>
-			<li>SystemOfUnits ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnit">SystemHasBaseUnit</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> 
+			<li>SystemOfUnits ← <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnit">SystemHasBaseUnit</a> → <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> 
 			</li>
-			<li>SystemOfUnits ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">SystemHasDerivedUnit</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> 
+			<li>SystemOfUnits ← <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">SystemHasDerivedUnit</a> → <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> 
 			</li>
-			<li>SystemOfUnits ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnit">SystemHasUnit</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> 
+			<li>SystemOfUnits ← <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnit">SystemHasUnit</a> → <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> 
 			</li>
 		</ul>
 		</td>
@@ -1378,9 +1378,9 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>UnitaryQuantityValue ? <a spec="http://bipm.org/jcgm/vim4" lt="HasUnit">HasUnit</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to exactly 1)
+			<li>UnitaryQuantityValue ← <a spec="http://bipm.org/jcgm/vim4" lt="HasUnit">HasUnit</a> → <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to exactly 1)
 			</li>
-			<li>UnitaryQuantityValue ? <a spec="http://bipm.org/jcgm/vim4" lt="IsAttributedTo">IsAttributedTo</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="InherentUnitaryQuantity">InherentUnitaryQuantity</a> 
+			<li>UnitaryQuantityValue ← <a spec="http://bipm.org/jcgm/vim4" lt="IsAttributedTo">IsAttributedTo</a> → <a spec="http://bipm.org/jcgm/vim4" lt="InherentUnitaryQuantity">InherentUnitaryQuantity</a> 
 			</li>
 		</ul>
 		</td>
@@ -1416,7 +1416,7 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>UnitaryScale ? <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="UnitaryQuantityValue">UnitaryQuantityValue</a> 
+			<li>UnitaryScale ← <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> → <a spec="http://bipm.org/jcgm/vim4" lt="UnitaryQuantityValue">UnitaryQuantityValue</a> 
 			</li>
 		</ul>
 		</td>
@@ -1452,9 +1452,9 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>UnprefixedMeasurementUnit ? <a spec="http://bipm.org/jcgm/vim4" lt="HasMultiple">HasMultiple</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Multiple">Multiple</a> (cardinality restricted to exactly 0)
+			<li>UnprefixedMeasurementUnit ← <a spec="http://bipm.org/jcgm/vim4" lt="HasMultiple">HasMultiple</a> → <a spec="http://bipm.org/jcgm/vim4" lt="Multiple">Multiple</a> (cardinality restricted to exactly 0)
 			</li>
-			<li>UnprefixedMeasurementUnit ? <a spec="http://bipm.org/jcgm/vim4" lt="IsMultipleOf">IsMultipleOf</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to exactly 0)
+			<li>UnprefixedMeasurementUnit ← <a spec="http://bipm.org/jcgm/vim4" lt="IsMultipleOf">IsMultipleOf</a> → <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to exactly 0)
 			</li>
 		</ul>
 		</td>
@@ -2469,7 +2469,7 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="HasQuantityDimension">HasQuantityDimension</a> ? SystemHasBaseUnitaryQuantity 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="HasQuantityDimension">HasQuantityDimension</a> → SystemHasBaseUnitaryQuantity 
 			</li>
 		</ul>
 		</td>
@@ -2537,7 +2537,7 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>SystemHasDerivedUnit ? <a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitFactor">HasPowerOfUnitFactor</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnit">SystemHasUnit</a> 
+			<li>SystemHasDerivedUnit ← <a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitFactor">HasPowerOfUnitFactor</a> → <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnit">SystemHasUnit</a> 
 			</li>
 		</ul>
 		</td>
@@ -2607,7 +2607,7 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>SystemHasDerivedUnitaryQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">HasPowerOfUnitaryQuantityFactor</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> 
+			<li>SystemHasDerivedUnitaryQuantity ← <a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">HasPowerOfUnitaryQuantityFactor</a> → <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> 
 			</li>
 		</ul>
 		</td>
@@ -2672,7 +2672,7 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">SystemHasDerivedUnit</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitFactor">HasPowerOfUnitFactor</a> ? SystemHasUnit 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">SystemHasDerivedUnit</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitFactor">HasPowerOfUnitFactor</a> → SystemHasUnit 
 			</li>
 		</ul>
 		</td>
@@ -2733,7 +2733,7 @@ Abstract:
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>SystemHasUnitaryQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="HasQuantityDimension">HasQuantityDimension</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnitaryQuantity">SystemHasBaseUnitaryQuantity</a> 
+			<li>SystemHasUnitaryQuantity ← <a spec="http://bipm.org/jcgm/vim4" lt="HasQuantityDimension">HasQuantityDimension</a> → <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnitaryQuantity">SystemHasBaseUnitaryQuantity</a> 
 			</li>
 		</ul>
 		</td>
@@ -2743,7 +2743,7 @@ Abstract:
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">SystemHasDerivedUnitaryQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">HasPowerOfUnitaryQuantityFactor</a> ? SystemHasUnitaryQuantity 
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">SystemHasDerivedUnitaryQuantity</a> ← <a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">HasPowerOfUnitaryQuantityFactor</a> → SystemHasUnitaryQuantity 
 			</li>
 		</ul>
 		</td>
@@ -3166,34 +3166,34 @@ Abstract:
 ## <dfn>DerivationDefinedWithinTheSameSystemOfQuantities</dfn> ## {#DerivationDefinedWithinTheSameSystemOfQuantities}
 
 hasPowerOfUnitaryQuantityFactor(d, f)
- ? SystemHasDerivedUnitaryQuantity(ds, d, dq)
- ? SystemHasUnitaryQuantity(fs, f, fq)
+ ∧ SystemHasDerivedUnitaryQuantity(ds, d, dq)
+ ∧ SystemHasUnitaryQuantity(fs, f, fq)
  -> sameAs(ds, fs)
 
 ## <dfn>DerivationDefinedWithinTheSameSystemOfUnits</dfn> ## {#DerivationDefinedWithinTheSameSystemOfUnits}
 
 hasPowerOfUnitFactor(d, f)
- ? SystemHasDerivedUnit(ds, d, du)
- ? SystemHasUnit(fs, f, fu)
+ ∧ SystemHasDerivedUnit(ds, d, du)
+ ∧ SystemHasUnit(fs, f, fu)
  -> sameAs(ds, fs)
 
 ## <dfn>DimensionDefinedWithinTheSameSystemOfQuantities</dfn> ## {#DimensionDefinedWithinTheSameSystemOfQuantities}
 
 hasQuantityDimension(d, b)
- ? SystemHasUnitaryQuantity(ds, d, dq)
- ? SystemHasBaseUnitaryQuantity(bs, b, bq)
+ ∧ SystemHasUnitaryQuantity(ds, d, dq)
+ ∧ SystemHasBaseUnitaryQuantity(bs, b, bq)
  -> sameAs(ds, bs)
 
 ## <dfn>InstantiatesSpecializesTransitivity</dfn> ## {#InstantiatesSpecializesTransitivity}
 
 instantiates(i, g1)
- ? specializes(g1, g2)
+ ∧ specializes(g1, g2)
  -> instantiates(i, g2)
 
 ## <dfn>SpecializesTransitivity</dfn> ## {#SpecializesTransitivity}
 
 specializes(a, b)
- ? specializes(b, c)
+ ∧ specializes(b, c)
  -> specializes(a, c)
 
 </div>

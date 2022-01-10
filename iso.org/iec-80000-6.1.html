@@ -1,7 +1,7 @@
 <!doctype html><html lang="en">
  <head>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-  <title>Metrology Vocabularies 4.0.1-10-gbfb38b9</title>
+  <title>IEC-80000-6</title>
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 <style data-fill-with="stylesheet">/******************************************************************************
  *                   Style sheet for the W3C specifications                   *
@@ -1488,9 +1488,23 @@ Possible extra rowspan handling
 	}
 </style>
   <meta content="Bikeshed version 83b904c2e, updated Wed Nov 3 17:20:53 2021 -0700" name="generator">
-  <link href="https://opencaesar.github.io/metrology-vocabularies" rel="canonical">
-  <link href="https://opencaesar.github.io/assets/img/oml.png" rel="icon">
+  <link href="https://opencaesar.github.io/metrology-vocabularies/iso.org/iec-80000-6.1" rel="canonical">
   <meta content="35293a4a8e4713fedd7c976f9d9c72249d412c98" name="document-revision">
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>
 <style>/* style-autolinks */
 
 .css.css, .property.property, .descriptor.descriptor {
@@ -1691,6 +1705,47 @@ figcaption {
 figcaption:not(.no-marker)::before {
     content: "Figure " counter(figure) " ";
 }</style>
+<style>/* style-dfn-panel */
+
+:root {
+    --dfnpanel-bg: #ddd;
+    --dfnpanel-text: var(--text);
+}
+.dfn-panel {
+    position: absolute;
+    z-index: 35;
+    height: auto;
+    width: -webkit-fit-content;
+    width: fit-content;
+    max-width: 300px;
+    max-height: 500px;
+    overflow: auto;
+    padding: 0.5em 0.75em;
+    font: small Helvetica Neue, sans-serif, Droid Sans Fallback;
+    background: var(--dfnpanel-bg);
+    color: var(--dfnpanel-text);
+    border: outset 0.2em;
+}
+.dfn-panel:not(.on) { display: none; }
+.dfn-panel * { margin: 0; padding: 0; text-indent: 0; }
+.dfn-panel > b { display: block; }
+.dfn-panel a { color: var(--dfnpanel-text); }
+.dfn-panel a:not(:hover) { text-decoration: none !important; border-bottom: none !important; }
+.dfn-panel > b + b { margin-top: 0.25em; }
+.dfn-panel ul { padding: 0; }
+.dfn-panel li { list-style: inside; }
+.dfn-panel.activated {
+    display: inline-block;
+    position: fixed;
+    left: .5em;
+    bottom: 2em;
+    margin: 0 auto;
+    max-width: calc(100vw - 1.5em - .4em - .5em);
+    max-height: 30vh;
+}
+
+.dfn-paneled { cursor: pointer; }
+</style>
 <style>/* style-issues */
 
 a[href].issue-return {
@@ -1883,20 +1938,26 @@ dfn > a.self-link::before      { content: "#"; }
         --selflink-hover-text: white;
     }
 }
-</style>
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --dfnpanel-bg: #222;
+        --dfnpanel-text: var(--text);
+    }
+}</style>
  <body class="h-entry">
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="http://www.opencaesar.io/oml/"><img alt="OML Specification" height="48" src="https://opencaesar.github.io/oml/images/oml.svg"></a></p>
-   <h1 class="p-name no-ref" id="title">Metrology Vocabularies 4.0.1-10-gbfb38b9</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Living Standard, <time class="dt-updated" datetime="2022-01-10">10 January 2022</time></span></h2>
+   <h1 class="p-name no-ref allcaps" id="title">IEC-80000-6</h1>
+   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Commit Snapshot, <time class="dt-updated" datetime="2022-01-10">10 January 2022</time></span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt>This version:
-     <dd><a class="u-url" href="https://opencaesar.github.io/metrology-vocabularies">https://opencaesar.github.io/metrology-vocabularies</a>
+     <dd><a class="u-url" href="https://opencaesar.github.io/metrology-vocabularies/iso.org/iec-80000-6.1">https://opencaesar.github.io/metrology-vocabularies/iso.org/iec-80000-6.1</a>
      <dt class="editor">Editor:
-     <dd class="editor p-author h-card vcard"><span class="p-name fn">(see individual ontologies)</span>
+     <dd class="editor p-author h-card vcard"><span class="p-name fn">Jet Propulsion Laboratory</span>
      <dt>Copyright:
-     <dd>(see individual ontologies)
+     <dd>Copyright 2021, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. This software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons.
     </dl>
    </div>
    <div data-fill-with="warning"></div>
@@ -1904,195 +1965,145 @@ dfn > a.self-link::before      { content: "#"; }
   </div>
   <div class="p-summary" data-fill-with="abstract">
    <h2 class="no-num no-toc no-ref heading settled" id="abstract"><span class="content">Abstract</span></h2>
-   <p>Documentation generated from OML ontologies</p>
+   <p>The IEC-80000-6 library.</p>
   </div>
   <div data-fill-with="at-risk"></div>
   <nav data-fill-with="table-of-contents" id="toc">
    <h2 class="no-num no-toc no-ref" id="contents">Table of Contents</h2>
    <ol class="toc" role="directory">
+    <li><a href="#Namespace"><span class="secno">1</span> <span class="content">Namespace</span></a>
+    <li><a href="#Extensions"><span class="secno">2</span> <span class="content">Extensions</span></a>
+    <li><a href="#Iclusions"><span class="secno">3</span> <span class="content">Usages</span></a>
     <li>
-     <a href="#heading-domain-bipm.org"><span class="secno">1</span> <span class="content">bipm.org</span></a>
+     <a href="#ConceptInstances"><span class="secno">4</span> <span class="content">Concept Instances</span></a>
      <ol class="toc">
-      <li><a href="#heading-jcgm-bundle-1"><span class="secno">1.1</span> <span class="content"><span>jcgm-bundle</span></span></a>
-      <li><a href="#heading-vim4-2"><span class="secno">1.2</span> <span class="content"><span>vim4</span></span></a>
-      <li><a href="#heading-vim4-terminological-analysis-3"><span class="secno">1.3</span> <span class="content"><span>vim4-terminological-analysis</span></span></a>
-      <li><a href="#heading-vim4.1-systems-diagram-4"><span class="secno">1.4</span> <span class="content"><span>vim4.1-systems-diagram</span></span></a>
+      <li><a href="#Ampere"><span class="secno">4.1</span> <span class="content"><span>ampere</span></span></a>
+      <li><a href="#Electric-current"><span class="secno">4.2</span> <span class="content"><span>electric-current</span></span></a>
      </ol>
     <li>
-     <a href="#heading-domain-iso.org"><span class="secno">2</span> <span class="content">iso.org</span></a>
+     <a href="#RelationInstances"><span class="secno">5</span> <span class="content">Relation Instances</span></a>
      <ol class="toc">
-      <li><a href="#heading-iec-80000-6.1-5"><span class="secno">2.1</span> <span class="content"><span>IEC-80000-6</span></span></a>
-      <li><a href="#heading-iec-80000-6.10-6"><span class="secno">2.2</span> <span class="content"><span>IEC-80000-6</span></span></a>
-      <li><a href="#heading-iec-80000-6.11-7"><span class="secno">2.3</span> <span class="content"><span>IEC-80000-6</span></span></a>
-      <li><a href="#heading-iec-80000-6.13-8"><span class="secno">2.4</span> <span class="content"><span>IEC-80000-6</span></span></a>
-      <li><a href="#heading-iec-80000-6.2-9"><span class="secno">2.5</span> <span class="content"><span>IEC-80000-6</span></span></a>
-      <li><a href="#heading-iec-80000-6.21-10"><span class="secno">2.6</span> <span class="content"><span>IEC-80000-6</span></span></a>
-      <li><a href="#heading-iec-80000-6.45-11"><span class="secno">2.7</span> <span class="content"><span>IEC-80000-6</span></span></a>
-      <li><a href="#heading-iec-80000-6.46-12"><span class="secno">2.8</span> <span class="content"><span>IEC-80000-6</span></span></a>
-      <li><a href="#heading-iso-1087-1-13"><span class="secno">2.9</span> <span class="content"><span>ISO 1087-1:2000 annotation vocabulary</span></span></a>
-      <li><a href="#heading-iso-80000-1-14"><span class="secno">2.10</span> <span class="content"><span>ISO-80000-1</span></span></a>
-      <li><a href="#heading-iso-80000-3.1-15"><span class="secno">2.11</span> <span class="content"><span>ISO-80000-3</span></span></a>
-      <li><a href="#heading-iso-80000-3.10-16"><span class="secno">2.12</span> <span class="content"><span>ISO-80000-3</span></span></a>
-      <li><a href="#heading-iso-80000-3.11-17"><span class="secno">2.13</span> <span class="content"><span>ISO-80000-3</span></span></a>
-      <li><a href="#heading-iso-80000-3.12-18"><span class="secno">2.14</span> <span class="content"><span>ISO-80000-3</span></span></a>
-      <li><a href="#heading-iso-80000-3.14-19"><span class="secno">2.15</span> <span class="content"><span>ISO-80000-3</span></span></a>
-      <li><a href="#heading-iso-80000-3.15-20"><span class="secno">2.16</span> <span class="content"><span>ISO-80000-3</span></span></a>
-      <li><a href="#heading-iso-80000-3.2-21"><span class="secno">2.17</span> <span class="content"><span>ISO-80000-3</span></span></a>
-      <li><a href="#heading-iso-80000-3.3-22"><span class="secno">2.18</span> <span class="content"><span>ISO-80000-3</span></span></a>
-      <li><a href="#heading-iso-80000-3.4-23"><span class="secno">2.19</span> <span class="content"><span>ISO-80000-3</span></span></a>
-      <li><a href="#heading-iso-80000-3.5-24"><span class="secno">2.20</span> <span class="content"><span>ISO-80000-3</span></span></a>
-      <li><a href="#heading-iso-80000-3.6-25"><span class="secno">2.21</span> <span class="content"><span>ISO-80000-3</span></span></a>
-      <li><a href="#heading-iso-80000-3.7-26"><span class="secno">2.22</span> <span class="content"><span>ISO-80000-3</span></span></a>
-      <li><a href="#heading-iso-80000-3.8-27"><span class="secno">2.23</span> <span class="content"><span>ISO-80000-3</span></span></a>
-      <li><a href="#heading-iso-80000-3.9-28"><span class="secno">2.24</span> <span class="content"><span>ISO-80000-3</span></span></a>
-      <li><a href="#heading-iso-80000-4.1-29"><span class="secno">2.25</span> <span class="content"><span>ISO-80000-4</span></span></a>
-      <li><a href="#heading-iso-80000-4.11-30"><span class="secno">2.26</span> <span class="content"><span>ISO-80000-4</span></span></a>
-      <li><a href="#heading-iso-80000-4.13-31"><span class="secno">2.27</span> <span class="content"><span>ISO-80000-4</span></span></a>
-      <li><a href="#heading-iso-80000-4.14-32"><span class="secno">2.28</span> <span class="content"><span>ISO-80000-4</span></span></a>
-      <li><a href="#heading-iso-80000-4.15-33"><span class="secno">2.29</span> <span class="content"><span>ISO-80000-4</span></span></a>
-      <li><a href="#heading-iso-80000-4.2-34"><span class="secno">2.30</span> <span class="content"><span>ISO-80000-4</span></span></a>
-      <li><a href="#heading-iso-80000-4.26-35"><span class="secno">2.31</span> <span class="content"><span>ISO-80000-4</span></span></a>
-      <li><a href="#heading-iso-80000-4.3-36"><span class="secno">2.32</span> <span class="content"><span>ISO-80000-4</span></span></a>
-      <li><a href="#heading-iso-80000-4.8-37"><span class="secno">2.33</span> <span class="content"><span>ISO-80000-4</span></span></a>
-      <li><a href="#heading-iso-80000-4.9-38"><span class="secno">2.34</span> <span class="content"><span>ISO-80000-4</span></span></a>
-      <li><a href="#heading-iso-80000-5.1-39"><span class="secno">2.35</span> <span class="content"><span>ISO-80000-5</span></span></a>
-      <li><a href="#heading-iso-80000-bundle-40"><span class="secno">2.36</span> <span class="content"><span>ISO-80000 Bundle</span></span></a>
+      <li><a href="#ISQ-electric-current"><span class="secno">5.1</span> <span class="content"><span>ISQ-electric-current</span></span></a>
+      <li><a href="#SI-ampere"><span class="secno">5.2</span> <span class="content"><span>SI-ampere</span></span></a>
      </ol>
     <li>
-     <a href="#heading-domain-iupac.org"><span class="secno">3</span> <span class="content">iupac.org</span></a>
+     <a href="#index"><span class="secno"></span> <span class="content">Index</span></a>
      <ol class="toc">
-      <li><a href="#heading-metrology-41"><span class="secno">3.1</span> <span class="content"><span>Metrology</span></span></a>
-      <li><a href="#heading-metrology-bundle-42"><span class="secno">3.2</span> <span class="content"><span>Metrology Bundle</span></span></a>
-     </ol>
-    <li>
-     <a href="#heading-domain-opencaesar.io"><span class="secno">4</span> <span class="content">opencaesar.io</span></a>
-     <ol class="toc">
-      <li><a href="#heading-viewpoint-43"><span class="secno">4.1</span> <span class="content"><span>Viewpoint</span></span></a>
-     </ol>
-    <li>
-     <a href="#heading-domain-purl.org"><span class="secno">5</span> <span class="content">purl.org</span></a>
-     <ol class="toc">
-      <li><a href="#heading-dc-44"><span class="secno">5.1</span> <span class="content"><span>DC</span></span></a>
-     </ol>
-    <li>
-     <a href="#heading-domain-www.w3.org"><span class="secno">6</span> <span class="content">www.w3.org</span></a>
-     <ol class="toc">
-      <li><a href="#heading-rdf-45"><span class="secno">6.1</span> <span class="content"><span>RDF</span></span></a>
-      <li><a href="#heading-rdfs-46"><span class="secno">6.2</span> <span class="content"><span>RDFS</span></span></a>
-      <li><a href="#heading-xsd-47"><span class="secno">6.3</span> <span class="content"><span>XSD</span></span></a>
-      <li><a href="#heading-owl-48"><span class="secno">6.4</span> <span class="content"><span>OWL2</span></span></a>
+      <li><a href="#index-defined-here"><span class="secno"></span> <span class="content">Terms defined by this specification</span></a>
+      <li><a href="#index-defined-elsewhere"><span class="secno"></span> <span class="content">Terms defined by reference</span></a>
      </ol>
    </ol>
   </nav>
   <main>
-   <h2 class="heading settled" data-level="1" id="heading-domain-bipm.org"><span class="secno">1. </span><span class="content">bipm.org</span><a class="self-link" href="#heading-domain-bipm.org"></a></h2>
-   <h3 class="heading settled" data-level="1.1" id="heading-jcgm-bundle-1"><span class="secno">1.1. </span><span class="content"><a href="./bipm.org/jcgm/jcgm-bundle.html">jcgm-bundle</a></span><a class="self-link" href="#heading-jcgm-bundle-1"></a></h3>
-   <h3 class="heading settled" data-level="1.2" id="heading-vim4-2"><span class="secno">1.2. </span><span class="content"><a href="./bipm.org/jcgm/vim4.html">vim4</a></span><a class="self-link" href="#heading-vim4-2"></a></h3>
-   <h3 class="heading settled" data-level="1.3" id="heading-vim4-terminological-analysis-3"><span class="secno">1.3. </span><span class="content"><a href="./bipm.org/jcgm/vim4-terminological-analysis.html">vim4-terminological-analysis</a></span><a class="self-link" href="#heading-vim4-terminological-analysis-3"></a></h3>
-   <h3 class="heading settled" data-level="1.4" id="heading-vim4.1-systems-diagram-4"><span class="secno">1.4. </span><span class="content"><a href="./bipm.org/jcgm/vim4.1-systems-diagram.html">vim4.1-systems-diagram</a></span><a class="self-link" href="#heading-vim4.1-systems-diagram-4"></a></h3>
-   <h2 class="heading settled" data-level="2" id="heading-domain-iso.org"><span class="secno">2. </span><span class="content">iso.org</span><a class="self-link" href="#heading-domain-iso.org"></a></h2>
-   <h3 class="heading settled" data-level="2.1" id="heading-iec-80000-6.1-5"><span class="secno">2.1. </span><span class="content"><a href="./iso.org/iec-80000-6.1.html">IEC-80000-6</a></span><a class="self-link" href="#heading-iec-80000-6.1-5"></a></h3>
-    The IEC-80000-6 library. 
-   <h3 class="heading settled" data-level="2.2" id="heading-iec-80000-6.10-6"><span class="secno">2.2. </span><span class="content"><a href="./iso.org/iec-80000-6.10.html">IEC-80000-6</a></span><a class="self-link" href="#heading-iec-80000-6.10-6"></a></h3>
-    The IEC-80000-6 library. 
-   <h3 class="heading settled" data-level="2.3" id="heading-iec-80000-6.11-7"><span class="secno">2.3. </span><span class="content"><a href="./iso.org/iec-80000-6.11.html">IEC-80000-6</a></span><a class="self-link" href="#heading-iec-80000-6.11-7"></a></h3>
-    The IEC-80000-6 library. 
-   <h3 class="heading settled" data-level="2.4" id="heading-iec-80000-6.13-8"><span class="secno">2.4. </span><span class="content"><a href="./iso.org/iec-80000-6.13.html">IEC-80000-6</a></span><a class="self-link" href="#heading-iec-80000-6.13-8"></a></h3>
-    The IEC-80000-6 library. 
-   <h3 class="heading settled" data-level="2.5" id="heading-iec-80000-6.2-9"><span class="secno">2.5. </span><span class="content"><a href="./iso.org/iec-80000-6.2.html">IEC-80000-6</a></span><a class="self-link" href="#heading-iec-80000-6.2-9"></a></h3>
-    The IEC-80000-6 library. 
-   <h3 class="heading settled" data-level="2.6" id="heading-iec-80000-6.21-10"><span class="secno">2.6. </span><span class="content"><a href="./iso.org/iec-80000-6.21.html">IEC-80000-6</a></span><a class="self-link" href="#heading-iec-80000-6.21-10"></a></h3>
-    The IEC-80000-6 library. 
-   <h3 class="heading settled" data-level="2.7" id="heading-iec-80000-6.45-11"><span class="secno">2.7. </span><span class="content"><a href="./iso.org/iec-80000-6.45.html">IEC-80000-6</a></span><a class="self-link" href="#heading-iec-80000-6.45-11"></a></h3>
-    The IEC-80000-6 library. 
-   <h3 class="heading settled" data-level="2.8" id="heading-iec-80000-6.46-12"><span class="secno">2.8. </span><span class="content"><a href="./iso.org/iec-80000-6.46.html">IEC-80000-6</a></span><a class="self-link" href="#heading-iec-80000-6.46-12"></a></h3>
-    The IEC-80000-6 library. 
-   <h3 class="heading settled" data-level="2.9" id="heading-iso-1087-1-13"><span class="secno">2.9. </span><span class="content"><a href="./iso.org/iso-1087-1.html">ISO 1087-1:2000 annotation vocabulary</a></span><a class="self-link" href="#heading-iso-1087-1-13"></a></h3>
-    Annotation vocabulary for traceability of terminology analysis per ISO 1087-1:2000 
-   <h3 class="heading settled" data-level="2.10" id="heading-iso-80000-1-14"><span class="secno">2.10. </span><span class="content"><a href="./iso.org/iso-80000-1.html">ISO-80000-1</a></span><a class="self-link" href="#heading-iso-80000-1-14"></a></h3>
-    The ISO-80000-1 library. 
-   <h3 class="heading settled" data-level="2.11" id="heading-iso-80000-3.1-15"><span class="secno">2.11. </span><span class="content"><a href="./iso.org/iso-80000-3.1.html">ISO-80000-3</a></span><a class="self-link" href="#heading-iso-80000-3.1-15"></a></h3>
-    The ISO-80000-3 library. 
-   <h3 class="heading settled" data-level="2.12" id="heading-iso-80000-3.10-16"><span class="secno">2.12. </span><span class="content"><a href="./iso.org/iso-80000-3.10.html">ISO-80000-3</a></span><a class="self-link" href="#heading-iso-80000-3.10-16"></a></h3>
-    The ISO-80000-3 library. 
-   <h3 class="heading settled" data-level="2.13" id="heading-iso-80000-3.11-17"><span class="secno">2.13. </span><span class="content"><a href="./iso.org/iso-80000-3.11.html">ISO-80000-3</a></span><a class="self-link" href="#heading-iso-80000-3.11-17"></a></h3>
-    The ISO-80000-3 library. 
-   <h3 class="heading settled" data-level="2.14" id="heading-iso-80000-3.12-18"><span class="secno">2.14. </span><span class="content"><a href="./iso.org/iso-80000-3.12.html">ISO-80000-3</a></span><a class="self-link" href="#heading-iso-80000-3.12-18"></a></h3>
-    The ISO-80000-3 library. 
-   <h3 class="heading settled" data-level="2.15" id="heading-iso-80000-3.14-19"><span class="secno">2.15. </span><span class="content"><a href="./iso.org/iso-80000-3.14.html">ISO-80000-3</a></span><a class="self-link" href="#heading-iso-80000-3.14-19"></a></h3>
-    The ISO-80000-3 library. 
-   <h3 class="heading settled" data-level="2.16" id="heading-iso-80000-3.15-20"><span class="secno">2.16. </span><span class="content"><a href="./iso.org/iso-80000-3.15.html">ISO-80000-3</a></span><a class="self-link" href="#heading-iso-80000-3.15-20"></a></h3>
-    The ISO-80000-3 library. 
-   <h3 class="heading settled" data-level="2.17" id="heading-iso-80000-3.2-21"><span class="secno">2.17. </span><span class="content"><a href="./iso.org/iso-80000-3.2.html">ISO-80000-3</a></span><a class="self-link" href="#heading-iso-80000-3.2-21"></a></h3>
-    The ISO-80000-3 library. 
-   <h3 class="heading settled" data-level="2.18" id="heading-iso-80000-3.3-22"><span class="secno">2.18. </span><span class="content"><a href="./iso.org/iso-80000-3.3.html">ISO-80000-3</a></span><a class="self-link" href="#heading-iso-80000-3.3-22"></a></h3>
-    The ISO-80000-3 library. 
-   <h3 class="heading settled" data-level="2.19" id="heading-iso-80000-3.4-23"><span class="secno">2.19. </span><span class="content"><a href="./iso.org/iso-80000-3.4.html">ISO-80000-3</a></span><a class="self-link" href="#heading-iso-80000-3.4-23"></a></h3>
-    The ISO-80000-3 library. 
-   <h3 class="heading settled" data-level="2.20" id="heading-iso-80000-3.5-24"><span class="secno">2.20. </span><span class="content"><a href="./iso.org/iso-80000-3.5.html">ISO-80000-3</a></span><a class="self-link" href="#heading-iso-80000-3.5-24"></a></h3>
-    The ISO-80000-3 library. 
-   <h3 class="heading settled" data-level="2.21" id="heading-iso-80000-3.6-25"><span class="secno">2.21. </span><span class="content"><a href="./iso.org/iso-80000-3.6.html">ISO-80000-3</a></span><a class="self-link" href="#heading-iso-80000-3.6-25"></a></h3>
-    The ISO-80000-3 library. 
-   <h3 class="heading settled" data-level="2.22" id="heading-iso-80000-3.7-26"><span class="secno">2.22. </span><span class="content"><a href="./iso.org/iso-80000-3.7.html">ISO-80000-3</a></span><a class="self-link" href="#heading-iso-80000-3.7-26"></a></h3>
-    The ISO-80000-3 library. 
-   <h3 class="heading settled" data-level="2.23" id="heading-iso-80000-3.8-27"><span class="secno">2.23. </span><span class="content"><a href="./iso.org/iso-80000-3.8.html">ISO-80000-3</a></span><a class="self-link" href="#heading-iso-80000-3.8-27"></a></h3>
-    The ISO-80000-3 library. 
-   <h3 class="heading settled" data-level="2.24" id="heading-iso-80000-3.9-28"><span class="secno">2.24. </span><span class="content"><a href="./iso.org/iso-80000-3.9.html">ISO-80000-3</a></span><a class="self-link" href="#heading-iso-80000-3.9-28"></a></h3>
-    The ISO-80000-3 library. 
-   <h3 class="heading settled" data-level="2.25" id="heading-iso-80000-4.1-29"><span class="secno">2.25. </span><span class="content"><a href="./iso.org/iso-80000-4.1.html">ISO-80000-4</a></span><a class="self-link" href="#heading-iso-80000-4.1-29"></a></h3>
-    The ISO-80000-4 library. 
-   <h3 class="heading settled" data-level="2.26" id="heading-iso-80000-4.11-30"><span class="secno">2.26. </span><span class="content"><a href="./iso.org/iso-80000-4.11.html">ISO-80000-4</a></span><a class="self-link" href="#heading-iso-80000-4.11-30"></a></h3>
-    The ISO-80000-4 library. 
-   <h3 class="heading settled" data-level="2.27" id="heading-iso-80000-4.13-31"><span class="secno">2.27. </span><span class="content"><a href="./iso.org/iso-80000-4.13.html">ISO-80000-4</a></span><a class="self-link" href="#heading-iso-80000-4.13-31"></a></h3>
-    The ISO-80000-4 library. 
-   <h3 class="heading settled" data-level="2.28" id="heading-iso-80000-4.14-32"><span class="secno">2.28. </span><span class="content"><a href="./iso.org/iso-80000-4.14.html">ISO-80000-4</a></span><a class="self-link" href="#heading-iso-80000-4.14-32"></a></h3>
-    The ISO-80000-4 library. 
-   <h3 class="heading settled" data-level="2.29" id="heading-iso-80000-4.15-33"><span class="secno">2.29. </span><span class="content"><a href="./iso.org/iso-80000-4.15.html">ISO-80000-4</a></span><a class="self-link" href="#heading-iso-80000-4.15-33"></a></h3>
-    The ISO-80000-4 library. 
-   <h3 class="heading settled" data-level="2.30" id="heading-iso-80000-4.2-34"><span class="secno">2.30. </span><span class="content"><a href="./iso.org/iso-80000-4.2.html">ISO-80000-4</a></span><a class="self-link" href="#heading-iso-80000-4.2-34"></a></h3>
-    The ISO-80000-4 library. 
-   <h3 class="heading settled" data-level="2.31" id="heading-iso-80000-4.26-35"><span class="secno">2.31. </span><span class="content"><a href="./iso.org/iso-80000-4.26.html">ISO-80000-4</a></span><a class="self-link" href="#heading-iso-80000-4.26-35"></a></h3>
-    The ISO-80000-4 library. 
-   <h3 class="heading settled" data-level="2.32" id="heading-iso-80000-4.3-36"><span class="secno">2.32. </span><span class="content"><a href="./iso.org/iso-80000-4.3.html">ISO-80000-4</a></span><a class="self-link" href="#heading-iso-80000-4.3-36"></a></h3>
-    The ISO-80000-4 library. 
-   <h3 class="heading settled" data-level="2.33" id="heading-iso-80000-4.8-37"><span class="secno">2.33. </span><span class="content"><a href="./iso.org/iso-80000-4.8.html">ISO-80000-4</a></span><a class="self-link" href="#heading-iso-80000-4.8-37"></a></h3>
-    The ISO-80000-4 library. 
-   <h3 class="heading settled" data-level="2.34" id="heading-iso-80000-4.9-38"><span class="secno">2.34. </span><span class="content"><a href="./iso.org/iso-80000-4.9.html">ISO-80000-4</a></span><a class="self-link" href="#heading-iso-80000-4.9-38"></a></h3>
-    The ISO-80000-4 library. 
-   <h3 class="heading settled" data-level="2.35" id="heading-iso-80000-5.1-39"><span class="secno">2.35. </span><span class="content"><a href="./iso.org/iso-80000-5.1.html">ISO-80000-5</a></span><a class="self-link" href="#heading-iso-80000-5.1-39"></a></h3>
-    The ISO-80000-5 library. 
-   <h3 class="heading settled" data-level="2.36" id="heading-iso-80000-bundle-40"><span class="secno">2.36. </span><span class="content"><a href="./iso.org/iso-80000-bundle.html">ISO-80000 Bundle</a></span><a class="self-link" href="#heading-iso-80000-bundle-40"></a></h3>
-    This is the ISO-80000 vocabulary bundle. 
-   <h2 class="heading settled" data-level="3" id="heading-domain-iupac.org"><span class="secno">3. </span><span class="content">iupac.org</span><a class="self-link" href="#heading-domain-iupac.org"></a></h2>
-   <h3 class="heading settled" data-level="3.1" id="heading-metrology-41"><span class="secno">3.1. </span><span class="content"><a href="./iupac.org/metrology.html">Metrology</a></span><a class="self-link" href="#heading-metrology-41"></a></h3>
-    This vocabulary is a partial account of Prof. Rene Dybkaer’s 'An Ontology of Property' 
-focused on the concepts necessary for dimensional analysis of systems of metrological units and
-of systems of quantities based on the algebraic relationships involved in the
-definitions of the metrological units and the kinds of quantities in these respective systems. 
-   <p>See the rationale behind the 3rd revision of the Vocabulary of International Metrology, VIM3,
-for references to Prof. Dybkaer’s influential work: https://www.bipm.org/en/publications/guides/rationale-vim3.html</p>
-   <p>Where possible, correspondences to VIM3 definitions will be referenced from https://jcgm.bipm.org/vim/en/index.html
-The VIM3 is available in document PDF here: https://www.bipm.org/utils/common/documents/jcgm/JCGM_200_2012.pdf</p>
-   <p>References to definitions in the ontology are indicated via a reference
-in parentheses with a chapter and section and a page number;
-for example, (S.2.23, p. 33) refers to the definition of 'object' on page 33.</p>
-   <h3 class="heading settled" data-level="3.2" id="heading-metrology-bundle-42"><span class="secno">3.2. </span><span class="content"><a href="./iupac.org/metrology-bundle.html">Metrology Bundle</a></span><a class="self-link" href="#heading-metrology-bundle-42"></a></h3>
-    This is the metrology vocabulary bundle. 
-   <h2 class="heading settled" data-level="4" id="heading-domain-opencaesar.io"><span class="secno">4. </span><span class="content">opencaesar.io</span><a class="self-link" href="#heading-domain-opencaesar.io"></a></h2>
-   <h3 class="heading settled" data-level="4.1" id="heading-viewpoint-43"><span class="secno">4.1. </span><span class="content"><a href="./opencaesar.io/viewpoint.html">Viewpoint</a></span><a class="self-link" href="#heading-viewpoint-43"></a></h3>
-    A vocabulary for defining common terms used in defining viewpoints 
-   <h2 class="heading settled" data-level="5" id="heading-domain-purl.org"><span class="secno">5. </span><span class="content">purl.org</span><a class="self-link" href="#heading-domain-purl.org"></a></h2>
-   <h3 class="heading settled" data-level="5.1" id="heading-dc-44"><span class="secno">5.1. </span><span class="content"><a href="./purl.org/dc/elements/1.1.html">DC</a></span><a class="self-link" href="#heading-dc-44"></a></h3>
-    The DC vocabulary is a subset of the vocabulary maintained by the Dublin Core Metadata Initiative. 
-   <h2 class="heading settled" data-level="6" id="heading-domain-www.w3.org"><span class="secno">6. </span><span class="content">www.w3.org</span><a class="self-link" href="#heading-domain-www.w3.org"></a></h2>
-   <h3 class="heading settled" data-level="6.1" id="heading-rdf-45"><span class="secno">6.1. </span><span class="content"><a href="./www.w3.org/1999/02/22-rdf-syntax-ns.html">RDF</a></span><a class="self-link" href="#heading-rdf-45"></a></h3>
-    The RDF vocabulary is a subset of the vocabulary maintained by the W3C. 
-   <h3 class="heading settled" data-level="6.2" id="heading-rdfs-46"><span class="secno">6.2. </span><span class="content"><a href="./www.w3.org/2000/01/rdf-schema.html">RDFS</a></span><a class="self-link" href="#heading-rdfs-46"></a></h3>
-    The RDFS vocabulary is a subset of the vocabulary maintained by the W3C. 
-   <h3 class="heading settled" data-level="6.3" id="heading-xsd-47"><span class="secno">6.3. </span><span class="content"><a href="./www.w3.org/2001/XMLSchema.html">XSD</a></span><a class="self-link" href="#heading-xsd-47"></a></h3>
-    The XSD vocabulary is a subset of the corresponding vocabulary maintained by the W3C. 
-   <h3 class="heading settled" data-level="6.4" id="heading-owl-48"><span class="secno">6.4. </span><span class="content"><a href="./www.w3.org/2002/07/owl.html">OWL2</a></span><a class="self-link" href="#heading-owl-48"></a></h3>
-    The OWL2 vocabulary is a subset of the vocabulary maintained by the W3C. 
+   <div>
+    <h2 class="heading settled" data-level="1" id="Namespace"><span class="secno">1. </span><span class="content">Namespace</span><a class="self-link" href="#Namespace"></a></h2>
+    <ul>
+     <li data-md>
+      <p><a href="iec-80000-6.1.html">http://iso.org/iec-80000-6.1</a> [iec-80000-6.1]</p>
+    </ul>
+    <h2 class="heading settled" data-level="2" id="Extensions"><span class="secno">2. </span><span class="content">Extensions</span><a class="self-link" href="#Extensions"></a></h2>
+    <ul>
+     <li data-md>
+      <p><a href="http://iso.org/iso-80000-1.html">http://iso.org/iso-80000-1</a> [iso-80000-1]</p>
+    </ul>
+    <h2 class="heading settled" data-level="3" id="Iclusions"><span class="secno">3. </span><span class="content">Usages</span><a class="self-link" href="#Iclusions"></a></h2>
+    <ul>
+     <li data-md>
+      <p><a href="http://purl.org/dc/elements/1.html">http://purl.org/dc/elements/1.1</a> [dc]</p>
+     <li data-md>
+      <p><a href="http://bipm.org/jcgm/vim4.html">http://bipm.org/jcgm/vim4</a> [vim4]</p>
+    </ul>
+    <h2 class="heading settled" data-level="4" id="ConceptInstances"><span class="secno">4. </span><span class="content">Concept Instances</span><a class="self-link" href="#ConceptInstances"></a></h2>
+    <h3 class="heading settled" data-level="4.1" id="Ampere"><span class="secno">4.1. </span><span class="content"><dfn data-dfn-type="dfn" data-export id="ampere">ampere<a class="self-link" href="#ampere"></a></dfn></span><a class="self-link" href="#Ampere"></a></h3>
+    <table class="def">
+     <tbody>
+      <tr>
+       <th>Types
+       <td>
+        <ul>
+         <li><a data-link-type="dfn" href="../bipm.org/jcgm/vim4.html#unprefixedmeasurementunit" id="ref-for-unprefixedmeasurementunit">vim4:UnprefixedMeasurementUnit</a>
+        </ul>
+      <tr>
+       <th>Properties
+       <td>
+        <ul>
+         <li><a data-link-type="dfn" href="../bipm.org/jcgm/vim4.html#id" id="ref-for-id">vim4:id</a> ampere
+        </ul>
+      <tr>
+       <th>Links
+       <td>
+        <ul>
+         <li><a data-link-type="dfn" href="../bipm.org/jcgm/vim4.html#instantiates" id="ref-for-instantiates">vim4:instantiates</a> <a data-link-type="dfn" href="iec-80000-6.1.html#electric-current" id="ref-for-electric-current">electric-current</a>
+        </ul>
+    </table>
+    <h3 class="heading settled" data-level="4.2" id="Electric-current"><span class="secno">4.2. </span><span class="content"><dfn data-dfn-type="dfn" data-export id="electric-current">electric-current<a class="self-link" href="#electric-current"></a></dfn></span><a class="self-link" href="#Electric-current"></a></h3>
+    <table class="def">
+     <tbody>
+      <tr>
+       <th>Types
+       <td>
+        <ul>
+         <li><a data-link-type="dfn" href="../bipm.org/jcgm/vim4.html#generalunitaryquantity" id="ref-for-generalunitaryquantity">vim4:GeneralUnitaryQuantity</a>
+        </ul>
+      <tr>
+       <th>Properties
+       <td>
+        <ul>
+         <li><a data-link-type="dfn" href="../bipm.org/jcgm/vim4.html#id" id="ref-for-id①">vim4:id</a> electric-current
+        </ul>
+    </table>
+    <h2 class="heading settled" data-level="5" id="RelationInstances"><span class="secno">5. </span><span class="content">Relation Instances</span><a class="self-link" href="#RelationInstances"></a></h2>
+    <h3 class="heading settled" data-level="5.1" id="ISQ-electric-current"><span class="secno">5.1. </span><span class="content"><dfn data-dfn-type="dfn" data-export id="isq-electric-current">ISQ-electric-current<a class="self-link" href="#isq-electric-current"></a></dfn></span><a class="self-link" href="#ISQ-electric-current"></a></h3>
+    <table class="def">
+     <tbody>
+      <tr>
+       <th>Types
+       <td>
+        <ul>
+         <li><a data-link-type="dfn" href="../bipm.org/jcgm/vim4.html#systemhasbaseunitaryquantity" id="ref-for-systemhasbaseunitaryquantity">vim4:SystemHasBaseUnitaryQuantity</a>
+        </ul>
+      <tr>
+       <th>Source
+       <td>
+        <ul>
+         <li><a data-link-type="dfn" href="iso-80000-1.html#isq" id="ref-for-isq">iso-80000-1:ISQ</a>
+        </ul>
+      <tr>
+       <th>Target
+       <td>
+        <ul>
+         <li><a data-link-type="dfn" href="iec-80000-6.1.html#electric-current" id="ref-for-electric-current①">electric-current</a>
+        </ul>
+      <tr>
+       <th>Properties
+       <td>
+        <ul>
+         <li><a data-link-type="dfn" href="../bipm.org/jcgm/vim4.html#dimensionsymbol" id="ref-for-dimensionsymbol">vim4:dimensionSymbol</a> I
+        </ul>
+    </table>
+    <h3 class="heading settled" data-level="5.2" id="SI-ampere"><span class="secno">5.2. </span><span class="content"><dfn data-dfn-type="dfn" data-export id="si-ampere">SI-ampere<a class="self-link" href="#si-ampere"></a></dfn></span><a class="self-link" href="#SI-ampere"></a></h3>
+    <table class="def">
+     <tbody>
+      <tr>
+       <th>Types
+       <td>
+        <ul>
+         <li><a data-link-type="dfn" href="../bipm.org/jcgm/vim4.html#systemhasbaseunit" id="ref-for-systemhasbaseunit">vim4:SystemHasBaseUnit</a>
+        </ul>
+      <tr>
+       <th>Source
+       <td>
+        <ul>
+         <li><a data-link-type="dfn" href="iso-80000-1.html#si" id="ref-for-si">iso-80000-1:SI</a>
+        </ul>
+      <tr>
+       <th>Target
+       <td>
+        <ul>
+         <li><a data-link-type="dfn" href="iec-80000-6.1.html#ampere" id="ref-for-ampere">ampere</a>
+        </ul>
+    </table>
+   </div>
   </main>
 <script>
 (function() {
@@ -2222,4 +2233,162 @@ for example, (S.2.23, p. 33) refers to the definition of 'object' on page 33.</p
   }
 
 })();
+</script>
+  <h2 class="no-num no-ref heading settled" id="index"><span class="content">Index</span><a class="self-link" href="#index"></a></h2>
+  <h3 class="no-num no-ref heading settled" id="index-defined-here"><span class="content">Terms defined by this specification</span><a class="self-link" href="#index-defined-here"></a></h3>
+  <ul class="index">
+   <li><a href="#ampere">ampere</a><span>, in § 4.1</span>
+   <li><a href="#electric-current">electric-current</a><span>, in § 4.2</span>
+   <li><a href="#isq-electric-current">ISQ-electric-current</a><span>, in § 5.1</span>
+   <li><a href="#si-ampere">SI-ampere</a><span>, in § 5.2</span>
+  </ul>
+  <aside class="dfn-panel" data-for="term-for-dimensionsymbol">
+   <a href="../bipm.org/jcgm/vim4.html#dimensionsymbol">../bipm.org/jcgm/vim4.html#dimensionsymbol</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-dimensionsymbol">5.1. ISQ-electric-current</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-generalunitaryquantity">
+   <a href="../bipm.org/jcgm/vim4.html#generalunitaryquantity">../bipm.org/jcgm/vim4.html#generalunitaryquantity</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-generalunitaryquantity">4.2. electric-current</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-id">
+   <a href="../bipm.org/jcgm/vim4.html#id">../bipm.org/jcgm/vim4.html#id</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-id">4.1. ampere</a>
+    <li><a href="#ref-for-id①">4.2. electric-current</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-instantiates">
+   <a href="../bipm.org/jcgm/vim4.html#instantiates">../bipm.org/jcgm/vim4.html#instantiates</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-instantiates">4.1. ampere</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-systemhasbaseunit">
+   <a href="../bipm.org/jcgm/vim4.html#systemhasbaseunit">../bipm.org/jcgm/vim4.html#systemhasbaseunit</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-systemhasbaseunit">5.2. SI-ampere</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-systemhasbaseunitaryquantity">
+   <a href="../bipm.org/jcgm/vim4.html#systemhasbaseunitaryquantity">../bipm.org/jcgm/vim4.html#systemhasbaseunitaryquantity</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-systemhasbaseunitaryquantity">5.1. ISQ-electric-current</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-unprefixedmeasurementunit">
+   <a href="../bipm.org/jcgm/vim4.html#unprefixedmeasurementunit">../bipm.org/jcgm/vim4.html#unprefixedmeasurementunit</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-unprefixedmeasurementunit">4.1. ampere</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-ampere">
+   <a href="iec-80000-6.1.html#ampere">iec-80000-6.1.html#ampere</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-ampere">5.2. SI-ampere</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-electric-current">
+   <a href="iec-80000-6.1.html#electric-current">iec-80000-6.1.html#electric-current</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-electric-current">4.1. ampere</a>
+    <li><a href="#ref-for-electric-current①">5.1. ISQ-electric-current</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-isq">
+   <a href="iso-80000-1.html#isq">iso-80000-1.html#isq</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-isq">5.1. ISQ-electric-current</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-si">
+   <a href="iso-80000-1.html#si">iso-80000-1.html#si</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-si">5.2. SI-ampere</a>
+   </ul>
+  </aside>
+  <h3 class="no-num no-ref heading settled" id="index-defined-elsewhere"><span class="content">Terms defined by reference</span><a class="self-link" href="#index-defined-elsewhere"></a></h3>
+  <ul class="index">
+   <li>
+    <a data-link-type="biblio">[http://bipm.org/jcgm/vim4]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="term-for-dimensionsymbol">dimensionsymbol</span>
+     <li><span class="dfn-paneled" id="term-for-generalunitaryquantity">generalunitaryquantity</span>
+     <li><span class="dfn-paneled" id="term-for-id">id</span>
+     <li><span class="dfn-paneled" id="term-for-instantiates">instantiates</span>
+     <li><span class="dfn-paneled" id="term-for-systemhasbaseunit">systemhasbaseunit</span>
+     <li><span class="dfn-paneled" id="term-for-systemhasbaseunitaryquantity">systemhasbaseunitaryquantity</span>
+     <li><span class="dfn-paneled" id="term-for-unprefixedmeasurementunit">unprefixedmeasurementunit</span>
+    </ul>
+   <li>
+    <a data-link-type="biblio">[http://iso.org/iec-80000-6.1]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="term-for-ampere">ampere</span>
+     <li><span class="dfn-paneled" id="term-for-electric-current">electric-current</span>
+    </ul>
+   <li>
+    <a data-link-type="biblio">[http://iso.org/iso-80000-1]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="term-for-isq">isq</span>
+     <li><span class="dfn-paneled" id="term-for-si">si</span>
+    </ul>
+  </ul>
+<script>/* script-dfn-panel */
+
+document.body.addEventListener("click", function(e) {
+    var queryAll = function(sel) { return [].slice.call(document.querySelectorAll(sel)); }
+    // Find the dfn element or panel, if any, that was clicked on.
+    var el = e.target;
+    var target;
+    var hitALink = false;
+    while(el.parentElement) {
+        if(el.tagName == "A") {
+            // Clicking on a link in a <dfn> shouldn't summon the panel
+            hitALink = true;
+        }
+        if(el.classList.contains("dfn-paneled")) {
+            target = "dfn";
+            break;
+        }
+        if(el.classList.contains("dfn-panel")) {
+            target = "dfn-panel";
+            break;
+        }
+        el = el.parentElement;
+    }
+    if(target != "dfn-panel") {
+        // Turn off any currently "on" or "activated" panels.
+        queryAll(".dfn-panel.on, .dfn-panel.activated").forEach(function(el){
+            el.classList.remove("on");
+            el.classList.remove("activated");
+        });
+    }
+    if(target == "dfn" && !hitALink) {
+        // open the panel
+        var dfnPanel = document.querySelector(".dfn-panel[data-for='" + el.id + "']");
+        if(dfnPanel) {
+            dfnPanel.classList.add("on");
+            var rect = el.getBoundingClientRect();
+            dfnPanel.style.left = window.scrollX + rect.right + 5 + "px";
+            dfnPanel.style.top = window.scrollY + rect.top + "px";
+            var panelRect = dfnPanel.getBoundingClientRect();
+            var panelWidth = panelRect.right - panelRect.left;
+            if(panelRect.right > document.body.scrollWidth && (rect.left - (panelWidth + 5)) > 0) {
+                // Reposition, because the panel is overflowing
+                dfnPanel.style.left = window.scrollX + rect.left - (panelWidth + 5) + "px";
+            }
+        } else {
+            console.log("Couldn't find .dfn-panel[data-for='" + el.id + "']");
+        }
+    } else if(target == "dfn-panel") {
+        // Switch it to "activated" state, which pins it.
+        el.classList.add("activated");
+        el.style.left = null;
+        el.style.top = null;
+    }
+
+});
 </script>

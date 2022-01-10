@@ -128,15 +128,15 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>Magnitude ? <a spec="http://iupac.org/metrology" lt="HasReference">HasReference</a> ? <a spec="http://iupac.org/metrology" lt="Reference">Reference</a> 
+			<li>Magnitude ← <a spec="http://iupac.org/metrology" lt="HasReference">HasReference</a> → <a spec="http://iupac.org/metrology" lt="Reference">Reference</a> 
 			</li>
-			<li>Magnitude ? <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementProcedure">HasReferenceToMeasurementProcedure</a> ? <a spec="http://iupac.org/metrology" lt="MeasurementProcedure">MeasurementProcedure</a> 
+			<li>Magnitude ← <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementProcedure">HasReferenceToMeasurementProcedure</a> → <a spec="http://iupac.org/metrology" lt="MeasurementProcedure">MeasurementProcedure</a> 
 			</li>
-			<li>Magnitude ? <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementUnit">HasReferenceToMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to at least 1)
+			<li>Magnitude ← <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementUnit">HasReferenceToMeasurementUnit</a> → <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to at least 1)
 			</li>
-			<li>Magnitude ? <a spec="http://iupac.org/metrology" lt="HasReferenceToReferenceMaterial">HasReferenceToReferenceMaterial</a> ? <a spec="http://iupac.org/metrology" lt="ReferenceMaterial">ReferenceMaterial</a> 
+			<li>Magnitude ← <a spec="http://iupac.org/metrology" lt="HasReferenceToReferenceMaterial">HasReferenceToReferenceMaterial</a> → <a spec="http://iupac.org/metrology" lt="ReferenceMaterial">ReferenceMaterial</a> 
 			</li>
-			<li>Magnitude ? <a spec="http://iupac.org/metrology" lt="IsMagnitudeOf">IsMagnitudeOf</a> ? <a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a> 
+			<li>Magnitude ← <a spec="http://iupac.org/metrology" lt="IsMagnitudeOf">IsMagnitudeOf</a> → <a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a> 
 			</li>
 		</ul>
 		</td>
@@ -174,7 +174,7 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ? <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementProcedure">HasReferenceToMeasurementProcedure</a> ? MeasurementProcedure 
+			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ← <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementProcedure">HasReferenceToMeasurementProcedure</a> → MeasurementProcedure 
 			</li>
 		</ul>
 		</td>
@@ -222,15 +222,15 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://iupac.org/metrology" lt="DerivedMeasurementUnit">DerivedMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="HasFactorForMeasurementUnit">HasFactorForMeasurementUnit</a> ? MeasurementUnit 
+			<li><a spec="http://iupac.org/metrology" lt="DerivedMeasurementUnit">DerivedMeasurementUnit</a> ← <a spec="http://iupac.org/metrology" lt="HasFactorForMeasurementUnit">HasFactorForMeasurementUnit</a> → MeasurementUnit 
 			</li>
-			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ? <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementUnit">HasReferenceToMeasurementUnit</a> ? MeasurementUnit 
+			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ← <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementUnit">HasReferenceToMeasurementUnit</a> → MeasurementUnit 
 			</li>
-			<li><a spec="http://iupac.org/metrology" lt="NonCoherentDerivedMeasurementUnit">NonCoherentDerivedMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="NonCoherentDerivedMeasurementUnitOf">NonCoherentDerivedMeasurementUnitOf</a> ? MeasurementUnit 
+			<li><a spec="http://iupac.org/metrology" lt="NonCoherentDerivedMeasurementUnit">NonCoherentDerivedMeasurementUnit</a> ← <a spec="http://iupac.org/metrology" lt="NonCoherentDerivedMeasurementUnitOf">NonCoherentDerivedMeasurementUnitOf</a> → MeasurementUnit 
 			</li>
-			<li><a spec="http://iupac.org/metrology" lt="PrefixedMeasurementUnit">PrefixedMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="PrefixesMeasurementUnit">PrefixesMeasurementUnit</a> ? MeasurementUnit 
+			<li><a spec="http://iupac.org/metrology" lt="PrefixedMeasurementUnit">PrefixedMeasurementUnit</a> ← <a spec="http://iupac.org/metrology" lt="PrefixesMeasurementUnit">PrefixesMeasurementUnit</a> → MeasurementUnit 
 			</li>
-			<li><a spec="http://iupac.org/metrology" lt="SystemOfMetrologicalUnits">SystemOfMetrologicalUnits</a> ? <a spec="http://iupac.org/metrology" lt="SystemHasMetrologicalUnit">SystemHasMetrologicalUnit</a> ? MeasurementUnit 
+			<li><a spec="http://iupac.org/metrology" lt="SystemOfMetrologicalUnits">SystemOfMetrologicalUnits</a> ← <a spec="http://iupac.org/metrology" lt="SystemHasMetrologicalUnit">SystemHasMetrologicalUnit</a> → MeasurementUnit 
 			</li>
 		</ul>
 		</td>
@@ -321,7 +321,7 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a> ? <a spec="http://iupac.org/metrology" lt="IsQuantityOf">IsQuantityOf</a> ? Object 
+			<li><a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a> ← <a spec="http://iupac.org/metrology" lt="IsQuantityOf">IsQuantityOf</a> → Object 
 			</li>
 		</ul>
 		</td>
@@ -355,13 +355,13 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>OrdinalMagnitude ? <a spec="http://iupac.org/metrology" lt="EqualOrdinalMagnitudeComparison">EqualOrdinalMagnitudeComparison</a> ? <a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> 
+			<li>OrdinalMagnitude ← <a spec="http://iupac.org/metrology" lt="EqualOrdinalMagnitudeComparison">EqualOrdinalMagnitudeComparison</a> → <a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> 
 			</li>
-			<li>OrdinalMagnitude ? <a spec="http://iupac.org/metrology" lt="GreaterThanOrdinalMagnitudeComparison">GreaterThanOrdinalMagnitudeComparison</a> ? <a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> 
+			<li>OrdinalMagnitude ← <a spec="http://iupac.org/metrology" lt="GreaterThanOrdinalMagnitudeComparison">GreaterThanOrdinalMagnitudeComparison</a> → <a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> 
 			</li>
-			<li>OrdinalMagnitude ? <a spec="http://iupac.org/metrology" lt="LessThanOrdinalMagnitudeComparison">LessThanOrdinalMagnitudeComparison</a> ? <a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> 
+			<li>OrdinalMagnitude ← <a spec="http://iupac.org/metrology" lt="LessThanOrdinalMagnitudeComparison">LessThanOrdinalMagnitudeComparison</a> → <a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> 
 			</li>
-			<li>OrdinalMagnitude ? <a spec="http://iupac.org/metrology" lt="OrdinalMagnitudeComparison">OrdinalMagnitudeComparison</a> ? <a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> 
+			<li>OrdinalMagnitude ← <a spec="http://iupac.org/metrology" lt="OrdinalMagnitudeComparison">OrdinalMagnitudeComparison</a> → <a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> 
 			</li>
 		</ul>
 		</td>
@@ -371,13 +371,13 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ? <a spec="http://iupac.org/metrology" lt="EqualOrdinalMagnitudeComparison">EqualOrdinalMagnitudeComparison</a> ? OrdinalMagnitude 
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ← <a spec="http://iupac.org/metrology" lt="EqualOrdinalMagnitudeComparison">EqualOrdinalMagnitudeComparison</a> → OrdinalMagnitude 
 			</li>
-			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ? <a spec="http://iupac.org/metrology" lt="GreaterThanOrdinalMagnitudeComparison">GreaterThanOrdinalMagnitudeComparison</a> ? OrdinalMagnitude 
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ← <a spec="http://iupac.org/metrology" lt="GreaterThanOrdinalMagnitudeComparison">GreaterThanOrdinalMagnitudeComparison</a> → OrdinalMagnitude 
 			</li>
-			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ? <a spec="http://iupac.org/metrology" lt="LessThanOrdinalMagnitudeComparison">LessThanOrdinalMagnitudeComparison</a> ? OrdinalMagnitude 
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ← <a spec="http://iupac.org/metrology" lt="LessThanOrdinalMagnitudeComparison">LessThanOrdinalMagnitudeComparison</a> → OrdinalMagnitude 
 			</li>
-			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ? <a spec="http://iupac.org/metrology" lt="OrdinalMagnitudeComparison">OrdinalMagnitudeComparison</a> ? OrdinalMagnitude 
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ← <a spec="http://iupac.org/metrology" lt="OrdinalMagnitudeComparison">OrdinalMagnitudeComparison</a> → OrdinalMagnitude 
 			</li>
 		</ul>
 		</td>
@@ -417,7 +417,7 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://iupac.org/metrology" lt="PrefixedMeasurementUnit">PrefixedMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="HasPrefix">HasPrefix</a> ? Prefix 
+			<li><a spec="http://iupac.org/metrology" lt="PrefixedMeasurementUnit">PrefixedMeasurementUnit</a> ← <a spec="http://iupac.org/metrology" lt="HasPrefix">HasPrefix</a> → Prefix 
 			</li>
 		</ul>
 		</td>
@@ -453,9 +453,9 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>PrefixedMeasurementUnit ? <a spec="http://iupac.org/metrology" lt="HasPrefix">HasPrefix</a> ? <a spec="http://iupac.org/metrology" lt="Prefix">Prefix</a> 
+			<li>PrefixedMeasurementUnit ← <a spec="http://iupac.org/metrology" lt="HasPrefix">HasPrefix</a> → <a spec="http://iupac.org/metrology" lt="Prefix">Prefix</a> 
 			</li>
-			<li>PrefixedMeasurementUnit ? <a spec="http://iupac.org/metrology" lt="PrefixesMeasurementUnit">PrefixesMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> 
+			<li>PrefixedMeasurementUnit ← <a spec="http://iupac.org/metrology" lt="PrefixesMeasurementUnit">PrefixesMeasurementUnit</a> → <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> 
 			</li>
 		</ul>
 		</td>
@@ -503,7 +503,7 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ? <a spec="http://iupac.org/metrology" lt="HasReference">HasReference</a> ? Reference 
+			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ← <a spec="http://iupac.org/metrology" lt="HasReference">HasReference</a> → Reference 
 			</li>
 		</ul>
 		</td>
@@ -539,7 +539,7 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ? <a spec="http://iupac.org/metrology" lt="HasReferenceToReferenceMaterial">HasReferenceToReferenceMaterial</a> ? ReferenceMaterial 
+			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ← <a spec="http://iupac.org/metrology" lt="HasReferenceToReferenceMaterial">HasReferenceToReferenceMaterial</a> → ReferenceMaterial 
 			</li>
 		</ul>
 		</td>
@@ -605,7 +605,7 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>UnitaryMagnitude ? <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementUnit">HasReferenceToMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to exactly 1)
+			<li>UnitaryMagnitude ← <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementUnit">HasReferenceToMeasurementUnit</a> → <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to exactly 1)
 			</li>
 		</ul>
 		</td>
@@ -615,7 +615,7 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://iupac.org/metrology" lt="DerivedUnitaryQuantity">DerivedUnitaryQuantity</a> ? <a spec="http://iupac.org/metrology" lt="HasFactorForUnitaryMagnitude">HasFactorForUnitaryMagnitude</a> ? UnitaryMagnitude 
+			<li><a spec="http://iupac.org/metrology" lt="DerivedUnitaryQuantity">DerivedUnitaryQuantity</a> ← <a spec="http://iupac.org/metrology" lt="HasFactorForUnitaryMagnitude">HasFactorForUnitaryMagnitude</a> → UnitaryMagnitude 
 			</li>
 		</ul>
 		</td>
@@ -697,7 +697,7 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>DerivedMeasurementUnit ? <a spec="http://iupac.org/metrology" lt="HasFactorForMeasurementUnit">HasFactorForMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> 
+			<li>DerivedMeasurementUnit ← <a spec="http://iupac.org/metrology" lt="HasFactorForMeasurementUnit">HasFactorForMeasurementUnit</a> → <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> 
 			</li>
 		</ul>
 		</td>
@@ -734,9 +734,9 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>DerivedUnitaryQuantity ? <a spec="http://iupac.org/metrology" lt="HasFactorForUnitaryMagnitude">HasFactorForUnitaryMagnitude</a> ? <a spec="http://iupac.org/metrology" lt="UnitaryMagnitude">UnitaryMagnitude</a> 
+			<li>DerivedUnitaryQuantity ← <a spec="http://iupac.org/metrology" lt="HasFactorForUnitaryMagnitude">HasFactorForUnitaryMagnitude</a> → <a spec="http://iupac.org/metrology" lt="UnitaryMagnitude">UnitaryMagnitude</a> 
 			</li>
-			<li>DerivedUnitaryQuantity ? <a spec="http://iupac.org/metrology" lt="HasFactorForUnitaryQuantity">HasFactorForUnitaryQuantity</a> ? <a spec="http://iupac.org/metrology" lt="UnitaryQuantity">UnitaryQuantity</a> 
+			<li>DerivedUnitaryQuantity ← <a spec="http://iupac.org/metrology" lt="HasFactorForUnitaryQuantity">HasFactorForUnitaryQuantity</a> → <a spec="http://iupac.org/metrology" lt="UnitaryQuantity">UnitaryQuantity</a> 
 			</li>
 		</ul>
 		</td>
@@ -839,7 +839,7 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>NonCoherentDerivedMeasurementUnit ? <a spec="http://iupac.org/metrology" lt="NonCoherentDerivedMeasurementUnitOf">NonCoherentDerivedMeasurementUnitOf</a> ? <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> 
+			<li>NonCoherentDerivedMeasurementUnit ← <a spec="http://iupac.org/metrology" lt="NonCoherentDerivedMeasurementUnitOf">NonCoherentDerivedMeasurementUnitOf</a> → <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> 
 			</li>
 		</ul>
 		</td>
@@ -881,7 +881,7 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ? <a spec="http://iupac.org/metrology" lt="IsMagnitudeOf">IsMagnitudeOf</a> ? OrdinalQuantity 
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ← <a spec="http://iupac.org/metrology" lt="IsMagnitudeOf">IsMagnitudeOf</a> → OrdinalQuantity 
 			</li>
 		</ul>
 		</td>
@@ -940,7 +940,7 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>Quantity ? <a spec="http://iupac.org/metrology" lt="IsQuantityOf">IsQuantityOf</a> ? <a spec="http://iupac.org/metrology" lt="Object">Object</a> 
+			<li>Quantity ← <a spec="http://iupac.org/metrology" lt="IsQuantityOf">IsQuantityOf</a> → <a spec="http://iupac.org/metrology" lt="Object">Object</a> 
 			</li>
 		</ul>
 		</td>
@@ -950,9 +950,9 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ? <a spec="http://iupac.org/metrology" lt="IsMagnitudeOf">IsMagnitudeOf</a> ? Quantity 
+			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ← <a spec="http://iupac.org/metrology" lt="IsMagnitudeOf">IsMagnitudeOf</a> → Quantity 
 			</li>
-			<li><a spec="http://iupac.org/metrology" lt="IsReflexiveMagnitudeOf">IsReflexiveMagnitudeOf</a> ? <a spec="http://iupac.org/metrology" lt="IsReflexiveMagnitudeOf">IsReflexiveMagnitudeOf</a> ? Quantity 
+			<li><a spec="http://iupac.org/metrology" lt="IsReflexiveMagnitudeOf">IsReflexiveMagnitudeOf</a> ← <a spec="http://iupac.org/metrology" lt="IsReflexiveMagnitudeOf">IsReflexiveMagnitudeOf</a> → Quantity 
 			</li>
 		</ul>
 		</td>
@@ -989,7 +989,7 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>SystemOfMetrologicalUnits ? <a spec="http://iupac.org/metrology" lt="SystemHasMetrologicalUnit">SystemHasMetrologicalUnit</a> ? <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> 
+			<li>SystemOfMetrologicalUnits ← <a spec="http://iupac.org/metrology" lt="SystemHasMetrologicalUnit">SystemHasMetrologicalUnit</a> → <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> 
 			</li>
 		</ul>
 		</td>
@@ -1031,7 +1031,7 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>SystemOfUnitaryQuantities ? <a spec="http://iupac.org/metrology" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> ? <a spec="http://iupac.org/metrology" lt="UnitaryQuantity">UnitaryQuantity</a> 
+			<li>SystemOfUnitaryQuantities ← <a spec="http://iupac.org/metrology" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> → <a spec="http://iupac.org/metrology" lt="UnitaryQuantity">UnitaryQuantity</a> 
 			</li>
 		</ul>
 		</td>
@@ -1088,11 +1088,11 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with target</th>
 		<td><ul>
-			<li><a spec="http://iupac.org/metrology" lt="DerivedUnitaryQuantity">DerivedUnitaryQuantity</a> ? <a spec="http://iupac.org/metrology" lt="HasFactorForUnitaryQuantity">HasFactorForUnitaryQuantity</a> ? UnitaryQuantity 
+			<li><a spec="http://iupac.org/metrology" lt="DerivedUnitaryQuantity">DerivedUnitaryQuantity</a> ← <a spec="http://iupac.org/metrology" lt="HasFactorForUnitaryQuantity">HasFactorForUnitaryQuantity</a> → UnitaryQuantity 
 			</li>
-			<li><a spec="http://iupac.org/metrology" lt="UnitaryMagnitude">UnitaryMagnitude</a> ? <a spec="http://iupac.org/metrology" lt="IsMagnitudeOf">IsMagnitudeOf</a> ? UnitaryQuantity 
+			<li><a spec="http://iupac.org/metrology" lt="UnitaryMagnitude">UnitaryMagnitude</a> ← <a spec="http://iupac.org/metrology" lt="IsMagnitudeOf">IsMagnitudeOf</a> → UnitaryQuantity 
 			</li>
-			<li><a spec="http://iupac.org/metrology" lt="SystemOfUnitaryQuantities">SystemOfUnitaryQuantities</a> ? <a spec="http://iupac.org/metrology" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> ? UnitaryQuantity 
+			<li><a spec="http://iupac.org/metrology" lt="SystemOfUnitaryQuantities">SystemOfUnitaryQuantities</a> ← <a spec="http://iupac.org/metrology" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> → UnitaryQuantity 
 			</li>
 		</ul>
 		</td>
@@ -1830,7 +1830,7 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 	<tr>
 		<th>Relations with source</th>
 		<td><ul>
-			<li>IsReflexiveMagnitudeOf ? <a spec="http://iupac.org/metrology" lt="IsReflexiveMagnitudeOf">IsReflexiveMagnitudeOf</a> ? <a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a> 
+			<li>IsReflexiveMagnitudeOf ← <a spec="http://iupac.org/metrology" lt="IsReflexiveMagnitudeOf">IsReflexiveMagnitudeOf</a> → <a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a> 
 			</li>
 		</ul>
 		</td>
@@ -2351,43 +2351,43 @@ Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontol
 ## <dfn>EqualsGreaterThanTransitivity</dfn> ## {#EqualsGreaterThanTransitivity}
 
 equals(m1, m2)
- ? greaterThan(m2, m3)
+ ∧ greaterThan(m2, m3)
  -> greaterThan(m1, m3)
 
 ## <dfn>EqualsLessThanTransitivity</dfn> ## {#EqualsLessThanTransitivity}
 
 equals(m1, m2)
- ? lessThan(m2, m3)
+ ∧ lessThan(m2, m3)
  -> lessThan(m1, m3)
 
 ## <dfn>EqualsTransitivity</dfn> ## {#EqualsTransitivity}
 
 equals(m1, m2)
- ? equals(m2, m3)
+ ∧ equals(m2, m3)
  -> equals(m1, m3)
 
 ## <dfn>GreaterThanEqualsTransitivity</dfn> ## {#GreaterThanEqualsTransitivity}
 
 greaterThan(m1, m2)
- ? equals(m2, m3)
+ ∧ equals(m2, m3)
  -> greaterThan(m1, m3)
 
 ## <dfn>GreaterThanTransitivity</dfn> ## {#GreaterThanTransitivity}
 
 greaterThan(m1, m2)
- ? greaterThan(m2, m3)
+ ∧ greaterThan(m2, m3)
  -> greaterThan(m1, m3)
 
 ## <dfn>LessThanEqualsTransitivity</dfn> ## {#LessThanEqualsTransitivity}
 
 lessThan(m1, m2)
- ? equals(m2, m3)
+ ∧ equals(m2, m3)
  -> lessThan(m1, m3)
 
 ## <dfn>LessThanTransitivity</dfn> ## {#LessThanTransitivity}
 
 lessThan(m1, m2)
- ? lessThan(m2, m3)
+ ∧ lessThan(m2, m3)
  -> lessThan(m1, m3)
 
 </div>
