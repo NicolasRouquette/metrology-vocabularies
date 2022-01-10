@@ -1,0 +1,392 @@
+<pre class='metadata'>
+Title: IEC-80000-6
+Shortname: iec-80000-6.11
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/iso.org/iec-80000-6.11
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: Jet Propulsion Laboratory
+!Copyright: Copyright 2021, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. This software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons.
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: The IEC-80000-6 library.
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://iso.org/iec-80000-6.11](iec-80000-6.11.html)  [iec-80000-6.11]
+	
+# Extensions # {#Extensions}
+	* [http://iso.org/iso-80000-1](http://iso.org/iso-80000-1.html) [iso-80000-1]
+
+	* [http://iso.org/iso-80000-3.1](http://iso.org/iso-80000-3.html) [iso-80000-3.1]
+
+	* [http://iso.org/iec-80000-6.10](http://iso.org/iec-80000-6.html) [iec-80000-6.10]
+
+# Usages # {#Iclusions}
+	* [http://purl.org/dc/elements/1.1](http://purl.org/dc/elements/1.html) [dc]
+
+	* [http://www.w3.org/2002/07/owl](http://www.w3.org/2002/07/owl.html) [owl]
+
+	* [http://bipm.org/jcgm/vim4](http://bipm.org/jcgm/vim4.html) [vim4]
+
+# Concept Instances # {#ConceptInstances}
+## <dfn>electric-potential</dfn> ## {#Electric-potential}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> electric-potential</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>volt</dfn> ## {#Volt}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="UnprefixedMeasurementUnit">vim4:UnprefixedMeasurementUnit</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> volt</li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Links</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="instantiates">vim4:instantiates</a> <a spec="http://iso.org/iec-80000-6.11" lt="electric-potential">electric-potential</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>voltage</dfn> ## {#Voltage}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> voltage</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+# Relation Instances # {#RelationInstances}
+## <dfn>ISQ-electric-field-strength.electric-field-strength</dfn> ## {#ISQ-electric-field-strength.electric-field-strength}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iec-80000-6.11" lt="ISQ-electric-potential">ISQ-electric-potential</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iec-80000-6.10" lt="ISQ-electric-field-strength">iec-80000-6.10:ISQ-electric-field-strength</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-electric-potential</dfn> ## {#ISQ-electric-potential}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iec-80000-6.11" lt="electric-potential">electric-potential</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-electric-potential.length</dfn> ## {#ISQ-electric-potential.length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iec-80000-6.11" lt="ISQ-electric-potential">ISQ-electric-potential</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-length">iso-80000-3.1:ISQ-length</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-voltage</dfn> ## {#ISQ-voltage}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iec-80000-6.11" lt="voltage">voltage</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-voltage.electric-potential</dfn> ## {#ISQ-voltage.electric-potential}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iec-80000-6.11" lt="ISQ-voltage">ISQ-voltage</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iec-80000-6.11" lt="ISQ-electric-potential">ISQ-electric-potential</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>SI-volt</dfn> ## {#SI-volt}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">vim4:SystemHasDerivedUnit</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="SI">iso-80000-1:SI</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iec-80000-6.11" lt="volt">volt</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>SI-volt.metre</dfn> ## {#SI-volt.metre}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitFactor">vim4:HasPowerOfUnitFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iec-80000-6.11" lt="SI-volt">SI-volt</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="SI-metre">iso-80000-3.1:SI-metre</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>SI-volt.per.coulomb</dfn> ## {#SI-volt.per.coulomb}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitFactor">vim4:HasPowerOfUnitFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iec-80000-6.11" lt="SI-volt">SI-volt</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iec-80000-6.10" lt="SI-volt-per-metre">iec-80000-6.10:SI-volt-per-metre</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> -1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

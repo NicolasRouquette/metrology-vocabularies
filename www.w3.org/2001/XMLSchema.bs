@@ -1,0 +1,245 @@
+<pre class='metadata'>
+Title: XSD
+Shortname: xsd
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/www.w3.org/2001/XMLSchema
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: W3C
+!Copyright: Copyright 2014 W3C.
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: The XSD vocabulary is a subset of the corresponding vocabulary maintained by the W3C.
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://www.w3.org/2001/XMLSchema](XMLSchema.html)  [xsd]
+	
+# Imports # {#Extensions}
+	* [http://purl.org/dc/elements/1.1](http://purl.org/dc/elements/1.html) [dc]
+
+	* [http://www.w3.org/2000/01/rdf-schema](http://www.w3.org/2000/01/rdf-schema.html) [rdfs]
+
+# Scalars # {#Scalars}
+## <dfn>NCName</dfn> ## {#NCName}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>NMTOKEN</dfn> ## {#NMTOKEN}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>Name</dfn> ## {#Name}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>anyURI</dfn> ## {#AnyURI}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>base64Binary</dfn> ## {#Base64Binary}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>boolean</dfn> ## {#Boolean}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>byte</dfn> ## {#Byte}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>dateTime</dfn> ## {#DateTime}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>dateTimeStamp</dfn> ## {#DateTimeStamp}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>decimal</dfn> ## {#Decimal}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>double</dfn> ## {#Double}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>float</dfn> ## {#Float}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>hexBinary</dfn> ## {#HexBinary}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>int</dfn> ## {#Int}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>integer</dfn> ## {#Integer}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>language</dfn> ## {#Language}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>long</dfn> ## {#Long}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>negativeInteger</dfn> ## {#NegativeInteger}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>nonNegativeInteger</dfn> ## {#NonNegativeInteger}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>nonPositiveInteger</dfn> ## {#NonPositiveInteger}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>normalizedString</dfn> ## {#NormalizedString}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>positiveInteger</dfn> ## {#PositiveInteger}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>short</dfn> ## {#Short}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>string</dfn> ## {#String}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>token</dfn> ## {#Token}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>unsignedByte</dfn> ## {#UnsignedByte}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>unsignedInt</dfn> ## {#UnsignedInt}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>unsignedLong</dfn> ## {#UnsignedLong}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>unsignedShort</dfn> ## {#UnsignedShort}
+
+
+
+<table class='def'>
+</table>
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

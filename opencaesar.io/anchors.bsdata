@@ -1,0 +1,749 @@
+
+
+
+urlPrefix: ../bipm.org/jcgm/vim4.html#; type: dfn; spec: http://bipm.org/jcgm/vim4
+	text: IdentifiedElement
+	text: id
+	text: RationalExponent
+	text: exponent
+	text: HasCoherence
+	text: isCoherent
+	text: GeneralProperty
+	text: GeneralNominalProperty
+	text: GeneralQuantity
+	text: GeneralUnitaryQuantity
+	text: Specializes
+	text: specializes
+	text: SpecializesTransitivity
+	text: GeneralOrdinalQuantity
+	text: IndividualProperty
+	text: IndividualNominalProperty
+	text: IndividualQuantity
+	text: IndividualUnitaryQuantity
+	text: IndividualOrdinalQuantity
+	text: Instantiates
+	text: instantiates
+	text: InstantiatesSpecializesTransitivity
+	text: SystemOfQuantities
+	text: SystemHasUnitaryQuantity
+	text: systemHasUnitaryQuantity
+	text: SystemHasBaseUnitaryQuantity
+	text: systemHasBaseUnitaryQuantity
+	text: dimensionSymbol
+	text: SystemHasDerivedUnitaryQuantity
+	text: systemHasDerivedUnitaryQuantity
+	text: HasPowerOfUnitaryQuantityFactor
+	text: hasPowerOfUnitaryQuantityFactor
+	text: DerivationDefinedWithinTheSameSystemOfQuantities
+	text: HasQuantityDimension
+	text: hasQuantityDimension
+	text: DimensionDefinedWithinTheSameSystemOfQuantities
+	text: isDimensionless
+	text: SystemOfUnits
+	text: Given
+	text: given
+	text: Object
+	text: Characterizes
+	text: characterizes
+	text: QuantityValue
+	text: isTrueValue
+	text: isReferenceValue
+	text: IsAttributedTo
+	text: isAttributedTo
+	text: InherentOrdinalQuantity
+	text: OrdinalQuantityValue
+	text: InherentUnitaryQuantity
+	text: UnitaryQuantityValue
+	text: HasUnit
+	text: unit
+	text: hasDoubleNumber
+	text: MeasurementUnit
+	text: Multiple
+	text: HasMultiple
+	text: hasMultiple
+	text: IsMultipleOf
+	text: isMultipleOf
+	text: UnprefixedMeasurementUnit
+	text: PrefixedMeasurementUnit
+	text: SystemHasUnit
+	text: systemHasUnit
+	text: SystemHasBaseUnit
+	text: systemHasBaseUnit
+	text: SystemHasDerivedUnit
+	text: systemHasDerivedUnit
+	text: isOffSystemUnit
+	text: HasPowerOfUnitFactor
+	text: hasPowerOfUnitFactor
+	text: DerivationDefinedWithinTheSameSystemOfUnits
+	text: MeasurementScale
+	text: Includes
+	text: includes
+	text: ordinalPosition
+	text: UnitaryScale
+	text: OrdinalScale
+	text: ReferenceSet
+	text: Measurement
+	text: MeasurementPrinciple
+	text: MeasurementMethod
+	text: MeasurementProcedure
+	text: Describes
+	text: describes
+	text: MeasurementModel
+	text: Per
+	text: per
+	text: UsesOperationsOf
+	text: usesOperationsOf
+	text: IsBasedOn
+	text: isBasedOn
+	text: HasInput
+	text: hasInput
+	text: Measures
+	text: measures
+	text: IsInfluencedBy
+	text: isInfluencedBy
+	text: UsesCorrection
+	text: usesCorrection
+	text: YieldsMeasuredValue
+	text: yieldsMeasuredValue
+	text: MeasurementUncertainty
+	text: YieldsMeasurementUncertainty
+	text: yieldsMeasurementUncertainty
+
+
+urlPrefix: ../bipm.org/jcgm/vim4-terminological-analysis.html#; type: dfn; spec: http://bipm.org/jcgm/vim4-terminological-analysis
+	text: Coverage
+
+
+
+
+urlPrefix: ../iso.org/iec-80000-6.1.html#; type: dfn; spec: http://iso.org/iec-80000-6.1
+	text: electric-current
+	text: ISQ-electric-current
+	text: ampere
+	text: SI-ampere
+
+
+urlPrefix: ../iso.org/iec-80000-6.10.html#; type: dfn; spec: http://iso.org/iec-80000-6.10
+	text: electric-field-strength
+	text: ISQ-electric-field-strength
+	text: ISQ-electric-field-strength.force
+	text: ISQ-electric-field-strength.per.electric-charge
+	text: volt-per-metre
+	text: SI-volt-per-metre
+	text: SI-volt-per-metre.newton
+	text: SI-volt-per-metre.per.coulomb
+
+
+urlPrefix: ../iso.org/iec-80000-6.11.html#; type: dfn; spec: http://iso.org/iec-80000-6.11
+	text: electric-potential
+	text: ISQ-electric-potential
+	text: ISQ-electric-field-strength.electric-field-strength
+	text: ISQ-electric-potential.length
+	text: volt
+	text: SI-volt
+	text: SI-volt.per.coulomb
+	text: SI-volt.metre
+	text: voltage
+	text: ISQ-voltage
+	text: ISQ-voltage.electric-potential
+
+
+urlPrefix: ../iso.org/iec-80000-6.13.html#; type: dfn; spec: http://iso.org/iec-80000-6.13
+	text: capacitance
+	text: ISQ-capacitance
+	text: ISQ-electric-field-strength.electric-charge
+	text: ISQ-electric-field-strength.per.electric-potential
+	text: farad
+	text: SI-farad
+	text: SI-farad.coulomb
+	text: SI-farad.per.volt
+
+
+urlPrefix: ../iso.org/iec-80000-6.2.html#; type: dfn; spec: http://iso.org/iec-80000-6.2
+	text: electric-charge
+	text: ISQ-electric-charge
+	text: ISQ-electric-charge.electric-current
+	text: ISQ-electric-charge.time
+	text: coulomb
+	text: SI-coulomb
+	text: SI-coulomb.newton
+	text: SI-coulomb.second
+
+
+urlPrefix: ../iso.org/iec-80000-6.21.html#; type: dfn; spec: http://iso.org/iec-80000-6.21
+	text: magnetic-flux-density
+	text: ISQ-magnetic-flux-density
+	text: ISQ-magnetic-flux-density.force
+	text: ISQ-magnetic-flux-density.per.electric-charge
+	text: ISQ-magnetic-flux-density.per.velocity
+	text: tesla
+	text: SI-tesla
+	text: SI-tesla.newton
+	text: SI-tesla.per.coulomb
+	text: SI-tesla.per.metre-per-second
+
+
+urlPrefix: ../iso.org/iec-80000-6.45.html#; type: dfn; spec: http://iso.org/iec-80000-6.45
+	text: power
+	text: ISQ-power
+	text: ISQ-power.voltage
+	text: ISQ-power.electric-current
+	text: watt
+	text: SI-watt
+	text: SI-watt.volt
+	text: SI-watt.ampere
+
+
+urlPrefix: ../iso.org/iec-80000-6.46.html#; type: dfn; spec: http://iso.org/iec-80000-6.46
+	text: resistance
+	text: ISQ-resistance
+	text: ISQ-resistance.voltage
+	text: ISQ-resistance.per.electric-current
+	text: ohm
+	text: SI-ohm
+	text: SI-ohm.volt
+	text: SI-ohm.per.ampere
+
+
+urlPrefix: ../iso.org/iso-1087-1.html#; type: dfn; spec: http://iso.org/iso-1087-1
+	text: Object
+	text: Property
+	text: Concept
+	text: Characteristic
+	text: EssentialCharacteristic
+	text: DelimitingCharacteristic
+	text: HierarchicalRelation
+	text: GenericRelation
+	text: PartitiveRelation
+	text: AssociativeRelation
+	text: SequentialRelation
+	text: TemporalRelation
+	text: CausalRelation
+	text: ConceptSystem
+	text: Includes
+	text: IsIncludedIn
+	text: ConceptDiagram
+	text: Shows
+
+
+urlPrefix: ../iso.org/iso-80000-1.html#; type: dfn; spec: http://iso.org/iso-80000-1
+	text: yotta
+	text: zetta
+	text: exa
+	text: peta
+	text: tera
+	text: giga
+	text: mega
+	text: kilo
+	text: hecto
+	text: deca
+	text: deci
+	text: centi
+	text: milli
+	text: micro
+	text: nano
+	text: pico
+	text: femto
+	text: atto
+	text: zepto
+	text: yocto
+	text: ISQ
+	text: SI
+	text: sixty
+	text: one_of_sixty
+	text: Pi_180
+
+
+urlPrefix: ../iso.org/iso-80000-3.1.html#; type: dfn; spec: http://iso.org/iso-80000-3.1
+	text: length
+	text: ISQ-length
+	text: metre
+	text: SI-metre
+	text: decimetre
+	text: SI-decimetre
+	text: kilometre
+	text: SI-kilometre
+	text: breadth
+	text: ISQ-breadth
+	text: ISQ-breadth.length
+	text: height
+	text: ISQ-height
+	text: ISQ-height.length
+	text: thickness
+	text: ISQ-thickness
+	text: ISQ-thickness.length
+	text: radius
+	text: ISQ-radius
+	text: ISQ-radius.length
+	text: radial-distance
+	text: ISQ-radial-distance
+	text: ISQ-radial-distance.length
+	text: diameter
+	text: ISQ-diameter
+	text: ISQ-diameter.length
+	text: length-of-path
+	text: ISQ-length-of-path
+	text: ISQ-length-of-path.length
+	text: distance
+	text: ISQ-distance
+	text: ISQ-distance.length
+	text: cartesian-coordinate
+	text: ISQ-cartesian-coordinate
+	text: ISQ-cartesian-coordinate.length
+	text: position-vector
+	text: ISQ-position-vector
+	text: ISQ-position-vector.length
+	text: displacement
+	text: ISQ-displacement
+	text: ISQ-displacement.length
+	text: radius-of-curvature
+	text: ISQ-radius-of-curvature
+	text: ISQ-radius-of-curvature.length
+
+
+urlPrefix: ../iso.org/iso-80000-3.10.html#; type: dfn; spec: http://iso.org/iso-80000-3.10
+	text: angular-velocity
+	text: ISQ-angular-velocity
+	text: ISQ-angular-velocity.plane-angle
+	text: ISQ-angular-velocity.per.time
+	text: radian-per-second
+	text: SI-radian-per-second
+	text: SI-radian-per-second.radian
+	text: SI-radian-per-second.per.second
+
+
+urlPrefix: ../iso.org/iso-80000-3.11.html#; type: dfn; spec: http://iso.org/iso-80000-3.11
+	text: angular-acceleration
+	text: ISQ-angular-acceleration
+	text: ISQ-angular-acceleration.angular-velocity
+	text: ISQ-angular-acceleration.per.time
+	text: radian-per-second-squared
+	text: SI-radian-per-second-squared
+	text: SI-radian-per-second-squared.radian
+	text: SI-radian-per-second-squared.per.second-squared
+
+
+urlPrefix: ../iso.org/iso-80000-3.12.html#; type: dfn; spec: http://iso.org/iso-80000-3.12
+	text: period-duration
+	text: ISQ-period-duration
+	text: ISQ-period-duration.time
+
+
+urlPrefix: ../iso.org/iso-80000-3.14.html#; type: dfn; spec: http://iso.org/iso-80000-3.14
+	text: rotation
+	text: ISQ-rotation
+	text: ISQ-rotation.plane-angle
+	text: ISQ-rotation.per.2pi-plane-angle
+	text: revolution
+	text: SI-revolution
+	text: SI-revolution.radian
+	text: SI-revolution.per.radian
+
+
+urlPrefix: ../iso.org/iso-80000-3.15.html#; type: dfn; spec: http://iso.org/iso-80000-3.15
+	text: frequency
+	text: ISQ-frequency
+	text: ISQ-frequency.per.period-duration
+	text: hertz
+	text: SI-hertz
+	text: SI-hertz.per.second
+	text: rotational-frequency
+	text: ISQ-rotational-frequency
+	text: ISQ-rotational-frequency.rotation
+	text: ISQ-rotational-frequency.per.time
+	text: revolution-per-second
+	text: SI-revolution-per-second
+	text: SI-revolution-per-second.revolution
+	text: SI-revolution-per-second.per.second
+
+
+urlPrefix: ../iso.org/iso-80000-3.2.html#; type: dfn; spec: http://iso.org/iso-80000-3.2
+	text: curvature
+	text: ISQ-curvature
+	text: ISQ-curvature.length
+	text: metre-1
+	text: SI-metre-1
+	text: SI-metre-1.per.metre
+
+
+urlPrefix: ../iso.org/iso-80000-3.3.html#; type: dfn; spec: http://iso.org/iso-80000-3.3
+	text: area
+	text: ISQ-area
+	text: ISQ-area.length
+	text: square_metre
+	text: SI-square_metre
+	text: SI-square_metre-metre
+
+
+urlPrefix: ../iso.org/iso-80000-3.4.html#; type: dfn; spec: http://iso.org/iso-80000-3.4
+	text: volume
+	text: ISQ-volume
+	text: ISQ-volume-length
+	text: cubic_metre
+	text: SI-cubic_metre
+	text: SI-cubic_metre-metre
+	text: litre
+	text: SI-litre
+	text: SI-litre.metre
+
+
+urlPrefix: ../iso.org/iso-80000-3.5.html#; type: dfn; spec: http://iso.org/iso-80000-3.5
+	text: plane-angle
+	text: ISQ-plane-angle
+	text: 2pi-plane-angle
+	text: ISQ-2pi-plane-angle
+	text: ISQ-2pi-plane-angle.plane-angle
+	text: radian
+	text: SI-radian
+	text: degree-of-arc
+	text: SI-degree-of-arc
+	text: minute-of-arc
+	text: SI-minute-of-arc
+	text: second-of-arc
+	text: SI-second-of-arc
+
+
+urlPrefix: ../iso.org/iso-80000-3.6.html#; type: dfn; spec: http://iso.org/iso-80000-3.6
+	text: solid-angle
+	text: ISQ-solid-angle
+	text: ISQ-solid-angle.angle
+	text: steradian
+	text: SI-steradian
+	text: SI-steradian.radian
+
+
+urlPrefix: ../iso.org/iso-80000-3.7.html#; type: dfn; spec: http://iso.org/iso-80000-3.7
+	text: time
+	text: ISQ-time
+	text: second
+	text: SI-second
+	text: minute
+	text: SI-minute
+	text: hour
+	text: SI-hour
+
+
+urlPrefix: ../iso.org/iso-80000-3.8.html#; type: dfn; spec: http://iso.org/iso-80000-3.8
+	text: velocity
+	text: ISQ-velocity
+	text: ISQ-velocity.length
+	text: ISQ-velocity.per.time
+	text: metre-per-second
+	text: SI-metre-per-second
+	text: SI-metre-per-second.metre
+	text: SI-metre-per-second.per.second
+	text: kilometre-per-hour
+	text: SI-kilometre-per-hour
+	text: SI-kilometre-per-hour.kilometre
+	text: SI-kilometre-per-hour.per.hour
+
+
+urlPrefix: ../iso.org/iso-80000-3.9.html#; type: dfn; spec: http://iso.org/iso-80000-3.9
+	text: acceleration
+	text: ISQ-acceleration
+	text: ISQ-acceleration.velocity
+	text: ISQ-acceleration.per.time
+	text: metre-per-second-squared
+	text: SI-metre-per-second-squared
+	text: SI-metre-per-second-squared.metre-per-second
+	text: SI-metre-per-second.per.second
+
+
+urlPrefix: ../iso.org/iso-80000-4.1.html#; type: dfn; spec: http://iso.org/iso-80000-4.1
+	text: mass
+	text: ISQ-mass
+	text: kilogram
+	text: SI-kilogram
+
+
+urlPrefix: ../iso.org/iso-80000-4.11.html#; type: dfn; spec: http://iso.org/iso-80000-4.11
+	text: inpulse
+	text: ISQ-inpulse
+	text: ISQ-inpulse.force
+	text: ISQ-inpulse.time
+	text: newton-second
+	text: SI-newton-second
+	text: SI-newton-second.newton
+	text: SI-newton-second.second
+
+
+urlPrefix: ../iso.org/iso-80000-4.13.html#; type: dfn; spec: http://iso.org/iso-80000-4.13
+	text: moment-of-force
+	text: ISQ-moment-of-force
+	text: ISQ-moment-of-force.force
+	text: ISQ-moment-of-force.position-vector
+	text: newton-metre
+	text: SI-newton-metre
+	text: SI-newton-metre.newton
+	text: SI-newton-metre.second
+	text: torque
+	text: ISQ-torque
+	text: ISQ-torque.length
+
+
+urlPrefix: ../iso.org/iso-80000-4.14.html#; type: dfn; spec: http://iso.org/iso-80000-4.14
+	text: angular-inpulse
+	text: ISQ-angular-inpulse
+	text: ISQ-angular-inpulse.moment-of-force
+	text: ISQ-angular-inpulse.time
+	text: newton-metre-second
+	text: SI-newton-metre-second
+	text: SI-newton-metre-second.newton-metre
+	text: SI-newton-metre-second.second
+
+
+urlPrefix: ../iso.org/iso-80000-4.15.html#; type: dfn; spec: http://iso.org/iso-80000-4.15
+	text: pressure
+	text: ISQ-pressure
+	text: ISQ-pressure.force
+	text: ISQ-pressure.area
+	text: pascal
+	text: SI-pascal
+	text: SI-pascal.newton
+	text: SI-pascal.per.square-metre
+
+
+urlPrefix: ../iso.org/iso-80000-4.2.html#; type: dfn; spec: http://iso.org/iso-80000-4.2
+	text: mass-density
+	text: ISQ-mass-density
+	text: ISQ-mass-density.mass
+	text: ISQ-mass-density.per.volume
+	text: reference-mass-density
+	text: ISQ-reference-mass-density
+	text: ISQ-reference-mass-density.mass-density
+	text: kilogram-per-cubic_metre
+	text: SI-kilogram-per-cubic_metre
+	text: SI-kilogram-per-cubic_metre.kilogram
+	text: SI-kilogram-per-cubic_metre.per.cubic_metre
+
+
+urlPrefix: ../iso.org/iso-80000-4.26.html#; type: dfn; spec: http://iso.org/iso-80000-4.26
+	text: power
+	text: ISQ-power
+	text: ISQ-power.force
+	text: ISQ-power.velocity
+	text: watt
+	text: SI-watt
+	text: SI-watt.newton
+	text: SI-watt.metre-per-second
+
+
+urlPrefix: ../iso.org/iso-80000-4.3.html#; type: dfn; spec: http://iso.org/iso-80000-4.3
+	text: relative-mass-density
+	text: ISQ-relative-mass-density
+	text: ISQ-relative-mass-density.mass-density
+	text: ISQ-mass-density.per.reference-mass-density
+	text: kilogram-per-cubic_metre-over-kilogram-per-cubic_metre
+	text: SI-kilogram-per-cubic_metre-over-kilogram-per-cubic_metre
+	text: SI-kilogram-per-cubic_metre-over-kilogram-per-cubic_metre.kilogram-per-cubic_metre
+	text: SI-kilogram-per-cubic_metre-over-kilogram-per-cubic_metre.per.kilogram-per-cubic_metre
+
+
+urlPrefix: ../iso.org/iso-80000-4.8.html#; type: dfn; spec: http://iso.org/iso-80000-4.8
+	text: momentum
+	text: ISQ-momentum
+	text: ISQ-momentum.mass
+	text: ISQ-momentum.velocity
+	text: kilogram-metre-per-second
+	text: SI-kilogram-metre-per-second
+	text: SI-kilogram-metre-per-second.kilogram
+	text: SI-kilogram-metre-per-second.metre-per-second
+
+
+urlPrefix: ../iso.org/iso-80000-4.9.html#; type: dfn; spec: http://iso.org/iso-80000-4.9
+	text: force
+	text: ISQ-force
+	text: ISQ-force.momentum
+	text: ISQ-force.per.time
+	text: newton
+	text: SI-newton
+	text: SI-newton.kilogram-metre-per-second
+	text: SI-newton.per.second
+
+
+urlPrefix: ../iso.org/iso-80000-5.1.html#; type: dfn; spec: http://iso.org/iso-80000-5.1
+	text: thermodynamic-temperature
+	text: ISQ-thermodynamic-temperature
+	text: kelvin
+	text: SI-kelvin
+
+
+
+
+urlPrefix: ../iupac.org/metrology.html#; type: dfn; spec: http://iupac.org/metrology
+	text: Thing
+	text: MetrologicalEntity
+	text: ExponentFactor
+	text: exponent
+	text: Object
+	text: Reference
+	text: ReferenceMaterial
+	text: Quantity
+	text: IsQuantityOf
+	text: isQuantityOf
+	text: hasQuantity
+	text: IsMagnitudeOf
+	text: isMagnitudeOf
+	text: hasMagnitude
+	text: IsReflexiveMagnitudeOf
+	text: isReflexiveMagnitudeOf
+	text: OrdinalQuantity
+	text: UnitaryQuantity
+	text: IndependentUnitaryQuantity
+	text: DerivedUnitaryQuantity
+	text: HasFactorForUnitaryQuantity
+	text: hasFactorForUnitaryQuantity
+	text: HasFactorForUnitaryMagnitude
+	text: hasFactorForUnitaryMagnitude
+	text: isDimensionlessQuantity
+	text: SystemOfUnitaryQuantities
+	text: SystemHasUnitaryQuantity
+	text: systemHasUnitaryQuantity
+	text: isBaseQuantity
+	text: MeasurementProcedure
+	text: Magnitude
+	text: hasDoubleNumber
+	text: HasReference
+	text: hasReference
+	text: HasReferenceToReferenceMaterial
+	text: hasReferenceToReferenceMaterial
+	text: HasReferenceToMeasurementProcedure
+	text: hasReferenceToMeasurementProcedure
+	text: HasReferenceToMeasurementUnit
+	text: hasReferenceToMeasurementUnit
+	text: OrdinalMagnitude
+	text: OrdinalMagnitudeComparison
+	text: ordinalMagnitudeComparison
+	text: LessThanOrdinalMagnitudeComparison
+	text: lessThan
+	text: LessThanTransitivity
+	text: GreaterThanOrdinalMagnitudeComparison
+	text: greaterThan
+	text: GreaterThanTransitivity
+	text: EqualOrdinalMagnitudeComparison
+	text: equals
+	text: EqualsTransitivity
+	text: LessThanEqualsTransitivity
+	text: EqualsLessThanTransitivity
+	text: GreaterThanEqualsTransitivity
+	text: EqualsGreaterThanTransitivity
+	text: UnitaryMagnitude
+	text: MeasurementUnit
+	text: NonCoherentDerivedMeasurementUnit
+	text: NonCoherentDerivedMeasurementUnitOf
+	text: nonCoherentDerivedMeasurementUnitOf
+	text: nonCoherentRelationship
+	text: PrefixedMeasurementUnit
+	text: PrefixesMeasurementUnit
+	text: prefixesMeasurementUnit
+	text: Prefix
+	text: HasPrefix
+	text: hasPrefix
+	text: CoherentMeasurementUnit
+	text: isDimensionlessMeasurementUnit
+	text: IndependentMeasurementUnit
+	text: DerivedMeasurementUnit
+	text: HasFactorForMeasurementUnit
+	text: hasFactorForMeasurementUnit
+	text: SystemOfMetrologicalUnits
+	text: SystemHasMetrologicalUnit
+	text: systemHasMetrologicalUnit
+	text: isBaseMetrologicalUnit
+
+
+
+
+urlPrefix: viewpoint.html#; type: dfn; spec: http://opencaesar.io/viewpoint
+	text: type
+	text: group
+	text: image
+	text: show
+	text: hide
+	text: decoration-n
+	text: decoration-s
+	text: decoration-e
+	text: decoration-w
+	text: decoration-c
+	text: decoration-nw
+	text: decoration-ne
+	text: decoration-sw
+	text: decoration-se
+
+
+urlPrefix: ../purl.org/dc/elements/1.1.html#; type: dfn; spec: http://purl.org/dc/elements/1.1
+	text: contributor
+	text: coverage
+	text: creator
+	text: date
+	text: description
+	text: format
+	text: identifier
+	text: language
+	text: publisher
+	text: relation
+	text: rights
+	text: source
+	text: subject
+	text: title
+	text: type
+	text: hasVersion
+
+
+urlPrefix: ../www.w3.org/1999/02/22-rdf-syntax-ns.html#; type: dfn; spec: http://www.w3.org/1999/02/22-rdf-syntax-ns
+	text: about
+	text: PlainLiteral
+	text: XMLLiteral
+
+
+urlPrefix: ../www.w3.org/2000/01/rdf-schema.html#; type: dfn; spec: http://www.w3.org/2000/01/rdf-schema
+	text: comment
+	text: isDefinedBy
+	text: label
+	text: seeAlso
+	text: Literal
+
+
+urlPrefix: ../www.w3.org/2001/XMLSchema.html#; type: dfn; spec: http://www.w3.org/2001/XMLSchema
+	text: decimal
+	text: integer
+	text: long
+	text: int
+	text: short
+	text: byte
+	text: nonNegativeInteger
+	text: positiveInteger
+	text: unsignedLong
+	text: unsignedInt
+	text: unsignedShort
+	text: unsignedByte
+	text: nonPositiveInteger
+	text: negativeInteger
+	text: double
+	text: float
+	text: string
+	text: normalizedString
+	text: token
+	text: language
+	text: Name
+	text: NCName
+	text: NMTOKEN
+	text: boolean
+	text: hexBinary
+	text: base64Binary
+	text: anyURI
+	text: dateTime
+	text: dateTimeStamp
+
+
+urlPrefix: ../www.w3.org/2002/07/owl.html#; type: dfn; spec: http://www.w3.org/2002/07/owl
+	text: backwardCompatibleWith
+	text: deprecated
+	text: incompatibleWith
+	text: priorVersion
+	text: versionInfo
+	text: real
+	text: rational
+	text: Thing
+	text: Nothing
+
+

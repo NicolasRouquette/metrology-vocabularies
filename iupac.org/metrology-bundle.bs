@@ -1,0 +1,41 @@
+<pre class='metadata'>
+Title: Metrology Bundle
+Shortname: metrology-bundle
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/iupac.org/metrology-bundle
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: Jet Propulsion Laboratory
+!Copyright: Copyright 2010-2020, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. This software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons.
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: This is the metrology vocabulary bundle.
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://iupac.org/metrology-bundle](metrology-bundle.html)  [metrology-bundle]
+	
+# Inclusions # {#Inclusions}
+	* [http://purl.org/dc/elements/1.1](http://purl.org/dc/elements/1.html) [dc]
+
+	* [http://iupac.org/metrology](http://iupac.org/metrology.html)
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

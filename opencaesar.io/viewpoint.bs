@@ -1,0 +1,126 @@
+<pre class='metadata'>
+Title: Viewpoint
+Shortname: viewpoint
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/opencaesar.io/viewpoint
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: Jet Propulsion Laboratory
+!Copyright: Copyright 2010-2020, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. This software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons.
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: A vocabulary for defining common terms used in defining viewpoints
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://opencaesar.io/viewpoint](viewpoint.html)  [viewpoint]
+	
+# Imports # {#Extensions}
+	* [http://www.w3.org/2000/01/rdf-schema](http://www.w3.org/2000/01/rdf-schema.html) [rdfs]
+
+	* [http://purl.org/dc/elements/1.1](http://purl.org/dc/elements/1.html) [dc]
+
+# Annotation Properties # {#AnnotationProperties}
+## <dfn>decoration-c</dfn> ## {#Decoration-c}
+
+
+A property that represents a path to an image for an element in a viewpoint shown as a Center decoration.
+
+
+## <dfn>decoration-e</dfn> ## {#Decoration-e}
+
+
+A property that represents a path to an image for an element in a viewpoint shown as an East decoration.
+
+
+## <dfn>decoration-n</dfn> ## {#Decoration-n}
+
+
+A property that represents a path to an image for an element in a viewpoint shown as a North decoration.
+
+
+## <dfn>decoration-ne</dfn> ## {#Decoration-ne}
+
+
+A property that represents a path to an image for an element in a viewpoint shown as a North-East decoration.
+
+
+## <dfn>decoration-nw</dfn> ## {#Decoration-nw}
+
+
+A property that represents a path to an image for an element in a viewpoint shown as a North-West decoration.
+
+
+## <dfn>decoration-s</dfn> ## {#Decoration-s}
+
+
+A property that represents a path to an image for an element in a viewpoint shown as a South decoration.
+
+
+## <dfn>decoration-se</dfn> ## {#Decoration-se}
+
+
+A property that represents a path to an image for an element in a viewpoint shown as a South-East decoration.
+
+
+## <dfn>decoration-sw</dfn> ## {#Decoration-sw}
+
+
+A property that represents a path to an image for an element in a viewpoint shown as a South-West decoration.
+
+
+## <dfn>decoration-w</dfn> ## {#Decoration-w}
+
+
+A property that represents a path to an image for an element in a viewpoint shown as a West decoration.
+
+
+## <dfn>group</dfn> ## {#Group}
+
+
+A property that represents a group that an element belongs to in a viewpoint.
+
+
+## <dfn>hide</dfn> ## {#Hide}
+
+
+A property that indicates that an element is hidden in a viewpoint
+
+
+## <dfn>image</dfn> ## {#Image}
+
+
+A property that represents a path to an image for an element in a viewpoint.
+
+
+## <dfn>show</dfn> ## {#Show}
+
+
+A property that indicates that an element is shown in a viewpoint
+
+
+## <dfn>type</dfn> ## {#Type}
+
+
+A property that represents a notational type for an element in a viewpoint.
+
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

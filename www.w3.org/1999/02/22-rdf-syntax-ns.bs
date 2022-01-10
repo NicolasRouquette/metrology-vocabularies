@@ -1,0 +1,62 @@
+<pre class='metadata'>
+Title: RDF
+Shortname: rdf
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/www.w3.org/1999/02/22-rdf-syntax-ns
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: W3C
+!Copyright: Copyright 1999 W3C.
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: The RDF vocabulary is a subset of the vocabulary maintained by the W3C.
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://www.w3.org/1999/02/22-rdf-syntax-ns](22-rdf-syntax-ns.html)  [rdf]
+	
+# Imports # {#Extensions}
+	* [http://purl.org/dc/elements/1.1](http://purl.org/dc/elements/1.html) [dc]
+
+	* [http://www.w3.org/2000/01/rdf-schema](http://www.w3.org/2000/01/rdf-schema.html) [rdfs]
+
+# Scalars # {#Scalars}
+## <dfn>PlainLiteral</dfn> ## {#PlainLiteral}
+
+
+
+<table class='def'>
+</table>
+
+## <dfn>XMLLiteral</dfn> ## {#XMLLiteral}
+
+
+
+<table class='def'>
+</table>
+
+# Annotation Properties # {#AnnotationProperties}
+## <dfn>about</dfn> ## {#About}
+
+
+
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

@@ -1,0 +1,2408 @@
+<pre class='metadata'>
+Title: Metrology
+Shortname: metrology
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/iupac.org/metrology
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: Jet Propulsion Laboratory
+!Copyright: Copyright 2010-2020, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. This software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons.
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontology of Property' 
+ focused on the concepts necessary for dimensional analysis of systems of metrological units and
+ of systems of quantities based on the algebraic relationships involved in the
+ definitions of the metrological units and the kinds of quantities in these respective systems.
+ 
+ See the rationale behind the 3rd revision of the Vocabulary of International Metrology, VIM3,
+ for references to Prof. Dybkaer's influential work: https://www.bipm.org/en/publications/guides/rationale-vim3.html
+ 
+ Where possible, correspondences to VIM3 definitions will be referenced from https://jcgm.bipm.org/vim/en/index.html
+ The VIM3 is available in document PDF here: https://www.bipm.org/utils/common/documents/jcgm/JCGM_200_2012.pdf
+ 
+ References to definitions in the ontology are indicated via a reference 
+ in parentheses with a chapter and section and a page number;
+ for example, (S.2.23, p. 33) refers to the definition of 'object' on page 33.
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://iupac.org/metrology](metrology.html)  [metrology]
+	
+# Imports # {#Extensions}
+	* [http://purl.org/dc/elements/1.1](http://purl.org/dc/elements/1.html) [dc]
+
+	* [http://www.w3.org/2000/01/rdf-schema](http://www.w3.org/2000/01/rdf-schema.html) [rdfs]
+
+	* [http://www.w3.org/2002/07/owl](http://www.w3.org/2002/07/owl.html) [owl]
+
+	* [http://www.w3.org/2001/XMLSchema](http://www.w3.org/2001/XMLSchema.html) [xsd]
+
+# Aspects # {#Aspects}
+	## <dfn>ExponentFactor</dfn> ## {#ExponentFactor}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Thing">Thing</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="HasFactorForMeasurementUnit">HasFactorForMeasurementUnit</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="HasFactorForUnitaryMagnitude">HasFactorForUnitaryMagnitude</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="HasFactorForUnitaryQuantity">HasFactorForUnitaryQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="exponent">exponent</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>Magnitude</dfn> ## {#Magnitude}
+	
+	metrology:Magnitude is the magnitude of a metrology:Quantity represented by a number and a reference.
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="MetrologicalEntity">MetrologicalEntity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="IsReflexiveMagnitudeOf">IsReflexiveMagnitudeOf</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="UnitaryMagnitude">UnitaryMagnitude</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="hasDoubleNumber">hasDoubleNumber</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>Magnitude ? <a spec="http://iupac.org/metrology" lt="HasReference">HasReference</a> ? <a spec="http://iupac.org/metrology" lt="Reference">Reference</a> 
+			</li>
+			<li>Magnitude ? <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementProcedure">HasReferenceToMeasurementProcedure</a> ? <a spec="http://iupac.org/metrology" lt="MeasurementProcedure">MeasurementProcedure</a> 
+			</li>
+			<li>Magnitude ? <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementUnit">HasReferenceToMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to at least 1)
+			</li>
+			<li>Magnitude ? <a spec="http://iupac.org/metrology" lt="HasReferenceToReferenceMaterial">HasReferenceToReferenceMaterial</a> ? <a spec="http://iupac.org/metrology" lt="ReferenceMaterial">ReferenceMaterial</a> 
+			</li>
+			<li>Magnitude ? <a spec="http://iupac.org/metrology" lt="IsMagnitudeOf">IsMagnitudeOf</a> ? <a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>MeasurementProcedure</dfn> ## {#MeasurementProcedure}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Reference">Reference</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ? <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementProcedure">HasReferenceToMeasurementProcedure</a> ? MeasurementProcedure 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>MeasurementUnit</dfn> ## {#MeasurementUnit}
+	
+	Defining metrology:MeasurementUnit as an OML Concept instead of an OML Aspect or Relation, enables the bundle closure 
+			algorithm to infer disjunctions for specializations of metrology:MeasurementUnit such as the ISO-80000 libraries
+			or user-defined vocabularies.
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Reference">Reference</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="CoherentMeasurementUnit">CoherentMeasurementUnit</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="NonCoherentDerivedMeasurementUnit">NonCoherentDerivedMeasurementUnit</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="PrefixedMeasurementUnit">PrefixedMeasurementUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="DerivedMeasurementUnit">DerivedMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="HasFactorForMeasurementUnit">HasFactorForMeasurementUnit</a> ? MeasurementUnit 
+			</li>
+			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ? <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementUnit">HasReferenceToMeasurementUnit</a> ? MeasurementUnit 
+			</li>
+			<li><a spec="http://iupac.org/metrology" lt="NonCoherentDerivedMeasurementUnit">NonCoherentDerivedMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="NonCoherentDerivedMeasurementUnitOf">NonCoherentDerivedMeasurementUnitOf</a> ? MeasurementUnit 
+			</li>
+			<li><a spec="http://iupac.org/metrology" lt="PrefixedMeasurementUnit">PrefixedMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="PrefixesMeasurementUnit">PrefixesMeasurementUnit</a> ? MeasurementUnit 
+			</li>
+			<li><a spec="http://iupac.org/metrology" lt="SystemOfMetrologicalUnits">SystemOfMetrologicalUnits</a> ? <a spec="http://iupac.org/metrology" lt="SystemHasMetrologicalUnit">SystemHasMetrologicalUnit</a> ? MeasurementUnit 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>MetrologicalEntity</dfn> ## {#MetrologicalEntity}
+	
+	metrology:MetrologicalEntity is the root of the taxonomy of OML entities involved in the vocabulary
+		    for metrological characterization of an object.
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Thing">Thing</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="Prefix">Prefix</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="Reference">Reference</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="SystemOfMetrologicalUnits">SystemOfMetrologicalUnits</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="SystemOfUnitaryQuantities">SystemOfUnitaryQuantities</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>Object</dfn> ## {#Object}
+	
+	A metrology:Object is anything perceivable or conceivable.
+	
+		    A metrology:Object serves two purposes:
+		    1) Specify the subject of a metrology:isQuantityOf for a given metrology:Quantity.
+		    2) Provide a reference for elaborating a rich description elsewhere using an appropriate vocabulary.
+		
+		    Note: Dybkaer's ontology defines additional vocabulary about *object* (S.2.24) with the subconcepts of 
+		    *system* (S.3.3) and *component* (S.3.4), which are further divided in terms of
+		    *element*, *relationship*,  and *process* (see Figure 3.5, p. 41).
+		
+		    Since none of the subconcepts of *object* (S.2.23) provide any additional semantics to the metrology vocabulary,
+		    they are omitted here. This ommision simplifies the task of establishing correspondences between metrology:Object
+		    in this vocabulary and rich descriptions elsewhere constructed using an appropriate vocabulary.
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Thing">Thing</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a> ? <a spec="http://iupac.org/metrology" lt="IsQuantityOf">IsQuantityOf</a> ? Object 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>OrdinalMagnitude</dfn> ## {#OrdinalMagnitude}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>OrdinalMagnitude ? <a spec="http://iupac.org/metrology" lt="EqualOrdinalMagnitudeComparison">EqualOrdinalMagnitudeComparison</a> ? <a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> 
+			</li>
+			<li>OrdinalMagnitude ? <a spec="http://iupac.org/metrology" lt="GreaterThanOrdinalMagnitudeComparison">GreaterThanOrdinalMagnitudeComparison</a> ? <a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> 
+			</li>
+			<li>OrdinalMagnitude ? <a spec="http://iupac.org/metrology" lt="LessThanOrdinalMagnitudeComparison">LessThanOrdinalMagnitudeComparison</a> ? <a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> 
+			</li>
+			<li>OrdinalMagnitude ? <a spec="http://iupac.org/metrology" lt="OrdinalMagnitudeComparison">OrdinalMagnitudeComparison</a> ? <a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ? <a spec="http://iupac.org/metrology" lt="EqualOrdinalMagnitudeComparison">EqualOrdinalMagnitudeComparison</a> ? OrdinalMagnitude 
+			</li>
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ? <a spec="http://iupac.org/metrology" lt="GreaterThanOrdinalMagnitudeComparison">GreaterThanOrdinalMagnitudeComparison</a> ? OrdinalMagnitude 
+			</li>
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ? <a spec="http://iupac.org/metrology" lt="LessThanOrdinalMagnitudeComparison">LessThanOrdinalMagnitudeComparison</a> ? OrdinalMagnitude 
+			</li>
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ? <a spec="http://iupac.org/metrology" lt="OrdinalMagnitudeComparison">OrdinalMagnitudeComparison</a> ? OrdinalMagnitude 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>Prefix</dfn> ## {#Prefix}
+	
+	A metrology:Prefix is an opaque representation of a multiplier used for defining a metrology:PrefixedMeasurementUnit.
+		    This representation facilitates dimensional analysis of a metrology:SystemOfMetrologicalUnits as a logical analysis since prefixes are individuals.
+		    Had the prefix multipler been defined as a scalar property typed by a datatype, dimensional analysis would be a 
+		    more complicated analysis involving a combination of logical and numerical analysis techniques.
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="MetrologicalEntity">MetrologicalEntity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="PrefixedMeasurementUnit">PrefixedMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="HasPrefix">HasPrefix</a> ? Prefix 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>PrefixedMeasurementUnit</dfn> ## {#PrefixedMeasurementUnit}
+	
+	A metrology:PrefixedMeasurementUnit is a metrology:MeasurementUnit defined by multiplication of another metrology:MeasurementUnit (via metrology:PrefixesMeasurementUnit) and a prefix.
+	  		Note that a PrefixedMeasurementUnit may also be a metrology:CoherentMeasurementUnit or not according to its membership in a system of units.
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>PrefixedMeasurementUnit ? <a spec="http://iupac.org/metrology" lt="HasPrefix">HasPrefix</a> ? <a spec="http://iupac.org/metrology" lt="Prefix">Prefix</a> 
+			</li>
+			<li>PrefixedMeasurementUnit ? <a spec="http://iupac.org/metrology" lt="PrefixesMeasurementUnit">PrefixesMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>Reference</dfn> ## {#Reference}
+	
+	A reference can be a measurement unit, a measurement procedure, or a reference material, or a combination of such.
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="MetrologicalEntity">MetrologicalEntity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="MeasurementProcedure">MeasurementProcedure</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="ReferenceMaterial">ReferenceMaterial</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ? <a spec="http://iupac.org/metrology" lt="HasReference">HasReference</a> ? Reference 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>ReferenceMaterial</dfn> ## {#ReferenceMaterial}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Reference">Reference</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ? <a spec="http://iupac.org/metrology" lt="HasReferenceToReferenceMaterial">HasReferenceToReferenceMaterial</a> ? ReferenceMaterial 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>Thing</dfn> ## {#Thing}
+	
+	metrology:Thing is the root of the taxonomy of OML entities involved in metrological modeling either as an object
+		    or a metrological characterization of an object.
+	
+	
+	<table class='def'>
+	
+
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="ExponentFactor">ExponentFactor</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="MetrologicalEntity">MetrologicalEntity</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="Object">Object</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>UnitaryMagnitude</dfn> ## {#UnitaryMagnitude}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>UnitaryMagnitude ? <a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementUnit">HasReferenceToMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to exactly 1)
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="DerivedUnitaryQuantity">DerivedUnitaryQuantity</a> ? <a spec="http://iupac.org/metrology" lt="HasFactorForUnitaryMagnitude">HasFactorForUnitaryMagnitude</a> ? UnitaryMagnitude 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+# Concepts # {#concepts}
+	## <dfn>CoherentMeasurementUnit</dfn> ## {#CoherentMeasurementUnit}
+	
+	A metrology:CoherentMeasurementUnit is a metrology:MeasurementUnit that has a proportionality factor of one and may have a dimension of one.
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="DerivedMeasurementUnit">DerivedMeasurementUnit</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="IndependentMeasurementUnit">IndependentMeasurementUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="isDimensionlessMeasurementUnit">isDimensionlessMeasurementUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>DerivedMeasurementUnit</dfn> ## {#DerivedMeasurementUnit}
+	
+	A metrology:DerivedMeasurementUnit is a metrology:CoherentMeasurementUnit defined as the product of powers of other metrology:MeasurementUnit(s).
+		    If a metrology:DerivedMeasurementUnit has dimension '1', then the factors simplify to one but must retain the provenance of the derived unit
+		    to other metrology:MeasurementUnits.
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="CoherentMeasurementUnit">CoherentMeasurementUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>DerivedMeasurementUnit ? <a spec="http://iupac.org/metrology" lt="HasFactorForMeasurementUnit">HasFactorForMeasurementUnit</a> ? <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>DerivedUnitaryQuantity</dfn> ## {#DerivedUnitaryQuantity}
+	
+	A metrology:DerivedUnitaryQuantity is a metrology:UnitaryQuantity defined as the product of powers of metrology:UnitaryQuantity.
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="UnitaryQuantity">UnitaryQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>DerivedUnitaryQuantity ? <a spec="http://iupac.org/metrology" lt="HasFactorForUnitaryMagnitude">HasFactorForUnitaryMagnitude</a> ? <a spec="http://iupac.org/metrology" lt="UnitaryMagnitude">UnitaryMagnitude</a> 
+			</li>
+			<li>DerivedUnitaryQuantity ? <a spec="http://iupac.org/metrology" lt="HasFactorForUnitaryQuantity">HasFactorForUnitaryQuantity</a> ? <a spec="http://iupac.org/metrology" lt="UnitaryQuantity">UnitaryQuantity</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>IndependentMeasurementUnit</dfn> ## {#IndependentMeasurementUnit}
+	
+	A metrology:IndependentMeasurementUnit is a metrology:CoherentMeasurementUnit defined independently of any other metrology:MeasurementUnit(s).
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="CoherentMeasurementUnit">CoherentMeasurementUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>IndependentUnitaryQuantity</dfn> ## {#IndependentUnitaryQuantity}
+	
+	A metrology:IndependentUnitaryQuantity is a metrology:UnitaryQuantity defined independently of any other metrology:UnitaryQuantity.
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="UnitaryQuantity">UnitaryQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>NonCoherentDerivedMeasurementUnit</dfn> ## {#NonCoherentDerivedMeasurementUnit}
+	
+	A metrology:NonCoherentDerivedMeasurementUnit is a metrology:MeasurementUnit 
+			that has a proportionality factor different than one with respect to another metrology:MeasurementUnit.
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="nonCoherentRelationship">nonCoherentRelationship</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>NonCoherentDerivedMeasurementUnit ? <a spec="http://iupac.org/metrology" lt="NonCoherentDerivedMeasurementUnitOf">NonCoherentDerivedMeasurementUnitOf</a> ? <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>OrdinalQuantity</dfn> ## {#OrdinalQuantity}
+	
+	An instance of metrology:OrdinalQuantity is a metrology:Quantity defined by a measurement procedure (S.14.4.4)
+		    that can be stated only to be lesser than, equal to, or greater than another quantity of the same metrology:KindOfQuantity.
+			
+			As a class, metrology:OrdinalQuantity classifies metrology:Quantity(ies) that are rankable by magnitude, but are neither subtractive nor divisible (S.13.3.2).
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a> ? <a spec="http://iupac.org/metrology" lt="IsMagnitudeOf">IsMagnitudeOf</a> ? OrdinalQuantity 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>Quantity</dfn> ## {#Quantity}
+	
+	A metrology:Quantity is an inherent state- or process-descriptive feature
+		    of a metrological:Object that has a magnitude expressed as a metrological:Magnitude.
+		
+		    This definition is adapted from the expanded definition of 'quantity' (S.12.13, S.12.14).
+		
+			Dybkaer's ontology, makes a distinction between Quantity (S.12.13) and KindOfQuantity (S.13.3.1)
+			where the latter is defined as the 'common defining aspect of mutually comparable properties having a magnitude'.
+			
+			In this vocabulary, a specialization of metrology:Quantity corresponds to Dybkaer's KindOfQuantity per S.13.3.1 and S.13.4.1
+			whereas an instance of metrology:Quantity corresponds to Dybkaer's Quantity per S.12.13 and S.12.14.
+			
+			Note that Dybkaer's associative relation between Quantity and KindOfQuantity corresponds to the classification
+			relationship between, respectively, an instance of metrology:Quantity and a specialization of metrology:Quantity.
+			
+			Defining metrology:Quantity as an OML Concept instead of an OML Aspect or Relation, enables the bundle closure 
+			algorithm to infer disjunctions for specializations of metrology:Quantity such as the ISO-80000 libraries
+			or user-defined vocabularies.
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="MetrologicalEntity">MetrologicalEntity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalQuantity">OrdinalQuantity</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="UnitaryQuantity">UnitaryQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>Quantity ? <a spec="http://iupac.org/metrology" lt="IsQuantityOf">IsQuantityOf</a> ? <a spec="http://iupac.org/metrology" lt="Object">Object</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a> ? <a spec="http://iupac.org/metrology" lt="IsMagnitudeOf">IsMagnitudeOf</a> ? Quantity 
+			</li>
+			<li><a spec="http://iupac.org/metrology" lt="IsReflexiveMagnitudeOf">IsReflexiveMagnitudeOf</a> ? <a spec="http://iupac.org/metrology" lt="IsReflexiveMagnitudeOf">IsReflexiveMagnitudeOf</a> ? Quantity 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>SystemOfMetrologicalUnits</dfn> ## {#SystemOfMetrologicalUnits}
+	
+	A metrology:SystemOfMetrologicalUnits is a collection of metrology:MeasurementUnit(s) that can be partitioned into two groups:
+		    base and derived. Note that this partitioning is independent of how the algebraic definition of each metrology:MeasurementUnit
+		    (i.e metrology:NonCoherentDerivedMeasurementUnit, metrology:IndependentMeasurementUnit, metrology:DerivedMeasurementUnit or metrology:PrefixedMeasurementUnit).
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="MetrologicalEntity">MetrologicalEntity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>SystemOfMetrologicalUnits ? <a spec="http://iupac.org/metrology" lt="SystemHasMetrologicalUnit">SystemHasMetrologicalUnit</a> ? <a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>SystemOfUnitaryQuantities</dfn> ## {#SystemOfUnitaryQuantities}
+	
+	A metrology:SystemOfUnitaryQuantities is a collection of metrology:UnitaryQuantity(ies) that can be partitioned into two groups:
+		    base and derived. Note that this partitioning is independent of how the algebraic definition of each metrology:UnitaryQuantity
+		    (i.e metrology:IndependentUnitaryQuantity or metrology:DerivedUnitaryQuantity).
+		    
+		    Applying dimensional analysis to a metrology:SystemOfUnitaryQuantities means applying the rules of dimensional calculus to the alegbraic definitions 
+		    required for expressing each derived metrology:UnitaryQuantity of the system as a product of powers involving only the base metrology:UnitaryQuantity of the system.
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="MetrologicalEntity">MetrologicalEntity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>SystemOfUnitaryQuantities ? <a spec="http://iupac.org/metrology" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> ? <a spec="http://iupac.org/metrology" lt="UnitaryQuantity">UnitaryQuantity</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>UnitaryQuantity</dfn> ## {#UnitaryQuantity}
+	
+	An instance of metrology:UnitaryQuantity is a metrology:Quantity with a magnitude expressed as a reference quantity 
+		    multiplied by a number (S.12.17).
+		
+			As a class, of metrology:UnitaryQuantity classifies metrology:Quantity(ies) with magnitudes expressed as a measurement unit multiplied by a number (S.13.3.3).
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="DerivedUnitaryQuantity">DerivedUnitaryQuantity</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="IndependentUnitaryQuantity">IndependentUnitaryQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="isDimensionlessQuantity">isDimensionlessQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="DerivedUnitaryQuantity">DerivedUnitaryQuantity</a> ? <a spec="http://iupac.org/metrology" lt="HasFactorForUnitaryQuantity">HasFactorForUnitaryQuantity</a> ? UnitaryQuantity 
+			</li>
+			<li><a spec="http://iupac.org/metrology" lt="UnitaryMagnitude">UnitaryMagnitude</a> ? <a spec="http://iupac.org/metrology" lt="IsMagnitudeOf">IsMagnitudeOf</a> ? UnitaryQuantity 
+			</li>
+			<li><a spec="http://iupac.org/metrology" lt="SystemOfUnitaryQuantities">SystemOfUnitaryQuantities</a> ? <a spec="http://iupac.org/metrology" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> ? UnitaryQuantity 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+# Relation Entities # {#Relations}
+	## <dfn>EqualOrdinalMagnitudeComparison</dfn> ## {#EqualOrdinalMagnitudeComparison}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitudeComparison">OrdinalMagnitudeComparison</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=EqualOrdinalMagnitudeComparison>equals</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Symmetric</li>
+				<li>Reflexive</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>GreaterThanOrdinalMagnitudeComparison</dfn> ## {#GreaterThanOrdinalMagnitudeComparison}
+	
+	Asserted when the source is greater than the target.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitudeComparison">OrdinalMagnitudeComparison</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=GreaterThanOrdinalMagnitudeComparison>greaterThan</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Asymmetric</li>
+				<li>Irreflexive</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>HasFactorForMeasurementUnit</dfn> ## {#HasFactorForMeasurementUnit}
+	
+	In dimensional calculus, a metrology:DerivedMeasurementUnit algebraically depends on a metrology:MeasurementUnit as a product factor raised to a rational exponent.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="DerivedMeasurementUnit">DerivedMeasurementUnit</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="ExponentFactor">ExponentFactor</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=HasFactorForMeasurementUnit>hasFactorForMeasurementUnit</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Irreflexive</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>HasFactorForUnitaryMagnitude</dfn> ## {#HasFactorForUnitaryMagnitude}
+	
+	In dimensional calculus, a metrology:DerivedUnitaryQuantity algebraically depends on the metrology:UnitaryQuantity of a metrology:UnitaryMagnitude as a product factor raised to a rational exponent.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="DerivedUnitaryQuantity">DerivedUnitaryQuantity</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="UnitaryMagnitude">UnitaryMagnitude</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="ExponentFactor">ExponentFactor</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=HasFactorForUnitaryMagnitude>hasFactorForUnitaryMagnitude</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Irreflexive</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>HasFactorForUnitaryQuantity</dfn> ## {#HasFactorForUnitaryQuantity}
+	
+	In dimensional calculus, a metrology:DerivedUnitaryQuantity algebraically depends on a metrology:UnitaryQuantity as a product factor raised to a rational exponent.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="DerivedUnitaryQuantity">DerivedUnitaryQuantity</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="UnitaryQuantity">UnitaryQuantity</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="ExponentFactor">ExponentFactor</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=HasFactorForUnitaryQuantity>hasFactorForUnitaryQuantity</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Irreflexive</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>HasPrefix</dfn> ## {#HasPrefix}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="PrefixedMeasurementUnit">PrefixedMeasurementUnit</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="Prefix">Prefix</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=HasPrefix>hasPrefix</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>HasReference</dfn> ## {#HasReference}
+	
+	metrology:hasReference provides the capability to specify the reference(s) involved in measuring the magnitue of a metrology:Quantity.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="Reference">Reference</a></td>
+	</tr>
+	
+	
+
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementProcedure">HasReferenceToMeasurementProcedure</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="HasReferenceToMeasurementUnit">HasReferenceToMeasurementUnit</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="HasReferenceToReferenceMaterial">HasReferenceToReferenceMaterial</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=HasReference>hasReference</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>HasReferenceToMeasurementProcedure</dfn> ## {#HasReferenceToMeasurementProcedure}
+	
+	metrology:hasReferenceToMeasurementProcedure provides the capability to specify the measurement procedure reference involved in measuring the magnitue of a metrology:Quantity.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="MeasurementProcedure">MeasurementProcedure</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="HasReference">HasReference</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=HasReferenceToMeasurementProcedure>hasReferenceToMeasurementProcedure</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>HasReferenceToMeasurementUnit</dfn> ## {#HasReferenceToMeasurementUnit}
+	
+	metrology:hasReferenceToMeasurementUnit provides the capability to specify the measurement unit reference involved in measuring the magnitue of a metrology:Quantity.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="HasReference">HasReference</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=HasReferenceToMeasurementUnit>hasReferenceToMeasurementUnit</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>HasReferenceToReferenceMaterial</dfn> ## {#HasReferenceToReferenceMaterial}
+	
+	metrology:hasReferenceToMeasurementProcedure provides the capability to specify the reference material reference involved in measuring the magnitue of a metrology:Quantity.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="ReferenceMaterial">ReferenceMaterial</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="HasReference">HasReference</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=HasReferenceToReferenceMaterial>hasReferenceToReferenceMaterial</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>IsMagnitudeOf</dfn> ## {#IsMagnitudeOf}
+	
+	Specifies the metrology:Magnitude that is the magnitude of a metrology:Quantity.
+		    This relationship can be specified either explicitly as an asserted axiom
+		    or implicitly as a constraint such as a range restriction or an inference rule
+			involving the foward or reverse property.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a></td>
+	</tr>
+	
+	
+
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="IsReflexiveMagnitudeOf">IsReflexiveMagnitudeOf</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=IsMagnitudeOf>isMagnitudeOf</dfn>
+			</td>
+		</tr>
+		
+		<tr>
+			<th>Reverse Relation</th>
+			<td><dfn attribute for=IsMagnitudeOf>hasMagnitude</dfn>
+			</td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>IsQuantityOf</dfn> ## {#IsQuantityOf}
+	
+	Specifies the metrology:Object that the metrology:Quantity is a feature of.
+		    Although every metrology:Quantity must have exactly one metrology:Object as its metrology:isQuantityOf,
+		    this relationship, metrology:isQuantityOf, can be specified either explicitly as an asserted axiom
+		    or implicitly as a constraint such as a range restriction or an inference rule.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="Object">Object</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=IsQuantityOf>isQuantityOf</dfn>
+			</td>
+		</tr>
+		
+		<tr>
+			<th>Reverse Relation</th>
+			<td><dfn attribute for=IsQuantityOf>hasQuantity</dfn>
+			</td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>IsReflexiveMagnitudeOf</dfn> ## {#IsReflexiveMagnitudeOf}
+	
+	metrology:IsReflexiveMagnitudeOf defines a convenient pattern that combines in a single 
+		instantiable relation two entities that would otherwise have to be instantiated separately,i.e., an instance 
+		of metrology:Magnitude and an instance of metrology:HasMagnitude. This relation entity is unsual because it 
+		is also its source.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="IsReflexiveMagnitudeOf">IsReflexiveMagnitudeOf</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="IsMagnitudeOf">IsMagnitudeOf</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=IsReflexiveMagnitudeOf>isReflexiveMagnitudeOf</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>IsReflexiveMagnitudeOf ? <a spec="http://iupac.org/metrology" lt="IsReflexiveMagnitudeOf">IsReflexiveMagnitudeOf</a> ? <a spec="http://iupac.org/metrology" lt="Quantity">Quantity</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>LessThanOrdinalMagnitudeComparison</dfn> ## {#LessThanOrdinalMagnitudeComparison}
+	
+	Asserted when the source is less than the target.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="OrdinalMagnitudeComparison">OrdinalMagnitudeComparison</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=LessThanOrdinalMagnitudeComparison>lessThan</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Asymmetric</li>
+				<li>Irreflexive</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>NonCoherentDerivedMeasurementUnitOf</dfn> ## {#NonCoherentDerivedMeasurementUnitOf}
+	
+	metrology:NonCoherentDerivedMeasurementUnitOf specifies the metrology:MeasurementUnit that a metrology:NonCoherentDerivedMeasurementUnit derives from.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="NonCoherentDerivedMeasurementUnit">NonCoherentDerivedMeasurementUnit</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=NonCoherentDerivedMeasurementUnitOf>nonCoherentDerivedMeasurementUnitOf</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+				<li>Irreflexive</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>OrdinalMagnitudeComparison</dfn> ## {#OrdinalMagnitudeComparison}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="OrdinalMagnitude">OrdinalMagnitude</a></td>
+	</tr>
+	
+	
+
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="EqualOrdinalMagnitudeComparison">EqualOrdinalMagnitudeComparison</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="GreaterThanOrdinalMagnitudeComparison">GreaterThanOrdinalMagnitudeComparison</a></li>
+			<li><a spec="http://iupac.org/metrology" lt="LessThanOrdinalMagnitudeComparison">LessThanOrdinalMagnitudeComparison</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=OrdinalMagnitudeComparison>ordinalMagnitudeComparison</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>PrefixesMeasurementUnit</dfn> ## {#PrefixesMeasurementUnit}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="PrefixedMeasurementUnit">PrefixedMeasurementUnit</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=PrefixesMeasurementUnit>prefixesMeasurementUnit</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+				<li>Irreflexive</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>SystemHasMetrologicalUnit</dfn> ## {#SystemHasMetrologicalUnit}
+	
+	A metrology:SystemHasMetrologicalUnit specifies that a metrology:SystemOfMetrologicalUnits includes a metrology:MeasurementUnit.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="SystemOfMetrologicalUnits">SystemOfMetrologicalUnits</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="MeasurementUnit">MeasurementUnit</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=SystemHasMetrologicalUnit>systemHasMetrologicalUnit</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="isBaseMetrologicalUnit">isBaseMetrologicalUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>SystemHasUnitaryQuantity</dfn> ## {#SystemHasUnitaryQuantity}
+	
+	A metrology:SystemHasUnitaryQuantity specifies that a metrology:SystemOfUnitaryQuantities includes a metrology:UnitaryQuantity.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://iupac.org/metrology" lt="SystemOfUnitaryQuantities">SystemOfUnitaryQuantities</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://iupac.org/metrology" lt="UnitaryQuantity">UnitaryQuantity</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=SystemHasUnitaryQuantity>systemHasUnitaryQuantity</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://iupac.org/metrology" lt="isBaseQuantity">isBaseQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	
+
+	</table>
+	
+
+# Scalar Properties # {#ScalarProperties}
+	## <dfn>exponent</dfn> ## {#Exponent}
+	
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://iupac.org/metrology" lt="ExponentFactor">ExponentFactor</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2002/07/owl" lt="rational">rational</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>hasDoubleNumber</dfn> ## {#HasDoubleNumber}
+	
+	metrology:hasDoubleNumber provides the capability to specify the number of a metrology:Magnitude as an IEEE 64-bit floating-point number.
+		If this capability is inadequate, the metrology vocabulary can be extended with additional properties for an alternate representation of a number.
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://iupac.org/metrology" lt="Magnitude">Magnitude</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="double">double</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>isBaseMetrologicalUnit</dfn> ## {#IsBaseMetrologicalUnit}
+	
+	It is a property of a metrology:SystemOfMetrologicalUnits to select of a subset of metrology:MeasurementUnit 
+			as being functionally independent of each other as its base metrology:MeasurementUnit(s)
+			such that the other metrology:MeasurementUnit(s) in the system can be algebraically derived from the base metrology:MeasurementUnit(s).
+		  
+			Note that selecting a metrology:MeasurementUnit as a base or derived for a given system is unrelated to its definition 
+			(i.e metrology:NonCoherentDerivedMeasurementUnit, metrology:IndependentMeasurementUnit, metrology:DerivedMeasurementUnit or metrology:PrefixedMeasurementUnit).
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://iupac.org/metrology" lt="SystemHasMetrologicalUnit">SystemHasMetrologicalUnit</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="boolean">boolean</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>isBaseQuantity</dfn> ## {#IsBaseQuantity}
+	
+	It is a property of a metrology:SystemOfUnitaryQuantities to select of a subset of metrology:UnitaryQuantity 
+			as being functionally independent of each other as its base metrology:UnitaryQuantity
+			such that the other metrology:UnitaryQuantity in the system can be algebraically derived from the base metrology:UnitaryQuantity.
+		  
+			Note that selecting a metrology:UnitaryQuantity as a base or derived for a given system is unrelated to its definition 
+			(i.e metrology:IndependentUnitaryQuantity or metrology:DerivedUnitaryQuantity).
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://iupac.org/metrology" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="boolean">boolean</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>isDimensionlessMeasurementUnit</dfn> ## {#IsDimensionlessMeasurementUnit}
+	
+	metrology:isDimensionlessMeasurementUnit specifies whether the definition of a metrology:CoherentMeasurementUnit has dimension 'one',
+		    either intrisically as an metrology:IndependentMeasurementUnit or extrinsically as a metrology:DerivedMeasurementUnit where the product factors of other 
+			metrology:MeasurementUnit(s) could be algebraically reduced to 'one'.
+		    
+		    Note when defining a metrology:DerivedMeasurementUnit with metrology:isDimensionlessMeasurementUnit=true, 
+		    it is important to retain the non-simplified product factors in order to preserve the metrological provenance of the metrology:DerivedMeasurementUnit
+		    with respect to other metrology:MeasurementUnit(same).
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://iupac.org/metrology" lt="CoherentMeasurementUnit">CoherentMeasurementUnit</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="boolean">boolean</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>isDimensionlessQuantity</dfn> ## {#IsDimensionlessQuantity}
+	
+	metrology:isDimensionlessQuantity specifies whether the definition of a metrology:UnitaryQuantity has dimension 'one',
+		    either intrisically as an metrology:IndependentUnitaryQuantity 
+		    or extrinsically as a metrology:DerivedUnitaryQuantity where the product factors of other metrology:UnitaryQuantity(ies) could be algebraically reduced to 'one'.
+		    
+		    Note when defining a metrology:DerivedUnitaryQuantity with metrology:isDimensionlessQuantity=true, 
+		    it is important to retain the non-simplified product factors in order to preserve the metrological provenance of the metrology:DerivedUnitaryQuantity
+		    with respect to other metrology:UnitaryQuantity(ies).
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://iupac.org/metrology" lt="UnitaryQuantity">UnitaryQuantity</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="boolean">boolean</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>nonCoherentRelationship</dfn> ## {#NonCoherentRelationship}
+	
+	metrology:nonCoherentRelationship specifies the non-coherent derivation relationship between a metrology:NonCoherentDerivedMeasurementUnit 
+			and a metrology:MeasurementUnit that it is a metrology:nonCoherentDerivedMeasurementUnitOf
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://iupac.org/metrology" lt="NonCoherentDerivedMeasurementUnit">NonCoherentDerivedMeasurementUnit</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="string">string</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+# Rules # {#Rules}
+## <dfn>EqualsGreaterThanTransitivity</dfn> ## {#EqualsGreaterThanTransitivity}
+
+equals(m1, m2)
+ ? greaterThan(m2, m3)
+ -> greaterThan(m1, m3)
+
+## <dfn>EqualsLessThanTransitivity</dfn> ## {#EqualsLessThanTransitivity}
+
+equals(m1, m2)
+ ? lessThan(m2, m3)
+ -> lessThan(m1, m3)
+
+## <dfn>EqualsTransitivity</dfn> ## {#EqualsTransitivity}
+
+equals(m1, m2)
+ ? equals(m2, m3)
+ -> equals(m1, m3)
+
+## <dfn>GreaterThanEqualsTransitivity</dfn> ## {#GreaterThanEqualsTransitivity}
+
+greaterThan(m1, m2)
+ ? equals(m2, m3)
+ -> greaterThan(m1, m3)
+
+## <dfn>GreaterThanTransitivity</dfn> ## {#GreaterThanTransitivity}
+
+greaterThan(m1, m2)
+ ? greaterThan(m2, m3)
+ -> greaterThan(m1, m3)
+
+## <dfn>LessThanEqualsTransitivity</dfn> ## {#LessThanEqualsTransitivity}
+
+lessThan(m1, m2)
+ ? equals(m2, m3)
+ -> lessThan(m1, m3)
+
+## <dfn>LessThanTransitivity</dfn> ## {#LessThanTransitivity}
+
+lessThan(m1, m2)
+ ? lessThan(m2, m3)
+ -> lessThan(m1, m3)
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

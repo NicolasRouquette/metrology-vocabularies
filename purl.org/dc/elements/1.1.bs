@@ -1,0 +1,117 @@
+<pre class='metadata'>
+Title: DC
+Shortname: dc
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/purl.org/dc/elements/1.1
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: DCMI Usage Board
+!Copyright: Copyright 1995-2019 DCMI.
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: The DC vocabulary is a subset of the vocabulary maintained by the Dublin Core Metadata Initiative.
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://purl.org/dc/elements/1.1](1.1.html)  [dc]
+	
+# Annotation Properties # {#AnnotationProperties}
+## <dfn>contributor</dfn> ## {#Contributor}
+
+
+
+
+## <dfn>coverage</dfn> ## {#Coverage}
+
+
+
+
+## <dfn>creator</dfn> ## {#Creator}
+
+
+
+
+## <dfn>date</dfn> ## {#Date}
+
+
+
+
+## <dfn>description</dfn> ## {#Description}
+
+
+
+
+## <dfn>format</dfn> ## {#Format}
+
+
+
+
+## <dfn>hasVersion</dfn> ## {#HasVersion}
+
+
+
+
+## <dfn>identifier</dfn> ## {#Identifier}
+
+
+
+
+## <dfn>language</dfn> ## {#Language}
+
+
+
+
+## <dfn>publisher</dfn> ## {#Publisher}
+
+
+
+
+## <dfn>relation</dfn> ## {#Relation}
+
+
+
+
+## <dfn>rights</dfn> ## {#Rights}
+
+
+
+
+## <dfn>source</dfn> ## {#Source}
+
+
+
+
+## <dfn>subject</dfn> ## {#Subject}
+
+
+
+
+## <dfn>title</dfn> ## {#Title}
+
+
+
+
+## <dfn>type</dfn> ## {#Type}
+
+
+
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

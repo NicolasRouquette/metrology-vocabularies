@@ -1,0 +1,161 @@
+<pre class='metadata'>
+Title: ISO 1087-1:2000 annotation vocabulary
+Shortname: iso-1087-1
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/iso.org/iso-1087-1
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: Jet Propulsion Laboratory
+!Copyright: Copyright 2021, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. This software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons.
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: Annotation vocabulary for traceability of terminology analysis per ISO 1087-1:2000
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://iso.org/iso-1087-1](iso-1087-1.html)  [iso-1087-1]
+	
+# Imports # {#Extensions}
+	* [http://www.w3.org/2000/01/rdf-schema](http://www.w3.org/2000/01/rdf-schema.html) [rdfs]
+
+	* [http://purl.org/dc/elements/1.1](http://purl.org/dc/elements/1.html) [dc]
+
+	* [http://opencaesar.io/viewpoint](http://opencaesar.io/viewpoint.html) [viewpoint]
+
+# Concepts # {#concepts}
+	## <dfn>ConceptSystem</dfn> ## {#ConceptSystem}
+	
+	
+	
+	<table class='def'>
+	
+
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+# Annotation Properties # {#AnnotationProperties}
+## <dfn>AssociativeRelation</dfn> ## {#AssociativeRelation}
+
+
+
+
+## <dfn>CausalRelation</dfn> ## {#CausalRelation}
+
+
+
+
+## <dfn>Characteristic</dfn> ## {#Characteristic}
+
+
+
+
+## <dfn>Concept</dfn> ## {#Concept}
+
+
+
+
+## <dfn>ConceptDiagram</dfn> ## {#ConceptDiagram}
+
+Annotation subject is an ontology
+
+
+
+## <dfn>DelimitingCharacteristic</dfn> ## {#DelimitingCharacteristic}
+
+
+
+
+## <dfn>EssentialCharacteristic</dfn> ## {#EssentialCharacteristic}
+
+
+
+
+## <dfn>GenericRelation</dfn> ## {#GenericRelation}
+
+
+
+
+## <dfn>HierarchicalRelation</dfn> ## {#HierarchicalRelation}
+
+
+
+
+## <dfn>Includes</dfn> ## {#Includes}
+
+
+This annotation specifies that the annotation subject is included in the scope of a concept system (the annotation object).
+The annotation subject should be an instance or a specialization of ConceptSystem.
+The annotation target should have an annotation as Object, Property, Concept or one of the Characteristics or *Relations.
+
+
+
+## <dfn>IsIncludedIn</dfn> ## {#IsIncludedIn}
+
+
+This annotation specifies that the annotation subject is included in the scope of a concept system (the annotation object).
+The annotation subject should have an annotation as Object, Property, Concept or one of the Characteristics or *Relations.
+The annotation object should be an instance or a specialization of ConceptSystem.
+
+
+
+## <dfn>Object</dfn> ## {#Object}
+
+
+
+
+## <dfn>PartitiveRelation</dfn> ## {#PartitiveRelation}
+
+
+
+
+## <dfn>Property</dfn> ## {#Property}
+
+
+
+
+## <dfn>SequentialRelation</dfn> ## {#SequentialRelation}
+
+
+
+
+## <dfn>Shows</dfn> ## {#Shows}
+
+Annotation subject is shown in the diagram of the annotated ontology.
+
+
+
+## <dfn>TemporalRelation</dfn> ## {#TemporalRelation}
+
+
+
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

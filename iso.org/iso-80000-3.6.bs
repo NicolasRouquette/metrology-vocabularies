@@ -1,0 +1,249 @@
+<pre class='metadata'>
+Title: ISO-80000-3
+Shortname: iso-80000-3.6
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/iso.org/iso-80000-3.6
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: Jet Propulsion Laboratory
+!Copyright: Copyright 2021, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. This software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons.
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: The ISO-80000-3 library.
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://iso.org/iso-80000-3.6](iso-80000-3.6.html)  [iso-80000-3.6]
+	
+# Extensions # {#Extensions}
+	* [http://iso.org/iso-80000-1](http://iso.org/iso-80000-1.html) [iso-80000-1]
+
+	* [http://iso.org/iso-80000-3.5](http://iso.org/iso-80000-3.html) [iso-80000-3.5]
+
+# Usages # {#Iclusions}
+	* [http://purl.org/dc/elements/1.1](http://purl.org/dc/elements/1.html) [dc]
+
+	* [http://www.w3.org/2000/01/rdf-schema](http://www.w3.org/2000/01/rdf-schema.html) [rdfs]
+
+	* [http://www.w3.org/2001/XMLSchema](http://www.w3.org/2001/XMLSchema.html) [xsd]
+
+	* [http://www.w3.org/2002/07/owl](http://www.w3.org/2002/07/owl.html) [owl]
+
+	* [http://bipm.org/jcgm/vim4](http://bipm.org/jcgm/vim4.html) [vim4]
+
+# Concept Instances # {#ConceptInstances}
+## <dfn>solid-angle</dfn> ## {#Solid-angle}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> solid-angle</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>steradian</dfn> ## {#Steradian}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="UnprefixedMeasurementUnit">vim4:UnprefixedMeasurementUnit</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> steradian</li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Links</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="instantiates">vim4:instantiates</a> <a spec="http://iso.org/iso-80000-3.6" lt="solid-angle">solid-angle</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+# Relation Instances # {#RelationInstances}
+## <dfn>ISQ-solid-angle</dfn> ## {#ISQ-solid-angle}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.6" lt="solid-angle">solid-angle</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="isDimensionless">vim4:isDimensionless</a> false</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-solid-angle.angle</dfn> ## {#ISQ-solid-angle.angle}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.6" lt="ISQ-solid-angle">ISQ-solid-angle</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.5" lt="ISQ-plane-angle">iso-80000-3.5:ISQ-plane-angle</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 2/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>SI-steradian</dfn> ## {#SI-steradian}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">vim4:SystemHasDerivedUnit</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="SI">iso-80000-1:SI</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.6" lt="steradian">steradian</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="isOffSystemUnit">vim4:isOffSystemUnit</a> false</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>SI-steradian.radian</dfn> ## {#SI-steradian.radian}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitFactor">vim4:HasPowerOfUnitFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.6" lt="SI-steradian">SI-steradian</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.5" lt="SI-radian">iso-80000-3.5:SI-radian</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 2/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

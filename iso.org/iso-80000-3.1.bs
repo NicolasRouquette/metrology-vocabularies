@@ -1,0 +1,1342 @@
+<pre class='metadata'>
+Title: ISO-80000-3
+Shortname: iso-80000-3.1
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/iso.org/iso-80000-3.1
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: Jet Propulsion Laboratory
+!Copyright: Copyright 2021, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. This software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons.
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: The ISO-80000-3 library.
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://iso.org/iso-80000-3.1](iso-80000-3.1.html)  [iso-80000-3.1]
+	
+# Extensions # {#Extensions}
+	* [http://iso.org/iso-80000-1](http://iso.org/iso-80000-1.html) [iso-80000-1]
+
+# Usages # {#Iclusions}
+	* [http://purl.org/dc/elements/1.1](http://purl.org/dc/elements/1.html) [dc]
+
+	* [http://www.w3.org/2002/07/owl](http://www.w3.org/2002/07/owl.html) [owl]
+
+	* [http://www.w3.org/2001/XMLSchema](http://www.w3.org/2001/XMLSchema.html) [xsd]
+
+	* [http://bipm.org/jcgm/vim4](http://bipm.org/jcgm/vim4.html) [vim4]
+
+# Concept Instances # {#ConceptInstances}
+## <dfn>breadth</dfn> ## {#Breadth}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> breadth</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>cartesian-coordinate</dfn> ## {#Cartesian-coordinate}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> cartesian-coordinate</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>decimetre</dfn> ## {#Decimetre}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="PrefixedMeasurementUnit">vim4:PrefixedMeasurementUnit</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> decimetre</li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Links</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="hasMultiple">vim4:hasMultiple</a> <a spec="http://iso.org/iso-80000-1" lt="deci">iso-80000-1:deci</a></li>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="isMultipleOf">vim4:isMultipleOf</a> <a spec="http://iso.org/iso-80000-3.1" lt="metre">metre</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>diameter</dfn> ## {#Diameter}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> diameter</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>displacement</dfn> ## {#Displacement}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> displacement</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>distance</dfn> ## {#Distance}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> distance</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>height</dfn> ## {#Height}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> height</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>kilometre</dfn> ## {#Kilometre}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="PrefixedMeasurementUnit">vim4:PrefixedMeasurementUnit</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> kilometre</li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Links</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="hasMultiple">vim4:hasMultiple</a> <a spec="http://iso.org/iso-80000-1" lt="kilo">iso-80000-1:kilo</a></li>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="isMultipleOf">vim4:isMultipleOf</a> <a spec="http://iso.org/iso-80000-3.1" lt="metre">metre</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>length</dfn> ## {#Length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> length</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>length-of-path</dfn> ## {#Length-of-path}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> length-of-path</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>metre</dfn> ## {#Metre}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="UnprefixedMeasurementUnit">vim4:UnprefixedMeasurementUnit</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> metre</li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Links</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="instantiates">vim4:instantiates</a> <a spec="http://iso.org/iso-80000-3.1" lt="length">length</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>position-vector</dfn> ## {#Position-vector}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> position-vector</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>radial-distance</dfn> ## {#Radial-distance}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> radial-distance</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>radius</dfn> ## {#Radius}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> radius</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>radius-of-curvature</dfn> ## {#Radius-of-curvature}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> radius-of-curvature</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>thickness</dfn> ## {#Thickness}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> thickness</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+# Relation Instances # {#RelationInstances}
+## <dfn>ISQ-breadth</dfn> ## {#ISQ-breadth}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="breadth">breadth</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-breadth.length</dfn> ## {#ISQ-breadth.length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-breadth">ISQ-breadth</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-length">ISQ-length</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-cartesian-coordinate</dfn> ## {#ISQ-cartesian-coordinate}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="cartesian-coordinate">cartesian-coordinate</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-cartesian-coordinate.length</dfn> ## {#ISQ-cartesian-coordinate.length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-cartesian-coordinate">ISQ-cartesian-coordinate</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-length">ISQ-length</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-diameter</dfn> ## {#ISQ-diameter}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="diameter">diameter</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-diameter.length</dfn> ## {#ISQ-diameter.length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-diameter">ISQ-diameter</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-length">ISQ-length</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-displacement</dfn> ## {#ISQ-displacement}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="displacement">displacement</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-displacement.length</dfn> ## {#ISQ-displacement.length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-displacement">ISQ-displacement</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-length">ISQ-length</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-distance</dfn> ## {#ISQ-distance}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="distance">distance</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-distance.length</dfn> ## {#ISQ-distance.length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-distance">ISQ-distance</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-length">ISQ-length</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-height</dfn> ## {#ISQ-height}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="height">height</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-height.length</dfn> ## {#ISQ-height.length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-height">ISQ-height</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-length">ISQ-length</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-length</dfn> ## {#ISQ-length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnitaryQuantity">vim4:SystemHasBaseUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="length">length</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="dimensionSymbol">vim4:dimensionSymbol</a> L</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-length-of-path</dfn> ## {#ISQ-length-of-path}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="length-of-path">length-of-path</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-length-of-path.length</dfn> ## {#ISQ-length-of-path.length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-length-of-path">ISQ-length-of-path</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-length">ISQ-length</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-position-vector</dfn> ## {#ISQ-position-vector}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="position-vector">position-vector</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-position-vector.length</dfn> ## {#ISQ-position-vector.length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-position-vector">ISQ-position-vector</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-length">ISQ-length</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-radial-distance</dfn> ## {#ISQ-radial-distance}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="radial-distance">radial-distance</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-radial-distance.length</dfn> ## {#ISQ-radial-distance.length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-radial-distance">ISQ-radial-distance</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-length">ISQ-length</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-radius</dfn> ## {#ISQ-radius}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="radius">radius</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-radius-of-curvature</dfn> ## {#ISQ-radius-of-curvature}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="radius-of-curvature">radius-of-curvature</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-radius-of-curvature.length</dfn> ## {#ISQ-radius-of-curvature.length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-radius-of-curvature">ISQ-radius-of-curvature</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-length">ISQ-length</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-radius.length</dfn> ## {#ISQ-radius.length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-radius">ISQ-radius</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-length">ISQ-length</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-thickness</dfn> ## {#ISQ-thickness}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="thickness">thickness</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-thickness.length</dfn> ## {#ISQ-thickness.length}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-thickness">ISQ-thickness</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="ISQ-length">ISQ-length</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>SI-decimetre</dfn> ## {#SI-decimetre}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">vim4:SystemHasDerivedUnit</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="SI">iso-80000-1:SI</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="decimetre">decimetre</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="isOffSystemUnit">vim4:isOffSystemUnit</a> true</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>SI-kilometre</dfn> ## {#SI-kilometre}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">vim4:SystemHasDerivedUnit</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="SI">iso-80000-1:SI</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="kilometre">kilometre</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="isOffSystemUnit">vim4:isOffSystemUnit</a> true</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>SI-metre</dfn> ## {#SI-metre}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnit">vim4:SystemHasBaseUnit</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="SI">iso-80000-1:SI</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.1" lt="metre">metre</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

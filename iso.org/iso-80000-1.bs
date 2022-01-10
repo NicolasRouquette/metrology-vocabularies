@@ -1,0 +1,624 @@
+<pre class='metadata'>
+Title: ISO-80000-1
+Shortname: iso-80000-1
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/iso.org/iso-80000-1
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: Jet Propulsion Laboratory
+!Copyright: Copyright 2021, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. This software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons.
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: The ISO-80000-1 library.
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://iso.org/iso-80000-1](iso-80000-1.html)  [iso-80000-1]
+	
+# Usages # {#Iclusions}
+	* [http://purl.org/dc/elements/1.1](http://purl.org/dc/elements/1.html) [dc]
+
+	* [http://www.w3.org/2000/01/rdf-schema](http://www.w3.org/2000/01/rdf-schema.html) [rdfs]
+
+	* [http://bipm.org/jcgm/vim4](http://bipm.org/jcgm/vim4.html) [vim4]
+
+# Concept Instances # {#ConceptInstances}
+## <dfn>ISQ</dfn> ## {#ISQ}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">vim4:SystemOfQuantities</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> ISQ</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>Pi_180</dfn> ## {#Pi_180}
+
+Pi/180
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> Pi/180</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>SI</dfn> ## {#SI}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">vim4:SystemOfUnits</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> SI</li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Links</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="given">vim4:given</a> <a spec="http://iso.org/iso-80000-1" lt="ISQ">ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>atto</dfn> ## {#Atto}
+
+10^-18
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> atto</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>centi</dfn> ## {#Centi}
+
+10^-2
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> centi</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>deca</dfn> ## {#Deca}
+
+10^1
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> deca</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>deci</dfn> ## {#Deci}
+
+10^-1
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> deci</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>exa</dfn> ## {#Exa}
+
+10^18
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> exa</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>femto</dfn> ## {#Femto}
+
+10^-15
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> femto</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>giga</dfn> ## {#Giga}
+
+10^9
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> giga</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>hecto</dfn> ## {#Hecto}
+
+10^2
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> hecto</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>kilo</dfn> ## {#Kilo}
+
+10^3
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> kilo</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>mega</dfn> ## {#Mega}
+
+10^6
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> mega</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>micro</dfn> ## {#Micro}
+
+10^-6
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> micro</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>milli</dfn> ## {#Milli}
+
+10^-3
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> milli</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>nano</dfn> ## {#Nano}
+
+10^-9
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> nano</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>one_of_sixty</dfn> ## {#One_of_sixty}
+
+1/60
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> 1/60</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>peta</dfn> ## {#Peta}
+
+10^15
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> peta</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>pico</dfn> ## {#Pico}
+
+10^-12
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> pico</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>sixty</dfn> ## {#Sixty}
+
+60
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> 60</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>tera</dfn> ## {#Tera}
+
+10^12
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> tera</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>yocto</dfn> ## {#Yocto}
+
+10^-24
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> yocto</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>yotta</dfn> ## {#Yotta}
+
+10^24
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> yotta</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>zepto</dfn> ## {#Zepto}
+
+10^-21
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> zepto</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>zetta</dfn> ## {#Zetta}
+
+10^21
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">vim4:Multiple</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> zetta</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

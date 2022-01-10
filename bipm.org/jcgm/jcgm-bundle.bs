@@ -1,0 +1,39 @@
+<pre class='metadata'>
+Title: jcgm-bundle
+Shortname: jcgm-bundle
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/bipm.org/jcgm/jcgm-bundle
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: Unknown
+!Copyright: 
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: 
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://bipm.org/jcgm/jcgm-bundle](jcgm-bundle.html)  [jcgm-bundle]
+	
+# Inclusions # {#Inclusions}
+	* [http://bipm.org/jcgm/vim4](http://bipm.org/jcgm/vim4.html)
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

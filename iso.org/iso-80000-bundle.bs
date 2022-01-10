@@ -1,0 +1,102 @@
+<pre class='metadata'>
+Title: ISO-80000 Bundle
+Shortname: iso-80000-bundle
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/iso.org/iso-80000-bundle
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: Jet Propulsion Laboratory
+!Copyright: Copyright 2010-2020, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. This software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons.
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: This is the ISO-80000 vocabulary bundle.
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://iso.org/iso-80000-bundle](iso-80000-bundle.html)  [iso-80000-bundle]
+	
+# Inclusions # {#Inclusions}
+	* [http://iso.org/iso-80000-1](http://iso.org/iso-80000-1.html)
+
+	* [http://iso.org/iso-80000-3.1](http://iso.org/iso-80000-3.html)
+
+	* [http://iso.org/iso-80000-3.2](http://iso.org/iso-80000-3.html)
+
+	* [http://iso.org/iso-80000-3.3](http://iso.org/iso-80000-3.html)
+
+	* [http://iso.org/iso-80000-3.4](http://iso.org/iso-80000-3.html)
+
+	* [http://iso.org/iso-80000-3.5](http://iso.org/iso-80000-3.html)
+
+	* [http://iso.org/iso-80000-3.6](http://iso.org/iso-80000-3.html)
+
+	* [http://iso.org/iso-80000-3.7](http://iso.org/iso-80000-3.html)
+
+	* [http://iso.org/iso-80000-3.8](http://iso.org/iso-80000-3.html)
+
+	* [http://iso.org/iso-80000-3.9](http://iso.org/iso-80000-3.html)
+
+	* [http://iso.org/iso-80000-3.10](http://iso.org/iso-80000-3.html)
+
+	* [http://iso.org/iso-80000-3.11](http://iso.org/iso-80000-3.html)
+
+	* [http://iso.org/iso-80000-3.14](http://iso.org/iso-80000-3.html)
+
+	* [http://iso.org/iso-80000-3.15](http://iso.org/iso-80000-3.html)
+
+	* [http://iso.org/iso-80000-4.1](http://iso.org/iso-80000-4.html)
+
+	* [http://iso.org/iso-80000-4.2](http://iso.org/iso-80000-4.html)
+
+	* [http://iso.org/iso-80000-4.3](http://iso.org/iso-80000-4.html)
+
+	* [http://iso.org/iso-80000-4.8](http://iso.org/iso-80000-4.html)
+
+	* [http://iso.org/iso-80000-4.9](http://iso.org/iso-80000-4.html)
+
+	* [http://iso.org/iso-80000-4.11](http://iso.org/iso-80000-4.html)
+
+	* [http://iso.org/iso-80000-4.13](http://iso.org/iso-80000-4.html)
+
+	* [http://iso.org/iso-80000-4.14](http://iso.org/iso-80000-4.html)
+
+	* [http://iso.org/iso-80000-4.15](http://iso.org/iso-80000-4.html)
+
+	* [http://iso.org/iso-80000-4.26](http://iso.org/iso-80000-4.html)
+
+	* [http://iso.org/iso-80000-5.1](http://iso.org/iso-80000-5.html)
+
+	* [http://iso.org/iec-80000-6.1](http://iso.org/iec-80000-6.html)
+
+	* [http://iso.org/iec-80000-6.2](http://iso.org/iec-80000-6.html)
+
+	* [http://iso.org/iec-80000-6.21](http://iso.org/iec-80000-6.html)
+
+	* [http://iso.org/iec-80000-6.45](http://iso.org/iec-80000-6.html)
+
+	* [http://iso.org/iec-80000-6.46](http://iso.org/iec-80000-6.html)
+
+# Usages # {#Usages}
+	* [http://purl.org/dc/elements/1.1](http://purl.org/dc/elements/1.html) [dc]
+
+	* [http://bipm.org/jcgm/jcgm-bundle](http://bipm.org/jcgm/jcgm-bundle.html)
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

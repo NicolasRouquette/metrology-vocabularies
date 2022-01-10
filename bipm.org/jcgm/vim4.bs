@@ -1,0 +1,3214 @@
+<pre class='metadata'>
+Title: vim4
+Shortname: vim4
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/bipm.org/jcgm/vim4
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: Unknown
+!Copyright: 
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: 
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://bipm.org/jcgm/vim4](vim4.html)  [vim4]
+	
+# Imports # {#Extensions}
+	* [http://purl.org/dc/elements/1.1](http://purl.org/dc/elements/1.html) [dc]
+
+	* [http://www.w3.org/2000/01/rdf-schema](http://www.w3.org/2000/01/rdf-schema.html) [rdfs]
+
+	* [http://www.w3.org/2002/07/owl](http://www.w3.org/2002/07/owl.html) [owl]
+
+	* [http://www.w3.org/2001/XMLSchema](http://www.w3.org/2001/XMLSchema.html) [xsd]
+
+	* [http://iso.org/iso-1087-1](http://iso.org/iso-1087-1.html) [iso-1087-1]
+
+# Aspects # {#Aspects}
+	## <dfn>GeneralProperty</dfn> ## {#GeneralProperty}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IdentifiedElement">IdentifiedElement</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralNominalProperty">GeneralNominalProperty</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralQuantity">GeneralQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>GeneralQuantity</dfn> ## {#GeneralQuantity}
+	
+	General quantity in [VIM4 CD: 1.1] corresponds precisely to kind-of-quantity in [OonP: S.13.3.1].
+	
+	property whose instances can be compared by ratio or only by order
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralProperty">GeneralProperty</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralOrdinalQuantity">GeneralOrdinalQuantity</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Instantiates">Instantiates</a> ? GeneralQuantity 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>HasCoherence</dfn> ## {#HasCoherence}
+	
+	
+	
+	<table class='def'>
+	
+
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">SystemHasDerivedUnit</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="isCoherent">isCoherent</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>IdentifiedElement</dfn> ## {#IdentifiedElement}
+	
+	
+	
+	<table class='def'>
+	
+
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralProperty">GeneralProperty</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualProperty">IndividualProperty</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="Measurement">Measurement</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementMethod">MeasurementMethod</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementPrinciple">MeasurementPrinciple</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementScale">MeasurementScale</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">Multiple</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="id">id</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<th>Keys</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="id">id</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>IndividualProperty</dfn> ## {#IndividualProperty}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IdentifiedElement">IdentifiedElement</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualNominalProperty">IndividualNominalProperty</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementScale">MeasurementScale</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> ? IndividualProperty 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>IndividualQuantity</dfn> ## {#IndividualQuantity}
+	
+	
+	instance of a general quantity
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualProperty">IndividualProperty</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualOrdinalQuantity">IndividualOrdinalQuantity</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualUnitaryQuantity">IndividualUnitaryQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>IndividualQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="Characterizes">Characterizes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Object">Object</a> 
+			</li>
+			<li>IndividualQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="Instantiates">Instantiates</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="GeneralQuantity">GeneralQuantity</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="HasInput">HasInput</a> ? IndividualQuantity 
+			</li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="QuantityValue">QuantityValue</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IsAttributedTo">IsAttributedTo</a> ? IndividualQuantity 
+			</li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IsInfluencedBy">IsInfluencedBy</a> ? IndividualQuantity 
+			</li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Measures">Measures</a> ? IndividualQuantity 
+			</li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="UsesCorrection">UsesCorrection</a> ? IndividualQuantity 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>Object</dfn> ## {#Object}
+	
+	
+	
+	<table class='def'>
+	
+
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Characterizes">Characterizes</a> ? Object 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>QuantityValue</dfn> ## {#QuantityValue}
+	
+	
+	
+	<table class='def'>
+	
+
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="OrdinalQuantityValue">OrdinalQuantityValue</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="UnitaryQuantityValue">UnitaryQuantityValue</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="isReferenceValue">isReferenceValue</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="isTrueValue">isTrueValue</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>QuantityValue ? <a spec="http://bipm.org/jcgm/vim4" lt="IsAttributedTo">IsAttributedTo</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="YieldsMeasuredValue">YieldsMeasuredValue</a> ? QuantityValue 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>RationalExponent</dfn> ## {#RationalExponent}
+	
+	
+	
+	<table class='def'>
+	
+
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitFactor">HasPowerOfUnitFactor</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">HasPowerOfUnitaryQuantityFactor</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="HasQuantityDimension">HasQuantityDimension</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">exponent</a> (must have exactly 1)</li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	
+
+	</table>
+	
+
+# Concepts # {#concepts}
+	## <dfn>GeneralNominalProperty</dfn> ## {#GeneralNominalProperty}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralProperty">GeneralProperty</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>GeneralOrdinalQuantity</dfn> ## {#GeneralOrdinalQuantity}
+	
+	
+	general quantity whose instances can be compared by order but not by ratio
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralQuantity">GeneralQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>GeneralUnitaryQuantity</dfn> ## {#GeneralUnitaryQuantity}
+	
+	
+	general quantity whose instances can be compared by ratio
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralQuantity">GeneralQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>GeneralUnitaryQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="Specializes">Specializes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Specializes">Specializes</a> ? GeneralUnitaryQuantity 
+			</li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnitaryQuantity">SystemHasBaseUnitaryQuantity</a> ? GeneralUnitaryQuantity 
+			</li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">SystemHasDerivedUnitaryQuantity</a> ? GeneralUnitaryQuantity 
+			</li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> ? GeneralUnitaryQuantity 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>IndividualNominalProperty</dfn> ## {#IndividualNominalProperty}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualProperty">IndividualProperty</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>IndividualOrdinalQuantity</dfn> ## {#IndividualOrdinalQuantity}
+	
+	
+	instance of a general ordinal quantity
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="InherentOrdinalQuantity">InherentOrdinalQuantity</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="OrdinalQuantityValue">OrdinalQuantityValue</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>IndividualOrdinalQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="Instantiates">Instantiates</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="GeneralOrdinalQuantity">GeneralOrdinalQuantity</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>IndividualUnitaryQuantity</dfn> ## {#IndividualUnitaryQuantity}
+	
+	
+	instance of a general unitary quantity
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="InherentUnitaryQuantity">InherentUnitaryQuantity</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="UnitaryQuantityValue">UnitaryQuantityValue</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>IndividualUnitaryQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="Instantiates">Instantiates</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>InherentOrdinalQuantity</dfn> ## {#InherentOrdinalQuantity}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualOrdinalQuantity">IndividualOrdinalQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>InherentOrdinalQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="Characterizes">Characterizes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Object">Object</a> (cardinality restricted to exactly 1)
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>InherentUnitaryQuantity</dfn> ## {#InherentUnitaryQuantity}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualUnitaryQuantity">IndividualUnitaryQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>InherentUnitaryQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="Characterizes">Characterizes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Object">Object</a> (cardinality restricted to exactly 1)
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>Measurement</dfn> ## {#Measurement}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IdentifiedElement">IdentifiedElement</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Describes">Describes</a> ? Measurement 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>MeasurementMethod</dfn> ## {#MeasurementMethod}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IdentifiedElement">IdentifiedElement</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="UsesOperationsOf">UsesOperationsOf</a> ? MeasurementMethod 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>MeasurementModel</dfn> ## {#MeasurementModel}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IdentifiedElement">IdentifiedElement</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>MeasurementModel ? <a spec="http://bipm.org/jcgm/vim4" lt="HasInput">HasInput</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
+			</li>
+			<li>MeasurementModel ? <a spec="http://bipm.org/jcgm/vim4" lt="IsInfluencedBy">IsInfluencedBy</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
+			</li>
+			<li>MeasurementModel ? <a spec="http://bipm.org/jcgm/vim4" lt="Measures">Measures</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
+			</li>
+			<li>MeasurementModel ? <a spec="http://bipm.org/jcgm/vim4" lt="UsesCorrection">UsesCorrection</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a> 
+			</li>
+			<li>MeasurementModel ? <a spec="http://bipm.org/jcgm/vim4" lt="YieldsMeasuredValue">YieldsMeasuredValue</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="QuantityValue">QuantityValue</a> 
+			</li>
+			<li>MeasurementModel ? <a spec="http://bipm.org/jcgm/vim4" lt="YieldsMeasurementUncertainty">YieldsMeasurementUncertainty</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUncertainty">MeasurementUncertainty</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IsBasedOn">IsBasedOn</a> ? MeasurementModel 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>MeasurementPrinciple</dfn> ## {#MeasurementPrinciple}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IdentifiedElement">IdentifiedElement</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Per">Per</a> ? MeasurementPrinciple 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>MeasurementProcedure</dfn> ## {#MeasurementProcedure}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IdentifiedElement">IdentifiedElement</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>MeasurementProcedure ? <a spec="http://bipm.org/jcgm/vim4" lt="Describes">Describes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Measurement">Measurement</a> 
+			</li>
+			<li>MeasurementProcedure ? <a spec="http://bipm.org/jcgm/vim4" lt="IsBasedOn">IsBasedOn</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> 
+			</li>
+			<li>MeasurementProcedure ? <a spec="http://bipm.org/jcgm/vim4" lt="Per">Per</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementPrinciple">MeasurementPrinciple</a> 
+			</li>
+			<li>MeasurementProcedure ? <a spec="http://bipm.org/jcgm/vim4" lt="UsesOperationsOf">UsesOperationsOf</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementMethod">MeasurementMethod</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>MeasurementScale</dfn> ## {#MeasurementScale}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IdentifiedElement">IdentifiedElement</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="OrdinalScale">OrdinalScale</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="ReferenceSet">ReferenceSet</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="UnitaryScale">UnitaryScale</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>MeasurementScale ? <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IndividualProperty">IndividualProperty</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>MeasurementUncertainty</dfn> ## {#MeasurementUncertainty}
+	
+	
+	
+	<table class='def'>
+	
+
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="YieldsMeasurementUncertainty">YieldsMeasurementUncertainty</a> ? MeasurementUncertainty 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>MeasurementUnit</dfn> ## {#MeasurementUnit}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualUnitaryQuantity">IndividualUnitaryQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="PrefixedMeasurementUnit">PrefixedMeasurementUnit</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="UnprefixedMeasurementUnit">UnprefixedMeasurementUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>MeasurementUnit ? <a spec="http://bipm.org/jcgm/vim4" lt="HasMultiple">HasMultiple</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Multiple">Multiple</a> 
+			</li>
+			<li>MeasurementUnit ? <a spec="http://bipm.org/jcgm/vim4" lt="IsMultipleOf">IsMultipleOf</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="UnitaryQuantityValue">UnitaryQuantityValue</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="HasUnit">HasUnit</a> ? MeasurementUnit 
+			</li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IsMultipleOf">IsMultipleOf</a> ? MeasurementUnit 
+			</li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnit">SystemHasBaseUnit</a> ? MeasurementUnit 
+			</li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">SystemHasDerivedUnit</a> ? MeasurementUnit 
+			</li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnit">SystemHasUnit</a> ? MeasurementUnit 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>Multiple</dfn> ## {#Multiple}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IdentifiedElement">IdentifiedElement</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="HasMultiple">HasMultiple</a> ? Multiple 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>OrdinalQuantityValue</dfn> ## {#OrdinalQuantityValue}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualOrdinalQuantity">IndividualOrdinalQuantity</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="QuantityValue">QuantityValue</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>OrdinalQuantityValue ? <a spec="http://bipm.org/jcgm/vim4" lt="IsAttributedTo">IsAttributedTo</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="InherentOrdinalQuantity">InherentOrdinalQuantity</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>OrdinalScale</dfn> ## {#OrdinalScale}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementScale">MeasurementScale</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>OrdinalScale ? <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="OrdinalQuantityValue">OrdinalQuantityValue</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>PrefixedMeasurementUnit</dfn> ## {#PrefixedMeasurementUnit}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>PrefixedMeasurementUnit ? <a spec="http://bipm.org/jcgm/vim4" lt="HasMultiple">HasMultiple</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Multiple">Multiple</a> (cardinality restricted to exactly 1)
+			</li>
+			<li>PrefixedMeasurementUnit ? <a spec="http://bipm.org/jcgm/vim4" lt="IsMultipleOf">IsMultipleOf</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to exactly 1)
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>ReferenceSet</dfn> ## {#ReferenceSet}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementScale">MeasurementScale</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>ReferenceSet ? <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="IndividualNominalProperty">IndividualNominalProperty</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>SystemOfQuantities</dfn> ## {#SystemOfQuantities}
+	
+	system of quantities in [VIM4 CD: 1.3, Note 2] corresponds precisely to system of unitary kinds-ef-quantity in [OonP: S.13.7].
+	
+	set of quantities together with a set of non-contradictory equations relating those quantities.
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IdentifiedElement">IdentifiedElement</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>SystemOfQuantities ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnitaryQuantity">SystemHasBaseUnitaryQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
+			</li>
+			<li>SystemOfQuantities ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">SystemHasDerivedUnitaryQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
+			</li>
+			<li>SystemOfQuantities ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Given">Given</a> ? SystemOfQuantities 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>SystemOfUnits</dfn> ## {#SystemOfUnits}
+	
+	
+	set of base units and derived units, together with their multiples and submultiples, 
+	  defined in accordance with given rules, for a given system of quantities.
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="HasCoherence">HasCoherence</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IdentifiedElement">IdentifiedElement</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>SystemOfUnits ? <a spec="http://bipm.org/jcgm/vim4" lt="Given">Given</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a> (cardinality restricted to exactly 1)
+			</li>
+			<li>SystemOfUnits ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnit">SystemHasBaseUnit</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> 
+			</li>
+			<li>SystemOfUnits ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">SystemHasDerivedUnit</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> 
+			</li>
+			<li>SystemOfUnits ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnit">SystemHasUnit</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>UnitaryQuantityValue</dfn> ## {#UnitaryQuantityValue}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="IndividualUnitaryQuantity">IndividualUnitaryQuantity</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="QuantityValue">QuantityValue</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="hasDoubleNumber">hasDoubleNumber</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>UnitaryQuantityValue ? <a spec="http://bipm.org/jcgm/vim4" lt="HasUnit">HasUnit</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to exactly 1)
+			</li>
+			<li>UnitaryQuantityValue ? <a spec="http://bipm.org/jcgm/vim4" lt="IsAttributedTo">IsAttributedTo</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="InherentUnitaryQuantity">InherentUnitaryQuantity</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>UnitaryScale</dfn> ## {#UnitaryScale}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementScale">MeasurementScale</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>UnitaryScale ? <a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="UnitaryQuantityValue">UnitaryQuantityValue</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>UnprefixedMeasurementUnit</dfn> ## {#UnprefixedMeasurementUnit}
+	
+	
+	
+	<table class='def'>
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>UnprefixedMeasurementUnit ? <a spec="http://bipm.org/jcgm/vim4" lt="HasMultiple">HasMultiple</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="Multiple">Multiple</a> (cardinality restricted to exactly 0)
+			</li>
+			<li>UnprefixedMeasurementUnit ? <a spec="http://bipm.org/jcgm/vim4" lt="IsMultipleOf">IsMultipleOf</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a> (cardinality restricted to exactly 0)
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+# Relation Entities # {#Relations}
+	## <dfn>Characterizes</dfn> ## {#Characterizes}
+	
+	An InherentQuantity characterizes an Object.
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="Object">Object</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=Characterizes>characterizes</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>Describes</dfn> ## {#Describes}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="Measurement">Measurement</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=Describes>describes</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>Given</dfn> ## {#Given}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=Given>given</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>HasInput</dfn> ## {#HasInput}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=HasInput>hasInput</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>HasMultiple</dfn> ## {#HasMultiple}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="Multiple">Multiple</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=HasMultiple>hasMultiple</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>HasPowerOfUnitFactor</dfn> ## {#HasPowerOfUnitFactor}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">SystemHasDerivedUnit</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnit">SystemHasUnit</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="RationalExponent">RationalExponent</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=HasPowerOfUnitFactor>hasPowerOfUnitFactor</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>HasPowerOfUnitaryQuantityFactor</dfn> ## {#HasPowerOfUnitaryQuantityFactor}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">SystemHasDerivedUnitaryQuantity</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="RationalExponent">RationalExponent</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=HasPowerOfUnitaryQuantityFactor>hasPowerOfUnitaryQuantityFactor</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>HasQuantityDimension</dfn> ## {#HasQuantityDimension}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnitaryQuantity">SystemHasBaseUnitaryQuantity</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="RationalExponent">RationalExponent</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=HasQuantityDimension>hasQuantityDimension</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>HasUnit</dfn> ## {#HasUnit}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="UnitaryQuantityValue">UnitaryQuantityValue</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=HasUnit>unit</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>Includes</dfn> ## {#Includes}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementScale">MeasurementScale</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="IndividualProperty">IndividualProperty</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=Includes>includes</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="ordinalPosition">ordinalPosition</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>Instantiates</dfn> ## {#Instantiates}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="GeneralQuantity">GeneralQuantity</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=Instantiates>instantiates</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>IsAttributedTo</dfn> ## {#IsAttributedTo}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="QuantityValue">QuantityValue</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=IsAttributedTo>isAttributedTo</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>IsBasedOn</dfn> ## {#IsBasedOn}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=IsBasedOn>isBasedOn</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>IsInfluencedBy</dfn> ## {#IsInfluencedBy}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=IsInfluencedBy>isInfluencedBy</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>IsMultipleOf</dfn> ## {#IsMultipleOf}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=IsMultipleOf>isMultipleOf</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>Measures</dfn> ## {#Measures}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=Measures>measures</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>Per</dfn> ## {#Per}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementPrinciple">MeasurementPrinciple</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=Per>per</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>Specializes</dfn> ## {#Specializes}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=Specializes>specializes</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Asymmetric</li>
+				<li>Irreflexive</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>SystemHasBaseUnit</dfn> ## {#SystemHasBaseUnit}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnit">SystemHasUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=SystemHasBaseUnit>systemHasBaseUnit</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>SystemHasBaseUnitaryQuantity</dfn> ## {#SystemHasBaseUnitaryQuantity}
+	
+	
+	quantity in a conventionally chosen subset of a given system of quantities,
+	  where no quantity in the set of base quantities can be expressed in terms of the others.
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=SystemHasBaseUnitaryQuantity>systemHasBaseUnitaryQuantity</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="dimensionSymbol">dimensionSymbol</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="HasQuantityDimension">HasQuantityDimension</a> ? SystemHasBaseUnitaryQuantity 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>SystemHasDerivedUnit</dfn> ## {#SystemHasDerivedUnit}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="HasCoherence">HasCoherence</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnit">SystemHasUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=SystemHasDerivedUnit>systemHasDerivedUnit</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="isOffSystemUnit">isOffSystemUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>SystemHasDerivedUnit ? <a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitFactor">HasPowerOfUnitFactor</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnit">SystemHasUnit</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>SystemHasDerivedUnitaryQuantity</dfn> ## {#SystemHasDerivedUnitaryQuantity}
+	
+	
+	quantity, in a system of quantities, defined in terms of the base quantities of that system.
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a></td>
+	</tr>
+	
+	
+
+	<tr>
+		<th>Supertypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=SystemHasDerivedUnitaryQuantity>systemHasDerivedUnitaryQuantity</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+	<tr>
+		<th>Properties</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="isDimensionless">isDimensionless</a></li>
+		</ul>
+		</td>
+	</tr>
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>SystemHasDerivedUnitaryQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">HasPowerOfUnitaryQuantityFactor</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasUnitaryQuantity">SystemHasUnitaryQuantity</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	</table>
+	
+
+	## <dfn>SystemHasUnit</dfn> ## {#SystemHasUnit}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfUnits">SystemOfUnits</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUnit">MeasurementUnit</a></td>
+	</tr>
+	
+	
+
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnit">SystemHasBaseUnit</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">SystemHasDerivedUnit</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=SystemHasUnit>systemHasUnit</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">SystemHasDerivedUnit</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitFactor">HasPowerOfUnitFactor</a> ? SystemHasUnit 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>SystemHasUnitaryQuantity</dfn> ## {#SystemHasUnitaryQuantity}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemOfQuantities">SystemOfQuantities</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">GeneralUnitaryQuantity</a></td>
+	</tr>
+	
+	
+
+	
+	<tr>
+		<th>Subtypes</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnitaryQuantity">SystemHasBaseUnitaryQuantity</a></li>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">SystemHasDerivedUnitaryQuantity</a></li>
+		</ul>
+		</td>
+	</tr>
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=SystemHasUnitaryQuantity>systemHasUnitaryQuantity</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	<tr>
+		<th>Relations with source</th>
+		<td><ul>
+			<li>SystemHasUnitaryQuantity ? <a spec="http://bipm.org/jcgm/vim4" lt="HasQuantityDimension">HasQuantityDimension</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnitaryQuantity">SystemHasBaseUnitaryQuantity</a> 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	
+
+	<tr>
+		<th>Relations with target</th>
+		<td><ul>
+			<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">SystemHasDerivedUnitaryQuantity</a> ? <a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">HasPowerOfUnitaryQuantityFactor</a> ? SystemHasUnitaryQuantity 
+			</li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	
+
+	## <dfn>UsesCorrection</dfn> ## {#UsesCorrection}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="IndividualQuantity">IndividualQuantity</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=UsesCorrection>usesCorrection</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>UsesOperationsOf</dfn> ## {#UsesOperationsOf}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementProcedure">MeasurementProcedure</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementMethod">MeasurementMethod</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=UsesOperationsOf>usesOperationsOf</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>YieldsMeasuredValue</dfn> ## {#YieldsMeasuredValue}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="QuantityValue">QuantityValue</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=YieldsMeasuredValue>yieldsMeasuredValue</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+	## <dfn>YieldsMeasurementUncertainty</dfn> ## {#YieldsMeasurementUncertainty}
+	
+	
+	
+	<table class='def'>
+	<tr>
+		<th>Source</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementModel">MeasurementModel</a></td>
+	</tr>
+
+	<tr>
+		<th>Target</th>
+		<td><a spec="http://bipm.org/jcgm/vim4" lt="MeasurementUncertainty">MeasurementUncertainty</a></td>
+	</tr>
+	
+	
+
+	
+	
+	
+		<tr>
+			<th>Forward Relation</th>
+			<td><dfn attribute for=YieldsMeasurementUncertainty>yieldsMeasurementUncertainty</dfn>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<th>Attributes</th>
+			<td><ul>
+				<li>Functional</li>
+			</ul>
+			</td>
+		</tr>
+					
+		
+	
+
+
+
+	
+
+	
+	
+
+	</table>
+	
+
+# Scalar Properties # {#ScalarProperties}
+	## <dfn>dimensionSymbol</dfn> ## {#DimensionSymbol}
+	
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasBaseUnitaryQuantity">SystemHasBaseUnitaryQuantity</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="string">string</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>exponent</dfn> ## {#Exponent}
+	
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://bipm.org/jcgm/vim4" lt="RationalExponent">RationalExponent</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2002/07/owl" lt="rational">rational</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>hasDoubleNumber</dfn> ## {#HasDoubleNumber}
+	
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://bipm.org/jcgm/vim4" lt="UnitaryQuantityValue">UnitaryQuantityValue</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="double">double</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>id</dfn> ## {#Id}
+	
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://bipm.org/jcgm/vim4" lt="IdentifiedElement">IdentifiedElement</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="string">string</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>isCoherent</dfn> ## {#IsCoherent}
+	
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://bipm.org/jcgm/vim4" lt="HasCoherence">HasCoherence</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="boolean">boolean</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>isDimensionless</dfn> ## {#IsDimensionless}
+	
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">SystemHasDerivedUnitaryQuantity</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="boolean">boolean</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>isOffSystemUnit</dfn> ## {#IsOffSystemUnit}
+	
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">SystemHasDerivedUnit</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="boolean">boolean</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>isReferenceValue</dfn> ## {#IsReferenceValue}
+	
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://bipm.org/jcgm/vim4" lt="QuantityValue">QuantityValue</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="boolean">boolean</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>isTrueValue</dfn> ## {#IsTrueValue}
+	
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://bipm.org/jcgm/vim4" lt="QuantityValue">QuantityValue</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="boolean">boolean</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+	## <dfn>ordinalPosition</dfn> ## {#OrdinalPosition}
+	
+	
+	
+	<table class='def'>
+		<tr>
+			<th>Domain</th>
+			<td><a spec="http://bipm.org/jcgm/vim4" lt="Includes">Includes</a></td>
+		</tr>
+
+		<tr>
+			<th>Range</th>
+			<td><a spec="http://www.w3.org/2001/XMLSchema" lt="positiveInteger">positiveInteger</a></td>
+		</tr>
+		
+		<tr>
+			<th>Attributes</th>
+			<td>Functional</td>
+		</tr>
+	</table>
+	
+
+# Rules # {#Rules}
+## <dfn>DerivationDefinedWithinTheSameSystemOfQuantities</dfn> ## {#DerivationDefinedWithinTheSameSystemOfQuantities}
+
+hasPowerOfUnitaryQuantityFactor(d, f)
+ ? SystemHasDerivedUnitaryQuantity(ds, d, dq)
+ ? SystemHasUnitaryQuantity(fs, f, fq)
+ -> sameAs(ds, fs)
+
+## <dfn>DerivationDefinedWithinTheSameSystemOfUnits</dfn> ## {#DerivationDefinedWithinTheSameSystemOfUnits}
+
+hasPowerOfUnitFactor(d, f)
+ ? SystemHasDerivedUnit(ds, d, du)
+ ? SystemHasUnit(fs, f, fu)
+ -> sameAs(ds, fs)
+
+## <dfn>DimensionDefinedWithinTheSameSystemOfQuantities</dfn> ## {#DimensionDefinedWithinTheSameSystemOfQuantities}
+
+hasQuantityDimension(d, b)
+ ? SystemHasUnitaryQuantity(ds, d, dq)
+ ? SystemHasBaseUnitaryQuantity(bs, b, bq)
+ -> sameAs(ds, bs)
+
+## <dfn>InstantiatesSpecializesTransitivity</dfn> ## {#InstantiatesSpecializesTransitivity}
+
+instantiates(i, g1)
+ ? specializes(g1, g2)
+ -> instantiates(i, g2)
+
+## <dfn>SpecializesTransitivity</dfn> ## {#SpecializesTransitivity}
+
+specializes(a, b)
+ ? specializes(b, c)
+ -> specializes(a, c)
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

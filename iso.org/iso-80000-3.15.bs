@@ -1,0 +1,518 @@
+<pre class='metadata'>
+Title: ISO-80000-3
+Shortname: iso-80000-3.15
+Level: 1
+Status: LS-COMMIT
+ED: https://opencaesar.github.io/metrology-vocabularies/iso.org/iso-80000-3.15
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: Jet Propulsion Laboratory
+!Copyright: Copyright 2021, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. This software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons.
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+External Infotrees: anchors.bsdata yes
+Abstract: The ISO-80000-3 library.
+</pre>
+<div export=true>
+# Namespace # {#Namespace}
+	* [http://iso.org/iso-80000-3.15](iso-80000-3.15.html)  [iso-80000-3.15]
+	
+# Extensions # {#Extensions}
+	* [http://iso.org/iso-80000-1](http://iso.org/iso-80000-1.html) [iso-80000-1]
+
+	* [http://iso.org/iso-80000-3.7](http://iso.org/iso-80000-3.html) [iso-80000-3.7]
+
+	* [http://iso.org/iso-80000-3.12](http://iso.org/iso-80000-3.html) [iso-80000-3.12]
+
+	* [http://iso.org/iso-80000-3.14](http://iso.org/iso-80000-3.html) [iso-80000-3.14]
+
+# Usages # {#Iclusions}
+	* [http://purl.org/dc/elements/1.1](http://purl.org/dc/elements/1.html) [dc]
+
+	* [http://www.w3.org/2001/XMLSchema](http://www.w3.org/2001/XMLSchema.html) [xsd]
+
+	* [http://www.w3.org/2002/07/owl](http://www.w3.org/2002/07/owl.html) [owl]
+
+	* [http://bipm.org/jcgm/vim4](http://bipm.org/jcgm/vim4.html) [vim4]
+
+# Concept Instances # {#ConceptInstances}
+## <dfn>frequency</dfn> ## {#Frequency}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> frequency</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>hertz</dfn> ## {#Hertz}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="UnprefixedMeasurementUnit">vim4:UnprefixedMeasurementUnit</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> hertz</li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Links</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="instantiates">vim4:instantiates</a> <a spec="http://iso.org/iso-80000-3.15" lt="frequency">frequency</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>revolution-per-second</dfn> ## {#Revolution-per-second}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="UnprefixedMeasurementUnit">vim4:UnprefixedMeasurementUnit</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> revolution-per-second</li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Links</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="instantiates">vim4:instantiates</a> <a spec="http://iso.org/iso-80000-3.15" lt="rotational-frequency">rotational-frequency</a></li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>rotational-frequency</dfn> ## {#Rotational-frequency}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="GeneralUnitaryQuantity">vim4:GeneralUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> rotational-frequency</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+# Relation Instances # {#RelationInstances}
+## <dfn>ISQ-frequency</dfn> ## {#ISQ-frequency}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.15" lt="frequency">frequency</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="isDimensionless">vim4:isDimensionless</a> false</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-frequency.per.period-duration</dfn> ## {#ISQ-frequency.per.period-duration}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.15" lt="ISQ-frequency">ISQ-frequency</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.12" lt="ISQ-period-duration">iso-80000-3.12:ISQ-period-duration</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> -1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-rotational-frequency</dfn> ## {#ISQ-rotational-frequency}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnitaryQuantity">vim4:SystemHasDerivedUnitaryQuantity</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="ISQ">iso-80000-1:ISQ</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.15" lt="rotational-frequency">rotational-frequency</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="isDimensionless">vim4:isDimensionless</a> false</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-rotational-frequency.per.time</dfn> ## {#ISQ-rotational-frequency.per.time}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.15" lt="ISQ-rotational-frequency">ISQ-rotational-frequency</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.7" lt="ISQ-time">iso-80000-3.7:ISQ-time</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> -1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>ISQ-rotational-frequency.rotation</dfn> ## {#ISQ-rotational-frequency.rotation}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitaryQuantityFactor">vim4:HasPowerOfUnitaryQuantityFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.15" lt="ISQ-rotational-frequency">ISQ-rotational-frequency</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.14" lt="ISQ-rotation">iso-80000-3.14:ISQ-rotation</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>SI-hertz</dfn> ## {#SI-hertz}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">vim4:SystemHasDerivedUnit</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="SI">iso-80000-1:SI</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.15" lt="hertz">hertz</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="isOffSystemUnit">vim4:isOffSystemUnit</a> false</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>SI-hertz.per.second</dfn> ## {#SI-hertz.per.second}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitFactor">vim4:HasPowerOfUnitFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.15" lt="SI-hertz">SI-hertz</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.7" lt="SI-second">iso-80000-3.7:SI-second</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> -1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>SI-revolution-per-second</dfn> ## {#SI-revolution-per-second}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="SystemHasDerivedUnit">vim4:SystemHasDerivedUnit</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-1" lt="SI">iso-80000-1:SI</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.15" lt="revolution-per-second">revolution-per-second</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="isOffSystemUnit">vim4:isOffSystemUnit</a> false</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>SI-revolution-per-second.per.second</dfn> ## {#SI-revolution-per-second.per.second}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitFactor">vim4:HasPowerOfUnitFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.15" lt="SI-revolution-per-second">SI-revolution-per-second</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.7" lt="SI-second">iso-80000-3.7:SI-second</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> -1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+## <dfn>SI-revolution-per-second.revolution</dfn> ## {#SI-revolution-per-second.revolution}
+
+
+
+
+<table class='def'>
+<tr>
+	<th>Types</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="HasPowerOfUnitFactor">vim4:HasPowerOfUnitFactor</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Source</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.15" lt="SI-revolution-per-second">SI-revolution-per-second</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Target</th>
+	<td><ul>
+		<li><a spec="http://iso.org/iso-80000-3.14" lt="SI-revolution">iso-80000-3.14:SI-revolution</a></li>
+	</ul>
+	</td>
+</tr>
+<tr>
+	<th>Properties</th>
+	<td><ul>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="exponent">vim4:exponent</a> 1/1</li>
+	</ul>
+	</td>
+</tr>
+</table>
+
+</div>
+<style>
+a[data-link-type=biblio] {
+    white-space: pre-wrap;
+}
+table.def th {
+	white-space: nowrap;
+}
+table.def ul {
+	padding-left: 1em;
+}
+table.def dfn code {
+	font-family: sans-serif;
+	color: #005A9C;
+}
+</style>

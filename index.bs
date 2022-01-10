@@ -1,0 +1,218 @@
+<pre class='metadata'>
+Title: Metrology Vocabularies 5.0.0-3-gbfb38b9
+Shortname: Index
+Level: 1
+Status: LS
+ED: https://opencaesar.github.io/metrology-vocabularies
+Repository: https://opencaesar.github.io/metrology-vocabularies
+Editor: (see individual ontologies)
+!Copyright: (see individual ontologies)
+Boilerplate: copyright no, conformance no
+Local Boilerplate: logo yes
+Markup Shorthands: markdown yes, css no
+Use Dfn Panels: yes
+Abstract: Documentation generated from OML ontologies
+Favicon: https://opencaesar.github.io/assets/img/oml.png
+</pre>
+
+# bipm.org # {#heading-domain-bipm.org}
+
+## \[jcgm-bundle](./bipm.org/jcgm/jcgm-bundle.html) ## {#heading-jcgm-bundle-1}
+
+
+## \[vim4](./bipm.org/jcgm/vim4.html) ## {#heading-vim4-2}
+
+
+## \[vim4-terminological-analysis](./bipm.org/jcgm/vim4-terminological-analysis.html) ## {#heading-vim4-terminological-analysis-3}
+
+
+## \[vim4.1-systems-diagram](./bipm.org/jcgm/vim4.1-systems-diagram.html) ## {#heading-vim4.1-systems-diagram-4}
+# iso.org # {#heading-domain-iso.org}
+
+## \[IEC-80000-6](./iso.org/iec-80000-6.1.html) ## {#heading-iec-80000-6.1-5}
+The IEC-80000-6 library.
+
+
+## \[IEC-80000-6](./iso.org/iec-80000-6.10.html) ## {#heading-iec-80000-6.10-6}
+The IEC-80000-6 library.
+
+
+## \[IEC-80000-6](./iso.org/iec-80000-6.11.html) ## {#heading-iec-80000-6.11-7}
+The IEC-80000-6 library.
+
+
+## \[IEC-80000-6](./iso.org/iec-80000-6.13.html) ## {#heading-iec-80000-6.13-8}
+The IEC-80000-6 library.
+
+
+## \[IEC-80000-6](./iso.org/iec-80000-6.2.html) ## {#heading-iec-80000-6.2-9}
+The IEC-80000-6 library.
+
+
+## \[IEC-80000-6](./iso.org/iec-80000-6.21.html) ## {#heading-iec-80000-6.21-10}
+The IEC-80000-6 library.
+
+
+## \[IEC-80000-6](./iso.org/iec-80000-6.45.html) ## {#heading-iec-80000-6.45-11}
+The IEC-80000-6 library.
+
+
+## \[IEC-80000-6](./iso.org/iec-80000-6.46.html) ## {#heading-iec-80000-6.46-12}
+The IEC-80000-6 library.
+
+
+## \[ISO 1087-1:2000 annotation vocabulary](./iso.org/iso-1087-1.html) ## {#heading-iso-1087-1-13}
+Annotation vocabulary for traceability of terminology analysis per ISO 1087-1:2000
+
+
+## \[ISO-80000-1](./iso.org/iso-80000-1.html) ## {#heading-iso-80000-1-14}
+The ISO-80000-1 library.
+
+
+## \[ISO-80000-3](./iso.org/iso-80000-3.1.html) ## {#heading-iso-80000-3.1-15}
+The ISO-80000-3 library.
+
+
+## \[ISO-80000-3](./iso.org/iso-80000-3.10.html) ## {#heading-iso-80000-3.10-16}
+The ISO-80000-3 library.
+
+
+## \[ISO-80000-3](./iso.org/iso-80000-3.11.html) ## {#heading-iso-80000-3.11-17}
+The ISO-80000-3 library.
+
+
+## \[ISO-80000-3](./iso.org/iso-80000-3.12.html) ## {#heading-iso-80000-3.12-18}
+The ISO-80000-3 library.
+
+
+## \[ISO-80000-3](./iso.org/iso-80000-3.14.html) ## {#heading-iso-80000-3.14-19}
+The ISO-80000-3 library.
+
+
+## \[ISO-80000-3](./iso.org/iso-80000-3.15.html) ## {#heading-iso-80000-3.15-20}
+The ISO-80000-3 library.
+
+
+## \[ISO-80000-3](./iso.org/iso-80000-3.2.html) ## {#heading-iso-80000-3.2-21}
+The ISO-80000-3 library.
+
+
+## \[ISO-80000-3](./iso.org/iso-80000-3.3.html) ## {#heading-iso-80000-3.3-22}
+The ISO-80000-3 library.
+
+
+## \[ISO-80000-3](./iso.org/iso-80000-3.4.html) ## {#heading-iso-80000-3.4-23}
+The ISO-80000-3 library.
+
+
+## \[ISO-80000-3](./iso.org/iso-80000-3.5.html) ## {#heading-iso-80000-3.5-24}
+The ISO-80000-3 library.
+
+
+## \[ISO-80000-3](./iso.org/iso-80000-3.6.html) ## {#heading-iso-80000-3.6-25}
+The ISO-80000-3 library.
+
+
+## \[ISO-80000-3](./iso.org/iso-80000-3.7.html) ## {#heading-iso-80000-3.7-26}
+The ISO-80000-3 library.
+
+
+## \[ISO-80000-3](./iso.org/iso-80000-3.8.html) ## {#heading-iso-80000-3.8-27}
+The ISO-80000-3 library.
+
+
+## \[ISO-80000-3](./iso.org/iso-80000-3.9.html) ## {#heading-iso-80000-3.9-28}
+The ISO-80000-3 library.
+
+
+## \[ISO-80000-4](./iso.org/iso-80000-4.1.html) ## {#heading-iso-80000-4.1-29}
+The ISO-80000-4 library.
+
+
+## \[ISO-80000-4](./iso.org/iso-80000-4.11.html) ## {#heading-iso-80000-4.11-30}
+The ISO-80000-4 library.
+
+
+## \[ISO-80000-4](./iso.org/iso-80000-4.13.html) ## {#heading-iso-80000-4.13-31}
+The ISO-80000-4 library.
+
+
+## \[ISO-80000-4](./iso.org/iso-80000-4.14.html) ## {#heading-iso-80000-4.14-32}
+The ISO-80000-4 library.
+
+
+## \[ISO-80000-4](./iso.org/iso-80000-4.15.html) ## {#heading-iso-80000-4.15-33}
+The ISO-80000-4 library.
+
+
+## \[ISO-80000-4](./iso.org/iso-80000-4.2.html) ## {#heading-iso-80000-4.2-34}
+The ISO-80000-4 library.
+
+
+## \[ISO-80000-4](./iso.org/iso-80000-4.26.html) ## {#heading-iso-80000-4.26-35}
+The ISO-80000-4 library.
+
+
+## \[ISO-80000-4](./iso.org/iso-80000-4.3.html) ## {#heading-iso-80000-4.3-36}
+The ISO-80000-4 library.
+
+
+## \[ISO-80000-4](./iso.org/iso-80000-4.8.html) ## {#heading-iso-80000-4.8-37}
+The ISO-80000-4 library.
+
+
+## \[ISO-80000-4](./iso.org/iso-80000-4.9.html) ## {#heading-iso-80000-4.9-38}
+The ISO-80000-4 library.
+
+
+## \[ISO-80000-5](./iso.org/iso-80000-5.1.html) ## {#heading-iso-80000-5.1-39}
+The ISO-80000-5 library.
+
+
+## \[ISO-80000 Bundle](./iso.org/iso-80000-bundle.html) ## {#heading-iso-80000-bundle-40}
+This is the ISO-80000 vocabulary bundle.
+# iupac.org # {#heading-domain-iupac.org}
+
+## \[Metrology](./iupac.org/metrology.html) ## {#heading-metrology-41}
+This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontology of Property' 
+focused on the concepts necessary for dimensional analysis of systems of metrological units and
+of systems of quantities based on the algebraic relationships involved in the
+definitions of the metrological units and the kinds of quantities in these respective systems.
+
+See the rationale behind the 3rd revision of the Vocabulary of International Metrology, VIM3,
+for references to Prof. Dybkaer's influential work: https://www.bipm.org/en/publications/guides/rationale-vim3.html
+
+Where possible, correspondences to VIM3 definitions will be referenced from https://jcgm.bipm.org/vim/en/index.html
+The VIM3 is available in document PDF here: https://www.bipm.org/utils/common/documents/jcgm/JCGM_200_2012.pdf
+
+References to definitions in the ontology are indicated via a reference 
+in parentheses with a chapter and section and a page number;
+for example, (S.2.23, p. 33) refers to the definition of 'object' on page 33.
+
+
+## \[Metrology Bundle](./iupac.org/metrology-bundle.html) ## {#heading-metrology-bundle-42}
+This is the metrology vocabulary bundle.
+# opencaesar.io # {#heading-domain-opencaesar.io}
+
+## \[Viewpoint](./opencaesar.io/viewpoint.html) ## {#heading-viewpoint-43}
+A vocabulary for defining common terms used in defining viewpoints
+# purl.org # {#heading-domain-purl.org}
+
+## \[DC](./purl.org/dc/elements/1.1.html) ## {#heading-dc-44}
+The DC vocabulary is a subset of the vocabulary maintained by the Dublin Core Metadata Initiative.
+# www.w3.org # {#heading-domain-www.w3.org}
+
+## \[RDF](./www.w3.org/1999/02/22-rdf-syntax-ns.html) ## {#heading-rdf-45}
+The RDF vocabulary is a subset of the vocabulary maintained by the W3C.
+
+
+## \[RDFS](./www.w3.org/2000/01/rdf-schema.html) ## {#heading-rdfs-46}
+The RDFS vocabulary is a subset of the vocabulary maintained by the W3C.
+
+
+## \[XSD](./www.w3.org/2001/XMLSchema.html) ## {#heading-xsd-47}
+The XSD vocabulary is a subset of the corresponding vocabulary maintained by the W3C.
+
+
+## \[OWL2](./www.w3.org/2002/07/owl.html) ## {#heading-owl-48}
+The OWL2 vocabulary is a subset of the vocabulary maintained by the W3C.
