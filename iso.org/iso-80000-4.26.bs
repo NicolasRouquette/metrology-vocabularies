@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: ISO-80000-4
+Title: ISO-80000-4.26 power, watt
 Shortname: iso-80000-4.26
 Level: 1
 Status: LS-COMMIT

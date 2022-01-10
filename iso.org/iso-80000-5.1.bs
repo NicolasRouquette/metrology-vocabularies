@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: ISO-80000-5
+Title: ISO-80000-5.1 thermodynamic-temperature, kelvin
 Shortname: iso-80000-5.1
 Level: 1
 Status: LS-COMMIT

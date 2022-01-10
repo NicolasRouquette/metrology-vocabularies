@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: ISO-80000-3
+Title: ISO-80000-3.14 rotation
 Shortname: iso-80000-3.14
 Level: 1
 Status: LS-COMMIT

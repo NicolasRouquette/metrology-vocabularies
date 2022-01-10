@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: ISO-80000-4
+Title: ISO-80000-4.1 mass
 Shortname: iso-80000-4.1
 Level: 1
 Status: LS-COMMIT

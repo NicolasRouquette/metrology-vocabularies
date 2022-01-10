@@ -12,7 +12,7 @@ Local Boilerplate: logo yes
 Markup Shorthands: markdown yes, css no
 Use Dfn Panels: yes
 External Infotrees: anchors.bsdata yes
-Abstract: The ISO-80000-1 library.
+Abstract: The ISO-80000-1 library of multipliers, prefixes, SI, and ISQ.
 </pre>
 <div export=true>
 # Namespace # {#Namespace}

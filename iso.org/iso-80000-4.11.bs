@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: ISO-80000-4
+Title: ISO-80000-4.11 impulse
 Shortname: iso-80000-4.11
 Level: 1
 Status: LS-COMMIT
@@ -51,7 +51,7 @@ Abstract: The ISO-80000-4 library.
 <tr>
 	<th>Properties</th>
 	<td><ul>
-		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> inpulse</li>
+		<li><a spec="http://bipm.org/jcgm/vim4" lt="id">vim4:id</a> impulse</li>
 	</ul>
 	</td>
 </tr>

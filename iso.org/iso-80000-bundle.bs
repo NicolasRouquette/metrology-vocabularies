@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: ISO-80000 Bundle
+Title: ISO/IEC-80000 Bundle of quantities and units
 Shortname: iso-80000-bundle
 Level: 1
 Status: LS-COMMIT

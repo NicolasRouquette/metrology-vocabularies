@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: ISO-80000-4
+Title: ISO-80000-4.15 pressure, pascal
 Shortname: iso-80000-4.15
 Level: 1
 Status: LS-COMMIT

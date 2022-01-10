@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: ISO-80000-4
+Title: ISO-80000-4.13 moment-of-force
 Shortname: iso-80000-4.13
 Level: 1
 Status: LS-COMMIT
