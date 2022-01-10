@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: IEC-80000-6.46
+Title: IEC-80000-6.46 resistance, ohm
 Shortname: iec-80000-6.46
 Level: 1
 Status: LS-COMMIT

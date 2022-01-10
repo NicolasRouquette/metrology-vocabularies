@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: IEC-80000-6.13
+Title: IEC-80000-6.13 capacitance, farad
 Shortname: iec-80000-6.13
 Level: 1
 Status: LS-COMMIT

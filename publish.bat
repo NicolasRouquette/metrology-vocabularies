@@ -2,6 +2,7 @@ pushd "%~dp0"
 bikeshed --die-on=link-error spec index.bs
 bikeshed --die-on=link-error spec bipm.org/jcgm/jcgm-bundle.bs
 bikeshed --die-on=link-error spec bipm.org/jcgm/vim4.bs
+bikeshed --die-on=link-error spec bipm.org/jcgm/vim4-annotations.bs
 bikeshed --die-on=link-error spec bipm.org/jcgm/vim4-terminological-analysis.bs
 bikeshed --die-on=link-error spec bipm.org/jcgm/vim4.1-systems-diagram.bs
 bikeshed --die-on=link-error spec iso.org/iec-80000-6.1.bs
@@ -40,8 +41,6 @@ bikeshed --die-on=link-error spec iso.org/iso-80000-4.8.bs
 bikeshed --die-on=link-error spec iso.org/iso-80000-4.9.bs
 bikeshed --die-on=link-error spec iso.org/iso-80000-5.1.bs
 bikeshed --die-on=link-error spec iso.org/iso-80000-bundle.bs
-bikeshed --die-on=link-error spec iupac.org/metrology.bs
-bikeshed --die-on=link-error spec iupac.org/metrology-bundle.bs
 bikeshed --die-on=link-error spec opencaesar.io/viewpoint.bs
 bikeshed --die-on=link-error spec purl.org/dc/elements/1.1.bs
 bikeshed --die-on=link-error spec www.w3.org/1999/02/22-rdf-syntax-ns.bs

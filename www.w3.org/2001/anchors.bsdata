@@ -110,6 +110,11 @@ urlPrefix: ../../bipm.org/jcgm/vim4.html#; type: dfn; spec: http://bipm.org/jcgm
 	text: yieldsMeasurementUncertainty
 
 
+urlPrefix: ../../bipm.org/jcgm/vim4-annotations.html#; type: dfn; spec: http://bipm.org/jcgm/vim4-annotations
+	text: generalQuantity
+	text: measurementUnit
+
+
 urlPrefix: ../../bipm.org/jcgm/vim4-terminological-analysis.html#; type: dfn; spec: http://bipm.org/jcgm/vim4-terminological-analysis
 	text: Coverage
 
@@ -566,89 +571,6 @@ urlPrefix: ../../iso.org/iso-80000-5.1.html#; type: dfn; spec: http://iso.org/is
 	text: ISQ-thermodynamic-temperature
 	text: kelvin
 	text: SI-kelvin
-
-
-
-
-urlPrefix: ../../iupac.org/metrology.html#; type: dfn; spec: http://iupac.org/metrology
-	text: Thing
-	text: MetrologicalEntity
-	text: ExponentFactor
-	text: exponent
-	text: Object
-	text: Reference
-	text: ReferenceMaterial
-	text: Quantity
-	text: IsQuantityOf
-	text: isQuantityOf
-	text: hasQuantity
-	text: IsMagnitudeOf
-	text: isMagnitudeOf
-	text: hasMagnitude
-	text: IsReflexiveMagnitudeOf
-	text: isReflexiveMagnitudeOf
-	text: OrdinalQuantity
-	text: UnitaryQuantity
-	text: IndependentUnitaryQuantity
-	text: DerivedUnitaryQuantity
-	text: HasFactorForUnitaryQuantity
-	text: hasFactorForUnitaryQuantity
-	text: HasFactorForUnitaryMagnitude
-	text: hasFactorForUnitaryMagnitude
-	text: isDimensionlessQuantity
-	text: SystemOfUnitaryQuantities
-	text: SystemHasUnitaryQuantity
-	text: systemHasUnitaryQuantity
-	text: isBaseQuantity
-	text: MeasurementProcedure
-	text: Magnitude
-	text: hasDoubleNumber
-	text: HasReference
-	text: hasReference
-	text: HasReferenceToReferenceMaterial
-	text: hasReferenceToReferenceMaterial
-	text: HasReferenceToMeasurementProcedure
-	text: hasReferenceToMeasurementProcedure
-	text: HasReferenceToMeasurementUnit
-	text: hasReferenceToMeasurementUnit
-	text: OrdinalMagnitude
-	text: OrdinalMagnitudeComparison
-	text: ordinalMagnitudeComparison
-	text: LessThanOrdinalMagnitudeComparison
-	text: lessThan
-	text: LessThanTransitivity
-	text: GreaterThanOrdinalMagnitudeComparison
-	text: greaterThan
-	text: GreaterThanTransitivity
-	text: EqualOrdinalMagnitudeComparison
-	text: equals
-	text: EqualsTransitivity
-	text: LessThanEqualsTransitivity
-	text: EqualsLessThanTransitivity
-	text: GreaterThanEqualsTransitivity
-	text: EqualsGreaterThanTransitivity
-	text: UnitaryMagnitude
-	text: MeasurementUnit
-	text: NonCoherentDerivedMeasurementUnit
-	text: NonCoherentDerivedMeasurementUnitOf
-	text: nonCoherentDerivedMeasurementUnitOf
-	text: nonCoherentRelationship
-	text: PrefixedMeasurementUnit
-	text: PrefixesMeasurementUnit
-	text: prefixesMeasurementUnit
-	text: Prefix
-	text: HasPrefix
-	text: hasPrefix
-	text: CoherentMeasurementUnit
-	text: isDimensionlessMeasurementUnit
-	text: IndependentMeasurementUnit
-	text: DerivedMeasurementUnit
-	text: HasFactorForMeasurementUnit
-	text: hasFactorForMeasurementUnit
-	text: SystemOfMetrologicalUnits
-	text: SystemHasMetrologicalUnit
-	text: systemHasMetrologicalUnit
-	text: isBaseMetrologicalUnit
 
 
 

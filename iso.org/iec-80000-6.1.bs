@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: IEC-80000-6.1
+Title: IEC-80000-6.1 electric-current, ampere
 Shortname: iec-80000-6.1
 Level: 1
 Status: LS-COMMIT

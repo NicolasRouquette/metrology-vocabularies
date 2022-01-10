@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: IEC-80000-6.11
+Title: IEC-80000-6.11 electric-potential, volt
 Shortname: iec-80000-6.11
 Level: 1
 Status: LS-COMMIT

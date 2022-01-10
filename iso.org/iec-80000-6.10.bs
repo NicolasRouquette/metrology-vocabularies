@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: IEC-80000-6.10
+Title: IEC-80000-6.10 electric-field-strength
 Shortname: iec-80000-6.10
 Level: 1
 Status: LS-COMMIT

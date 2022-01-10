@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: IEC-80000-6.45
+Title: IEC-80000-6.45 power, watt
 Shortname: iec-80000-6.45
 Level: 1
 Status: LS-COMMIT

@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: Metrology Vocabularies 4.0.1-11-g1c08af3
+Title: Metrology Vocabularies 5.1.0
 Shortname: Index
 Level: 1
 Status: LS
@@ -20,199 +20,181 @@ Favicon: https://opencaesar.github.io/assets/img/oml.png
 ## \[jcgm-bundle](./bipm.org/jcgm/jcgm-bundle.html) ## {#heading-jcgm-bundle-1}
 
 
-## \[vim4](./bipm.org/jcgm/vim4.html) ## {#heading-vim4-2}
+## \[OML formalization of VIM4 Committee Draft 11 January 2021](./bipm.org/jcgm/vim4.html) ## {#heading-vim4-2}
 
 
-## \[vim4-terminological-analysis](./bipm.org/jcgm/vim4-terminological-analysis.html) ## {#heading-vim4-terminological-analysis-3}
+## \[Annotations for lightweight VIM4 modeling based on OML scalar properties.](./bipm.org/jcgm/vim4-annotations.html) ## {#heading-vim4-annotations-3}
 
 
-## \[vim4.1-systems-diagram](./bipm.org/jcgm/vim4.1-systems-diagram.html) ## {#heading-vim4.1-systems-diagram-4}
+## \[vim4-terminological-analysis](./bipm.org/jcgm/vim4-terminological-analysis.html) ## {#heading-vim4-terminological-analysis-4}
+
+
+## \[vim4.1-systems-diagram](./bipm.org/jcgm/vim4.1-systems-diagram.html) ## {#heading-vim4.1-systems-diagram-5}
 # iso.org # {#heading-domain-iso.org}
 
-## \[IEC-80000-6.1](./iso.org/iec-80000-6.1.html) ## {#heading-iec-80000-6.1-5}
+## \[IEC-80000-6.1 electric-current, ampere](./iso.org/iec-80000-6.1.html) ## {#heading-iec-80000-6.1-6}
 The IEC-80000-6 library.
 
 
-## \[IEC-80000-6.10](./iso.org/iec-80000-6.10.html) ## {#heading-iec-80000-6.10-6}
+## \[IEC-80000-6.10 electric-field-strength](./iso.org/iec-80000-6.10.html) ## {#heading-iec-80000-6.10-7}
 The IEC-80000-6 library.
 
 
-## \[IEC-80000-6.11](./iso.org/iec-80000-6.11.html) ## {#heading-iec-80000-6.11-7}
+## \[IEC-80000-6.11 electric-potential, volt](./iso.org/iec-80000-6.11.html) ## {#heading-iec-80000-6.11-8}
 The IEC-80000-6 library.
 
 
-## \[IEC-80000-6.13](./iso.org/iec-80000-6.13.html) ## {#heading-iec-80000-6.13-8}
+## \[IEC-80000-6.13 capacitance, farad](./iso.org/iec-80000-6.13.html) ## {#heading-iec-80000-6.13-9}
 The IEC-80000-6 library.
 
 
-## \[IEC-80000-6.2](./iso.org/iec-80000-6.2.html) ## {#heading-iec-80000-6.2-9}
+## \[IEC-80000-6.2 electric-charge, coulomb](./iso.org/iec-80000-6.2.html) ## {#heading-iec-80000-6.2-10}
 The IEC-80000-6 library.
 
 
-## \[IEC-80000-6.21](./iso.org/iec-80000-6.21.html) ## {#heading-iec-80000-6.21-10}
+## \[IEC-80000-6.21 magnetic-flux-density, tesla](./iso.org/iec-80000-6.21.html) ## {#heading-iec-80000-6.21-11}
 The IEC-80000-6 library.
 
 
-## \[IEC-80000-6.45](./iso.org/iec-80000-6.45.html) ## {#heading-iec-80000-6.45-11}
+## \[IEC-80000-6.45 power, watt](./iso.org/iec-80000-6.45.html) ## {#heading-iec-80000-6.45-12}
 The IEC-80000-6 library.
 
 
-## \[IEC-80000-6.46](./iso.org/iec-80000-6.46.html) ## {#heading-iec-80000-6.46-12}
+## \[IEC-80000-6.46 resistance, ohm](./iso.org/iec-80000-6.46.html) ## {#heading-iec-80000-6.46-13}
 The IEC-80000-6 library.
 
 
-## \[ISO 1087-1:2000 annotation vocabulary](./iso.org/iso-1087-1.html) ## {#heading-iso-1087-1-13}
+## \[ISO 1087-1:2000 annotation vocabulary](./iso.org/iso-1087-1.html) ## {#heading-iso-1087-1-14}
 Annotation vocabulary for traceability of terminology analysis per ISO 1087-1:2000
 
 
-## \[ISO-80000-1](./iso.org/iso-80000-1.html) ## {#heading-iso-80000-1-14}
+## \[ISO-80000-1](./iso.org/iso-80000-1.html) ## {#heading-iso-80000-1-15}
 The ISO-80000-1 library of multipliers, prefixes, SI, and ISQ.
 
 
-## \[ISO-80000-3.1 length, metre](./iso.org/iso-80000-3.1.html) ## {#heading-iso-80000-3.1-15}
+## \[ISO-80000-3.1 length, metre](./iso.org/iso-80000-3.1.html) ## {#heading-iso-80000-3.1-16}
 The ISO-80000-3 library.
 
 
-## \[ISO-80000-3.10 angular-velocity](./iso.org/iso-80000-3.10.html) ## {#heading-iso-80000-3.10-16}
+## \[ISO-80000-3.10 angular-velocity](./iso.org/iso-80000-3.10.html) ## {#heading-iso-80000-3.10-17}
 The ISO-80000-3 library.
 
 
-## \[ISO-80000-3.11 angular-acceleration](./iso.org/iso-80000-3.11.html) ## {#heading-iso-80000-3.11-17}
+## \[ISO-80000-3.11 angular-acceleration](./iso.org/iso-80000-3.11.html) ## {#heading-iso-80000-3.11-18}
 The ISO-80000-3 library.
 
 
-## \[ISO-80000-3.12 period-duration](./iso.org/iso-80000-3.12.html) ## {#heading-iso-80000-3.12-18}
+## \[ISO-80000-3.12 period-duration](./iso.org/iso-80000-3.12.html) ## {#heading-iso-80000-3.12-19}
 The ISO-80000-3 library.
 
 
-## \[ISO-80000-3.14 rotation](./iso.org/iso-80000-3.14.html) ## {#heading-iso-80000-3.14-19}
+## \[ISO-80000-3.14 rotation](./iso.org/iso-80000-3.14.html) ## {#heading-iso-80000-3.14-20}
 The ISO-80000-3 library.
 
 
-## \[ISO-80000-3.15 frequency, hertz](./iso.org/iso-80000-3.15.html) ## {#heading-iso-80000-3.15-20}
+## \[ISO-80000-3.15 frequency, hertz](./iso.org/iso-80000-3.15.html) ## {#heading-iso-80000-3.15-21}
 The ISO-80000-3 library.
 
 
-## \[ISO-80000-3.2 curvature](./iso.org/iso-80000-3.2.html) ## {#heading-iso-80000-3.2-21}
+## \[ISO-80000-3.2 curvature](./iso.org/iso-80000-3.2.html) ## {#heading-iso-80000-3.2-22}
 The ISO-80000-3 library.
 
 
-## \[ISO-80000-3.3 area](./iso.org/iso-80000-3.3.html) ## {#heading-iso-80000-3.3-22}
+## \[ISO-80000-3.3 area](./iso.org/iso-80000-3.3.html) ## {#heading-iso-80000-3.3-23}
 The ISO-80000-3 library.
 
 
-## \[ISO-80000-3.4 volume](./iso.org/iso-80000-3.4.html) ## {#heading-iso-80000-3.4-23}
+## \[ISO-80000-3.4 volume](./iso.org/iso-80000-3.4.html) ## {#heading-iso-80000-3.4-24}
 The ISO-80000-3 library.
 
 
-## \[ISO-80000-3.5 plane-angle, radian](./iso.org/iso-80000-3.5.html) ## {#heading-iso-80000-3.5-24}
+## \[ISO-80000-3.5 plane-angle, radian](./iso.org/iso-80000-3.5.html) ## {#heading-iso-80000-3.5-25}
 The ISO-80000-3 library.
 
 
-## \[ISO-80000-3.6 solid-angle, steradian](./iso.org/iso-80000-3.6.html) ## {#heading-iso-80000-3.6-25}
+## \[ISO-80000-3.6 solid-angle, steradian](./iso.org/iso-80000-3.6.html) ## {#heading-iso-80000-3.6-26}
 The ISO-80000-3 library.
 
 
-## \[ISO-80000-3.7 time, second](./iso.org/iso-80000-3.7.html) ## {#heading-iso-80000-3.7-26}
+## \[ISO-80000-3.7 time, second](./iso.org/iso-80000-3.7.html) ## {#heading-iso-80000-3.7-27}
 The ISO-80000-3 library.
 
 
-## \[ISO-80000-3.8 velocity](./iso.org/iso-80000-3.8.html) ## {#heading-iso-80000-3.8-27}
+## \[ISO-80000-3.8 velocity](./iso.org/iso-80000-3.8.html) ## {#heading-iso-80000-3.8-28}
 The ISO-80000-3 library.
 
 
-## \[ISO-80000-3.9 acceleration](./iso.org/iso-80000-3.9.html) ## {#heading-iso-80000-3.9-28}
+## \[ISO-80000-3.9 acceleration](./iso.org/iso-80000-3.9.html) ## {#heading-iso-80000-3.9-29}
 The ISO-80000-3 library.
 
 
-## \[ISO-80000-4.1 mass](./iso.org/iso-80000-4.1.html) ## {#heading-iso-80000-4.1-29}
+## \[ISO-80000-4.1 mass](./iso.org/iso-80000-4.1.html) ## {#heading-iso-80000-4.1-30}
 The ISO-80000-4 library.
 
 
-## \[ISO-80000-4.11 impulse](./iso.org/iso-80000-4.11.html) ## {#heading-iso-80000-4.11-30}
+## \[ISO-80000-4.11 impulse](./iso.org/iso-80000-4.11.html) ## {#heading-iso-80000-4.11-31}
 The ISO-80000-4 library.
 
 
-## \[ISO-80000-4.13 moment-of-force](./iso.org/iso-80000-4.13.html) ## {#heading-iso-80000-4.13-31}
+## \[ISO-80000-4.13 moment-of-force](./iso.org/iso-80000-4.13.html) ## {#heading-iso-80000-4.13-32}
 The ISO-80000-4 library.
 
 
-## \[ISO-80000-4.15](./iso.org/iso-80000-4.14.html) ## {#heading-iso-80000-4.14-32}
+## \[ISO-80000-4.15](./iso.org/iso-80000-4.14.html) ## {#heading-iso-80000-4.14-33}
 The ISO-80000-4 library.
 
 
-## \[ISO-80000-4.15 pressure, pascal](./iso.org/iso-80000-4.15.html) ## {#heading-iso-80000-4.15-33}
+## \[ISO-80000-4.15 pressure, pascal](./iso.org/iso-80000-4.15.html) ## {#heading-iso-80000-4.15-34}
 The ISO-80000-4 library.
 
 
-## \[ISO-80000-4.2 mass-density](./iso.org/iso-80000-4.2.html) ## {#heading-iso-80000-4.2-34}
+## \[ISO-80000-4.2 mass-density](./iso.org/iso-80000-4.2.html) ## {#heading-iso-80000-4.2-35}
 The ISO-80000-4 library.
 
 
-## \[ISO-80000-4.26 power, watt](./iso.org/iso-80000-4.26.html) ## {#heading-iso-80000-4.26-35}
+## \[ISO-80000-4.26 power, watt](./iso.org/iso-80000-4.26.html) ## {#heading-iso-80000-4.26-36}
 The ISO-80000-4 library.
 
 
-## \[ISO-80000-4.3 relative-mass-density](./iso.org/iso-80000-4.3.html) ## {#heading-iso-80000-4.3-36}
+## \[ISO-80000-4.3 relative-mass-density](./iso.org/iso-80000-4.3.html) ## {#heading-iso-80000-4.3-37}
 The ISO-80000-4 library.
 
 
-## \[ISO-80000-4.8 momentum](./iso.org/iso-80000-4.8.html) ## {#heading-iso-80000-4.8-37}
+## \[ISO-80000-4.8 momentum](./iso.org/iso-80000-4.8.html) ## {#heading-iso-80000-4.8-38}
 The ISO-80000-4 library.
 
 
-## \[ISO-80000-4.9 force, newton](./iso.org/iso-80000-4.9.html) ## {#heading-iso-80000-4.9-38}
+## \[ISO-80000-4.9 force, newton](./iso.org/iso-80000-4.9.html) ## {#heading-iso-80000-4.9-39}
 The ISO-80000-4 library.
 
 
-## \[ISO-80000-5.1 thermodynamic-temperature, kelvin](./iso.org/iso-80000-5.1.html) ## {#heading-iso-80000-5.1-39}
+## \[ISO-80000-5.1 thermodynamic-temperature, kelvin](./iso.org/iso-80000-5.1.html) ## {#heading-iso-80000-5.1-40}
 The ISO-80000-5 library.
 
 
-## \[ISO/IEC-80000 Bundle of quantities and units](./iso.org/iso-80000-bundle.html) ## {#heading-iso-80000-bundle-40}
+## \[ISO/IEC-80000 Bundle of quantities and units](./iso.org/iso-80000-bundle.html) ## {#heading-iso-80000-bundle-41}
 This is the ISO-80000 vocabulary bundle.
-# iupac.org # {#heading-domain-iupac.org}
-
-## \[Metrology](./iupac.org/metrology.html) ## {#heading-metrology-41}
-This vocabulary is a partial account of Prof. Rene Dybkaer's 'An Ontology of Property' 
-focused on the concepts necessary for dimensional analysis of systems of metrological units and
-of systems of quantities based on the algebraic relationships involved in the
-definitions of the metrological units and the kinds of quantities in these respective systems.
-
-See the rationale behind the 3rd revision of the Vocabulary of International Metrology, VIM3,
-for references to Prof. Dybkaer's influential work: https://www.bipm.org/en/publications/guides/rationale-vim3.html
-
-Where possible, correspondences to VIM3 definitions will be referenced from https://jcgm.bipm.org/vim/en/index.html
-The VIM3 is available in document PDF here: https://www.bipm.org/utils/common/documents/jcgm/JCGM_200_2012.pdf
-
-References to definitions in the ontology are indicated via a reference 
-in parentheses with a chapter and section and a page number;
-for example, (S.2.23, p. 33) refers to the definition of 'object' on page 33.
-
-
-## \[Metrology Bundle](./iupac.org/metrology-bundle.html) ## {#heading-metrology-bundle-42}
-This is the metrology vocabulary bundle.
 # opencaesar.io # {#heading-domain-opencaesar.io}
 
-## \[Viewpoint](./opencaesar.io/viewpoint.html) ## {#heading-viewpoint-43}
+## \[Viewpoint](./opencaesar.io/viewpoint.html) ## {#heading-viewpoint-42}
 A vocabulary for defining common terms used in defining viewpoints
 # purl.org # {#heading-domain-purl.org}
 
-## \[DC](./purl.org/dc/elements/1.1.html) ## {#heading-dc-44}
+## \[DC](./purl.org/dc/elements/1.1.html) ## {#heading-dc-43}
 The DC vocabulary is a subset of the vocabulary maintained by the Dublin Core Metadata Initiative.
 # www.w3.org # {#heading-domain-www.w3.org}
 
-## \[RDF](./www.w3.org/1999/02/22-rdf-syntax-ns.html) ## {#heading-rdf-45}
+## \[RDF](./www.w3.org/1999/02/22-rdf-syntax-ns.html) ## {#heading-rdf-44}
 The RDF vocabulary is a subset of the vocabulary maintained by the W3C.
 
 
-## \[RDFS](./www.w3.org/2000/01/rdf-schema.html) ## {#heading-rdfs-46}
+## \[RDFS](./www.w3.org/2000/01/rdf-schema.html) ## {#heading-rdfs-45}
 The RDFS vocabulary is a subset of the vocabulary maintained by the W3C.
 
 
-## \[XSD](./www.w3.org/2001/XMLSchema.html) ## {#heading-xsd-47}
+## \[XSD](./www.w3.org/2001/XMLSchema.html) ## {#heading-xsd-46}
 The XSD vocabulary is a subset of the corresponding vocabulary maintained by the W3C.
 
 
-## \[OWL2](./www.w3.org/2002/07/owl.html) ## {#heading-owl-48}
+## \[OWL2](./www.w3.org/2002/07/owl.html) ## {#heading-owl-47}
 The OWL2 vocabulary is a subset of the vocabulary maintained by the W3C.
